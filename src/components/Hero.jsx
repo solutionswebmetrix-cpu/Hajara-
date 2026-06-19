@@ -2,11 +2,28 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FiArrowRight, FiGlobe, FiAward, FiStar, FiCheckCircle } from 'react-icons/fi';
 import './Hero.css';
+import manufacturingFacilityImg from '../assets/about-us/Manufacturing.jpg';
+import herbalIngredientsImg from '../assets/about-us/herbal-ingredients.png';
+import heroMainImg from '../assets/hero.png';
+import heroBgImg from '../assets/about-us/about-us-banner.png';
 
 const Hero = () => {
+  const handleImageError = (e, fallbackSrc) => {
+    e.target.src = fallbackSrc;
+  };
+
   return (
     <section className="hero">
-      <div className="hero-background"></div>
+      <div className="hero-background">
+        <div className="hero-banner-container">
+          <img 
+            src={heroBgImg} 
+            alt="Hero Background"
+            className="hero-banner-image"
+            onError={(e) => handleImageError(e, 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=700&fit=crop')}
+          />
+        </div>
+      </div>
       <div className="hero-container">
         <div className="hero-content">
           <motion.div
@@ -64,23 +81,26 @@ const Hero = () => {
               <div className="hero-images-grid">
                 <div className="hero-image-main">
                   <img 
-                    src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=700&fit=crop" 
+                    src={heroMainImg} 
                     alt="Ayurvedic Products"
                     className="product-img"
+                    onError={(e) => handleImageError(e, 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=700&fit=crop')}
                   />
                 </div>
                 <div className="hero-image-secondary hero-image-secondary-1">
                   <img 
-                    src="https://images.unsplash.com/photo-1598439216761-09625547348b?w=400&h=300&fit=crop" 
+                    src={manufacturingFacilityImg} 
                     alt="Manufacturing Facility"
                     className="product-img"
+                    onError={(e) => handleImageError(e, 'https://images.unsplash.com/photo-1598439216761-09625547348b?w=400&h=300&fit=crop')}
                   />
                 </div>
                 <div className="hero-image-secondary hero-image-secondary-2">
                   <img 
-                    src="https://images.unsplash.com/photo-1595425908973-9c982585c451?w=400&h=300&fit=crop" 
+                    src={herbalIngredientsImg} 
                     alt="Herbal Ingredients"
                     className="product-img"
+                    onError={(e) => handleImageError(e, 'https://images.unsplash.com/photo-1595425908973-9c982585c451?w=400&h=300&fit=crop')}
                   />
                 </div>
               </div>

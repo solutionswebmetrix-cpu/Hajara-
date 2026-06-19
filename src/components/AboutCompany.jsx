@@ -1,6 +1,11 @@
 import { motion } from 'framer-motion';
 import { FiAward, FiGlobe, FiStar, FiPackage } from 'react-icons/fi';
 import './AboutCompany.css';
+import aboutMainImage from '../assets/about-us/about-us-banner.png';
+import manufacturingFacilityImg from '../assets/about-us/Manufacturing.jpg';
+import qualityTestingLabImg from '../assets/about-us/quality-testing-lab.png';
+import packagingUnitImg from '../assets/about-us/packaging-unit.png';
+import herbalIngredientsImg from '../assets/about-us/herbal-ingredients.png';
 
 const AboutCompany = () => {
   const achievements = [
@@ -10,17 +15,11 @@ const AboutCompany = () => {
     { icon: <FiPackage />, title: '100+ Products', desc: 'Comprehensive product range' }
   ];
 
-  const timeline = [
-    { year: '2009', title: 'Company Founded', desc: 'Started with Ayurvedic medicine manufacturing' },
-    { year: '2014', title: 'GMP Certification', desc: 'International quality standards achieved' },
-    { year: '2018', title: 'Global Export', desc: 'Expanded to 10+ countries' },
-    { year: '2024', title: 'Premium Brand', desc: 'Serving 20+ countries with 100+ products' }
-  ];
-
   const facilities = [
-    { img: 'https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=500&h=400&fit=crop', title: 'Manufacturing Facility', desc: 'Advanced production unit' },
-    { img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=400&fit=crop', title: 'Quality Testing Lab', desc: 'Rigorous quality checks' },
-    { img: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=400&fit=crop', title: 'Packaging Unit', desc: 'Premium packaging solutions' }
+    { img: manufacturingFacilityImg, title: 'Manufacturing Facility', desc: 'Advanced production unit' },
+    { img: qualityTestingLabImg, title: 'Quality Testing Lab', desc: 'Rigorous quality checks' },
+    { img: packagingUnitImg, title: 'Packaging Unit', desc: 'Premium packaging solutions' },
+    { img: herbalIngredientsImg, title: 'Herbal Ingredients', desc: 'Pure and natural herbs' }
   ];
 
   return (
@@ -40,7 +39,7 @@ const AboutCompany = () => {
             transition={{ duration: 0.7 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1587384648348-941673165184?w=800&h=600&fit=crop"
+              src={aboutMainImage}
               alt="Manufacturing Factory"
               className="about-main-img"
             />
@@ -93,29 +92,6 @@ const AboutCompany = () => {
               >
                 <img src={item.img} alt={item.title} className="facility-img" />
                 <div className="facility-content">
-                  <h4>{item.title}</h4>
-                  <p>{item.desc}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-
-        <div className="timeline-section">
-          <h3 className="timeline-heading">Our Milestones</h3>
-          <div className="timeline">
-            {timeline.map((item, index) => (
-              <motion.div
-                key={index}
-                className="timeline-item"
-                initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.15 }}
-              >
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
-                  <span className="timeline-year">{item.year}</span>
                   <h4>{item.title}</h4>
                   <p>{item.desc}</p>
                 </div>

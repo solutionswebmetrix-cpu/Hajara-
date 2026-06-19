@@ -2,10 +2,12 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FiArrowRight } from 'react-icons/fi';
 import './CTABanner.css';
+import bannerImage from '../assets/about-us/about-us-banner.png';
 
 const CTABanner = () => {
   return (
     <section className="section cta">
+      <div className="cta-background-image" style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
       <div className="cta-background" />
       <div className="container">
         <motion.div

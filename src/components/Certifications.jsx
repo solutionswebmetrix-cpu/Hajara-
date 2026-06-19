@@ -1,36 +1,42 @@
 import { motion } from 'framer-motion';
 import './Certifications.css';
+import gmpCert from '../assets/Certifications/GMP Certified.png';
+import isoCert from '../assets/Certifications/ISO Certified.png';
+import whoGmpCert from '../assets/Certifications/WHO-GMP.png';
+import fssaiCert from '../assets/Certifications/FSSAI Approved.png';
+import ayushCert from '../assets/Certifications/AYUSH Licensed.png';
+import halalCert from '../assets/Certifications/Halal Certified.png';
 
 const certifications = [
   { 
     name: 'GMP Certified', 
     description: 'Good Manufacturing Practices certification',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=300&h=200&fit=crop'
+    image: gmpCert
   },
   { 
     name: 'ISO Certified', 
     description: 'International Organization for Standardization',
-    image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=300&h=200&fit=crop'
+    image: isoCert
   },
   { 
     name: 'WHO-GMP', 
     description: 'World Health Organization standards',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=200&fit=crop'
+    image: whoGmpCert
   },
   { 
     name: 'FSSAI Approved', 
     description: 'Food Safety and Standards Authority of India',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=300&h=200&fit=crop'
+    image: fssaiCert
   },
   { 
     name: 'AYUSH Licensed', 
     description: 'Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homoeopathy',
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=300&h=200&fit=crop'
+    image: ayushCert
   },
   { 
     name: 'Halal Certified', 
     description: 'Halal certification for global markets',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=200&fit=crop'
+    image: halalCert
   }
 ];
 

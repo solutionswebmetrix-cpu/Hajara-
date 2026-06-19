@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiAward, FiPackage, FiHeart, FiStar } from 'react-icons/fi';
 import './Manufacturing.css';
+import manufacturingImage from '../assets/manufacturing-facility/Manufacturing.jpg';
 
 const facilities = [
   { 
@@ -46,7 +47,7 @@ const Manufacturing = () => {
             transition={{ duration: 0.7 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1565793179507-28a127a4a604?w=800&h=600&fit=crop"
+              src={manufacturingImage}
               alt="Manufacturing Plant"
               className="facility-main-image"
             />

@@ -32,23 +32,17 @@
 .logo {
   text-decoration: none;
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  align-items: center;
 }
 
-.logo-main {
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--primary);
-  letter-spacing: 2px;
+.logo-img {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
 }
 
-.logo-sub {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--secondary);
-  letter-spacing: 3px;
-  text-transform: uppercase;
+.logo-img:hover {
+  transform: scale(1.05);
 }
 
 .nav-links {

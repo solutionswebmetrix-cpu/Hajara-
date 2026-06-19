@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FiSearch, FiMenu, FiX, FiPhone, FiMessageSquare } from 'react-icons/fi'
 import './Navbar.css'
+import logoImg from '../assets/logo.png'
 
 const categories = [
   {
@@ -64,8 +65,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-content">
           <Link to="/" className="logo">
-            <span className="logo-main">HAJARA</span>
-            <span className="logo-sub">MULTICARE</span>
+            <img src={logoImg} alt="HAJARA MULTICARE" className="logo-img" />
           </Link>
 
           <div className="nav-links">
