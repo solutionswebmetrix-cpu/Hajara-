@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import './About.css'
+import aboutImage from '../assets/hero.png'
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
               </p>
             </div>
             <div className="about-image">
-              <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=ayurvedic%20herbs%20natural%20healthcare%20premium%20luxury&image_size=square" alt="About Us" />
+              <img src={aboutImage} alt="About Us" />
             </div>
           </div>
         </div>
