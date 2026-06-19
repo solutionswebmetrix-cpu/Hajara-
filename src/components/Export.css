@@ -1,0 +1,153 @@
+.export {
+  width: 100%;
+  background: var(--cream);
+}
+
+.export-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.export-map {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.world-map-image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(14, 107, 69, 0.95), transparent);
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+.map-stat {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.map-stat-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.map-stat-number {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1;
+}
+
+.map-stat-label {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.export-features {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.export-feature {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.export-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: var(--radius-md);
+  background: var(--primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+.export-feature-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.export-feature-text {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.countries-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.countries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.country-tag {
+  background: var(--white);
+  color: var(--text);
+  padding: 10px 22px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.country-tag:hover {
+  background: var(--primary);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 1024px) {
+  .export-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-overlay {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .map-stat-number {
+    font-size: 32px;
+  }
+}

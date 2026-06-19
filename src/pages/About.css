@@ -1,0 +1,36 @@
+.page-header {
+  padding: 150px 0 80px;
+  background: var(--gradient-green-light);
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--dark);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-desc {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}

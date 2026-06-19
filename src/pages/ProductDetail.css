@@ -1,0 +1,159 @@
+.product-detail-page {
+  padding-top: 100px;
+}
+
+.page-header {
+  background: linear-gradient(135deg, var(--cream) 0%, #fff 100%);
+  padding: 40px 0;
+}
+
+.page-title {
+  color: var(--primary);
+  text-align: center;
+  font-size: 36px;
+}
+
+.product-hero {
+  background: var(--white);
+}
+
+.product-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.product-detail-image {
+  display: flex;
+  justify-content: center;
+}
+
+.product-detail-image img {
+  max-width: 100%;
+  max-height: 500px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  object-fit: cover;
+}
+
+.product-detail-info h2 {
+  font-size: 40px;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.product-detail-info .price {
+  font-size: 36px;
+  color: var(--primary);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.product-detail-info .description {
+  font-size: 18px;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.product-details-section {
+  background: var(--cream);
+}
+
+.product-section {
+  background: var(--white);
+  padding: 30px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.product-section:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.section-heading {
+  color: var(--primary);
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--secondary);
+  display: inline-block;
+}
+
+.product-section p {
+  color: var(--text-light);
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.benefits-list,
+.ingredients-list,
+.usage-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.benefits-list li,
+.ingredients-list li,
+.usage-list li {
+  padding: 12px 0;
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding-left: 35px;
+}
+
+.benefits-list li:before,
+.ingredients-list li:before,
+.usage-list li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 10px;
+  height: 10px;
+  background: var(--primary);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.benefits-list li:last-child,
+.ingredients-list li:last-child,
+.usage-list li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 1024px) {
+  .product-detail {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .product-detail-info h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 28px;
+  }
+
+  .product-detail-info h2 {
+    font-size: 28px;
+  }
+
+  .product-detail-info .price {
+    font-size: 28px;
+  }
+
+  .section-heading {
+    font-size: 20px;
+  }
+}
