@@ -1,27 +1,21 @@
 import { motion } from 'framer-motion';
 import './Certifications.css';
-import gmpCert from '../assets/Certifications/GMP Certified.png';
+import wellCert from '../assets/Certifications/Well Certified.png';
 import isoCert from '../assets/Certifications/ISO Certified.png';
-import whoGmpCert from '../assets/Certifications/WHO-GMP.png';
 import fssaiCert from '../assets/Certifications/FSSAI Approved.png';
 import ayushCert from '../assets/Certifications/AYUSH Licensed.png';
 import halalCert from '../assets/Certifications/Halal Certified.png';
 
 const certifications = [
   { 
-    name: 'GMP Certified', 
-    description: 'Good Manufacturing Practices certification',
-    image: gmpCert
+    name: 'Well Certified', 
+    description: 'Well Manufacturing Practices certification',
+    image: wellCert
   },
   { 
     name: 'ISO Certified', 
     description: 'International Organization for Standardization',
     image: isoCert
-  },
-  { 
-    name: 'WHO-GMP', 
-    description: 'World Health Organization standards',
-    image: whoGmpCert
   },
   { 
     name: 'FSSAI Approved', 
@@ -56,12 +50,12 @@ const Certifications = () => {
           {certifications.map((cert, index) => (
             <motion.div
               key={index}
-              className="cert-card glass-card"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              className="cert-card"
+              initial={{ opacity: 0, y: 40, scale: 0.9 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              whileHover={{ y: -10 }}
+              transition={{ duration: 0.6, delay: index * 0.1, type: "spring", stiffness: 100 }}
+              whileHover={{ y: -12, scale: 1.02 }}
             >
               <div className="cert-image">
                 <img src={cert.image} alt={cert.name} />

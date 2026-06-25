@@ -5,10 +5,10 @@ import aboutBannerImage from '../assets/about-us/about-us-banner.png'
 
 const About = () => {
   const achievements = [
-    { icon: <FiAward />, title: 'GMP Certified', desc: 'Quality manufacturing standards' },
+    { icon: <FiAward />, title: 'Well Certified', desc: 'Quality manufacturing standards' },
     { icon: <FiGlobe />, title: 'Global Exporter', desc: '20+ countries served' },
     { icon: <FiStar />, title: '500+ Dealers', desc: 'Strong distribution network' },
-    { icon: <FiPackage />, title: '100+ Products', desc: 'Comprehensive product range' }
+    { icon: <FiPackage />, title: '300+ Products', desc: 'Comprehensive product range' }
   ];
 
   const values = [
@@ -33,9 +33,10 @@ const About = () => {
             <div className="about-text">
               <h2 className="section-title" style={{ textAlign: 'left' }}>Our Story</h2>
               <p className="about-desc">
-                HAJARA MULTICARE was established in 2009 with a vision to bring authentic Ayurvedic healthcare products to the global market. 
-                Over the years, we have grown from a small manufacturing unit to a trusted name in the Ayurvedic industry, known for quality, 
-                innovation, and commitment to wellness.
+                Hajara Multi Care was established in 2005 as a cottage industry and now extended for the global market. 
+                With a vision to bring authentic Ayurvedic healthcare products to the world, we have grown from a small 
+                manufacturing unit to a trusted name in the Ayurvedic industry, known for quality, innovation, and 
+                commitment to wellness.
               </p>
               <p className="about-desc">
                 Our state-of-the-art manufacturing facility follows strict GMP guidelines, ensuring every product meets international quality standards. 
@@ -43,7 +44,7 @@ const About = () => {
                 and modern scientific research.
               </p>
               <p className="about-desc">
-                Today, we proudly serve customers in over 20 countries, offering a comprehensive range of more than 100 Ayurvedic products. 
+                Today, we proudly serve customers in over 20 countries, offering a comprehensive range of more than 300 Ayurvedic products. 
                 Our mission is to make natural healthcare accessible to everyone, promoting holistic wellness and a healthier lifestyle.
               </p>
             </div>

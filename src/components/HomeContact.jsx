@@ -22,13 +22,7 @@ const HomeContact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="contact-banner">
-              <img
-                src="https://images.unsplash.com/photo-1598349748134-7a9061320094?w=800&h=350&fit=crop"
-                alt="Ayurvedic Manufacturing"
-                className="banner-image"
-              />
-            </div>
+
 
             <div className="contact-cards-grid">
               <div className="contact-card glass-card">
@@ -53,7 +47,6 @@ const HomeContact = () => {
                   <FiMail />
                 </div>
                 <h3>Email Us</h3>
-                <p>Info@herbalpowderexporter.com</p>
                 <p>hajaramulticare17@gmail.com</p>
               </div>
 

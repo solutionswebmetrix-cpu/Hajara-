@@ -1,37 +1,47 @@
 import { motion } from 'framer-motion';
-import { FiAward, FiGlobe, FiHeart, FiBookOpen, FiStar, FiCheckCircle } from 'react-icons/fi';
+import { FiAward, FiGlobe, FiHeart, FiPackage, FiTruck, FiCheckCircle } from 'react-icons/fi';
 import './WhyChooseUs.css';
 
 const features = [
   {
     icon: <FiAward />,
-    title: 'GMP Certified',
-    description: 'Manufactured in GMP-certified facilities with strict quality control protocols'
+    title: 'Trusted Ayurvedic Manufacturer',
+    description: 'Reliable and reputable Ayurvedic products manufacturer with 25+ years of experience'
   },
   {
     icon: <FiGlobe />,
-    title: 'Export Quality',
-    description: 'Products meet international standards and are exported to 20+ countries worldwide'
+    title: '25 Years Experience',
+    description: 'Over two and a half decades of expertise in Ayurvedic healthcare and wellness'
   },
   {
     icon: <FiHeart />,
-    title: 'Premium Ingredients',
-    description: '100% natural, organic, and ethically sourced herbal ingredients from trusted suppliers'
+    title: 'Export Quality Products',
+    description: 'Products meet international standards and are exported globally'
   },
   {
-    icon: <FiBookOpen />,
-    title: 'Research Based',
-    description: 'Formulations backed by scientific research and traditional Ayurvedic knowledge'
+    icon: <FiPackage />,
+    title: 'Flexible MOQ',
+    description: 'Minimum order quantity options tailored to your business needs'
   },
   {
-    icon: <FiStar />,
-    title: 'Ayurvedic Excellence',
-    description: 'Traditional Ayurvedic expertise combined with modern manufacturing technology'
+    icon: <FiTruck />,
+    title: 'Fast Production',
+    description: 'Quick turnaround times for orders without compromising on quality'
+  },
+  {
+    icon: <FiPackage />,
+    title: 'Attractive Packaging',
+    description: 'Premium, eye-catching packaging that enhances product appeal'
+  },
+  {
+    icon: <FiHeart />,
+    title: 'Customer Satisfaction',
+    description: 'Committed to delivering exceptional products and customer service'
   },
   {
     icon: <FiCheckCircle />,
-    title: 'Quality Assurance',
-    description: 'Every product undergoes rigorous testing for purity, safety, and efficacy'
+    title: 'Easy to Reach',
+    description: 'Accessible and responsive support team ready to assist you'
   }
 ];
 

@@ -28,12 +28,11 @@ const AnimatedCounter = ({ from, to, suffix = '' }) => {
 
 const Statistics = () => {
   const stats = [
-    { icon: <FiAward />, value: 15, suffix: '+', label: 'Years Experience' },
-    { icon: <FiPackage />, value: 100, suffix: '+', label: 'Premium Products' },
+    { icon: <FiAward />, value: 25, suffix: '+', label: 'Years Experience' },
+    { icon: <FiPackage />, value: 300, suffix: '+', label: 'Premium Products' },
     { icon: <FiStar />, value: 500, suffix: '+', label: 'Dealers & Partners' },
     { icon: <FiGlobe />, value: 20, suffix: '+', label: 'Countries Served' },
-    { icon: <FiHeart />, value: 50000, suffix: '+', label: 'Happy Customers' },
-    { icon: <FiCheckCircle />, value: 0, suffix: '', label: 'GMP Certified' }
+    { icon: <FiHeart />, value: 50000, suffix: '+', label: 'Happy Customers' }
   ];
 
   return (

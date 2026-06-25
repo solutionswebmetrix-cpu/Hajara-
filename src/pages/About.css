@@ -61,41 +61,63 @@
 .value-card {
   text-align: center;
   padding: 40px 30px;
-  background: white;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f4f9f5 100%);
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(14, 107, 69, 0.08);
+  border: 1px solid rgba(14, 107, 69, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .value-card:hover {
-  transform: translateY(-10px);
-  box-shadow: var(--shadow-xl);
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(14, 107, 69, 0.25);
+  background: linear-gradient(145deg, #0e6b45 0%, #0a4f30 100%);
+  border-color: transparent;
 }
 
 .value-icon {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  background: linear-gradient(135deg, #0e6b45 0%, #158958 100%);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 28px;
   margin: 0 auto 20px;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(14, 107, 69, 0.15);
+}
+
+.value-card:hover .value-icon {
+  background: linear-gradient(135deg, #c89b3c 0%, #e0b055 100%);
+  color: #0e6b45;
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(200, 155, 60, 0.35);
 }
 
 .value-card h4 {
   font-size: 20px;
   font-weight: 700;
-  color: var(--text);
+  color: #0a1f18;
   margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.value-card:hover h4 {
+  color: #ffffff;
 }
 
 .value-card p {
   font-size: 14px;
-  color: var(--text-light);
+  color: #5a6b62;
   line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.value-card:hover p {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .achievements-grid {
@@ -105,41 +127,65 @@
 }
 
 .achievement-card {
-  padding: 30px;
-  background: white;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
+  padding: 40px 30px;
+  background: linear-gradient(145deg, #ffffff 0%, #f4f9f5 100%);
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(14, 107, 69, 0.08);
+  border: 1px solid rgba(14, 107, 69, 0.08);
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .achievement-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(14, 107, 69, 0.25);
+  background: linear-gradient(145deg, #0e6b45 0%, #0a4f30 100%);
+  border-color: transparent;
 }
 
 .achievement-icon {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--primary-light) 100%);
+  background: linear-gradient(135deg, #c89b3c 0%, #e0b055 100%);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 28px;
   margin: 0 auto 20px;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(200, 155, 60, 0.15);
+}
+
+.achievement-card:hover .achievement-icon {
+  background: linear-gradient(135deg, #ffffff 0%, #f4f9f5 100%);
+  color: #c89b3c;
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
 }
 
 .achievement-card h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  color: var(--text);
+  color: #0a1f18;
   margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.achievement-card:hover h4 {
+  color: #ffffff;
 }
 
 .achievement-card p {
   font-size: 14px;
-  color: var(--text-light);
+  color: #5a6b62;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.achievement-card:hover p {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .timeline-section {
@@ -211,7 +257,7 @@
   line-height: 1.6;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .values-grid,
   .achievements-grid {
     grid-template-columns: repeat(2, 1fr);

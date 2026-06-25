@@ -9,10 +9,10 @@ import herbalIngredientsImg from '../assets/about-us/herbal-ingredients.png';
 
 const AboutCompany = () => {
   const achievements = [
-    { icon: <FiAward />, title: 'GMP Certified', desc: 'Quality manufacturing standards' },
+    { icon: <FiAward />, title: 'Well Certified', desc: 'Quality manufacturing standards' },
     { icon: <FiGlobe />, title: 'Global Exporter', desc: '20+ countries served' },
     { icon: <FiStar />, title: '500+ Dealers', desc: 'Strong distribution network' },
-    { icon: <FiPackage />, title: '100+ Products', desc: 'Comprehensive product range' }
+    { icon: <FiPackage />, title: '300+ Products', desc: 'Comprehensive product range' }
   ];
 
   const facilities = [
@@ -27,7 +27,7 @@ const AboutCompany = () => {
       <div className="about-container">
         <div className="section-header">
           <span className="section-subhead">About Us</span>
-          <h2 className="section-title">Pioneering Ayurvedic Excellence Since 2009</h2>
+          <h2 className="section-title">Pioneering Ayurvedic Excellence Since 2005</h2>
         </div>
 
         <div className="about-main">
@@ -54,7 +54,7 @@ const AboutCompany = () => {
           >
             <h3 className="about-heading">Our Journey of Excellence</h3>
             <p className="about-text">
-              HAJARA MULTICARE was established in 2009 with a vision to bring authentic Ayurvedic healthcare products to the global market. Over the years, we have grown from a small manufacturing unit to a trusted name in the Ayurvedic industry, known for quality, innovation, and commitment to wellness.
+              HAJARA MULTICARE was established in 2005 with a vision to bring authentic Ayurvedic healthcare products to the global market. Over the years, we have grown from a small manufacturing unit to a trusted name in the Ayurvedic industry, known for quality, innovation, and commitment to wellness.
             </p>
             <p className="about-text">
               Our state-of-the-art manufacturing facility follows strict GMP guidelines, ensuring every product meets international quality standards. We use pure, natural herbs sourced from trusted suppliers, and our formulations are backed by both traditional Ayurvedic knowledge and modern scientific research.

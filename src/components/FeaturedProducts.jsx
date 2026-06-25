@@ -48,7 +48,6 @@ const FeaturedProducts = () => {
                 <h3 className="product-name">{product.name}</h3>
                 <p className="product-desc">{product.shortDescription}</p>
                 <div className="product-footer">
-                  <p className="product-price">{product.price}</p>
                   <Link to={`/product/${product.id}`} className="view-product-btn">
                     View Details
                     <FiArrowRight />

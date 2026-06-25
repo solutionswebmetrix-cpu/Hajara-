@@ -6,34 +6,40 @@ import logoImg from '../assets/logo.png'
 
 const categories = [
   {
-    name: 'Herbal Powders',
-    image: 'https://images.unsplash.com/photo-1598349748134-7a9061320094?w=200&h=150&fit=crop',
-    description: 'Pure herbal powders'
+    name: 'Herbal Syrups'
   },
   {
-    name: 'Ayurvedic Tablets',
-    image: 'https://images.unsplash.com/photo-1550572017-edd951b55104?w=200&h=150&fit=crop',
-    description: 'Convenient tablets'
+    name: 'Ayurvedic Capsules & Tablets'
   },
   {
-    name: 'Herbal Oils',
-    image: 'https://images.unsplash.com/photo-1584362917165-526a968579e8?w=200&h=150&fit=crop',
-    description: 'Therapeutic oils'
+    name: 'Herbal Powders (Churna)'
   },
   {
-    name: 'Syrups & Tonics',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=200&h=150&fit=crop',
-    description: 'Health tonics'
+    name: 'Health Tonic & Immunity Boosters'
   },
   {
-    name: 'Herbal Capsules',
-    image: 'https://images.unsplash.com/photo-1587854692910-95636f5e3c66?w=200&h=150&fit=crop',
-    description: 'Standardized capsules'
+    name: 'Liver Tonic & Blood Purifier'
   },
   {
-    name: 'Herbal Teas',
-    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=200&h=150&fit=crop',
-    description: 'Wellness teas'
+    name: 'Women\'s Health Products'
+  },
+  {
+    name: 'Men\'s Health Products'
+  },
+  {
+    name: 'Herbal Cosmetics & Personal Care'
+  },
+  {
+    name: 'Ayurvedic Oils'
+  },
+  {
+    name: 'Herbal Toothpaste & Oral Care'
+  },
+  {
+    name: 'Skin Care Products'
+  },
+  {
+    name: 'Hair Care Products'
   }
 ]
 
@@ -60,6 +66,17 @@ const Navbar = () => {
     { name: 'Contact', path: '/contact' },
   ]
 
+  // Split categories into 4 columns
+  const getCategoriesColumns = () => {
+    const columns = [[], [], [], []];
+    categories.forEach((cat, idx) => {
+      columns[idx % 4].push(cat);
+    });
+    return columns;
+  }
+
+  const categoriesColumns = getCategoriesColumns();
+
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
@@ -84,17 +101,15 @@ const Navbar = () => {
                 {link.hasMegaMenu && megaMenuOpen && (
                   <div className="mega-menu">
                     <div className="mega-menu-container">
-                      <div className="mega-grid">
-                        {categories.map((cat, idx) => (
-                          <Link to="/products" key={idx} className="mega-item">
-                            <div className="mega-item-image">
-                              <img src={cat.image} alt={cat.name} />
-                            </div>
-                            <div className="mega-item-content">
-                              <h4>{cat.name}</h4>
-                              <p>{cat.description}</p>
-                            </div>
-                          </Link>
+                      <div className="mega-columns">
+                        {categoriesColumns.map((column, colIdx) => (
+                          <div key={colIdx} className="mega-column">
+                            {column.map((cat, catIdx) => (
+                              <Link to="/products" key={catIdx} className="mega-link">
+                                {cat.name}
+                              </Link>
+                            ))}
+                          </div>
                         ))}
                       </div>
                       <div className="mega-footer">

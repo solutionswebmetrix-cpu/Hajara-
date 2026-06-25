@@ -42,7 +42,7 @@ const Hero = () => {
             </h1>
 
             <p className="hero-description">
-              Since 2009, HAJARA MULTICARE has been a trusted name in Ayurvedic healthcare, delivering premium quality products to 20+ countries. Experience the perfect blend of ancient wisdom and modern manufacturing.
+              Since 2005, HAJARA MULTICARE has been a trusted name in Ayurvedic healthcare, delivering premium quality products to 20+ countries. Experience the perfect blend of ancient wisdom and modern manufacturing.
             </p>
 
             <div className="hero-buttons">
@@ -56,19 +56,19 @@ const Hero = () => {
             </div>
 
             <div className="hero-trust">
-              <div className="trust-item">
-                <FiCheckCircle />
-                <span>GMP Certified</span>
-              </div>
-              <div className="trust-item">
-                <FiCheckCircle />
-                <span>ISO Certified</span>
-              </div>
-              <div className="trust-item">
-                <FiCheckCircle />
-                <span>15+ Years Experience</span>
-              </div>
+            <div className="trust-item">
+              <FiCheckCircle />
+              <span>Well Certified</span>
             </div>
+            <div className="trust-item">
+              <FiCheckCircle />
+              <span>ISO Certified</span>
+            </div>
+            <div className="trust-item">
+              <FiCheckCircle />
+              <span>25+ Years Experience</span>
+            </div>
+          </div>
           </motion.div>
 
           <motion.div
@@ -79,22 +79,22 @@ const Hero = () => {
           >
             <div className="hero-visual">
               <div className="hero-images-grid">
-                <div className="hero-image-main">
+                {/* <div className="hero-image-main">
                   <img 
                     src={heroMainImg} 
                     alt="Ayurvedic Products"
                     className="product-img"
                     onError={(e) => handleImageError(e, 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=700&fit=crop')}
                   />
-                </div>
-                <div className="hero-image-secondary hero-image-secondary-1">
+                </div> */}
+                {/* <div className="hero-image-secondary hero-image-secondary-1">
                   <img 
                     src={manufacturingFacilityImg} 
                     alt="Manufacturing Facility"
                     className="product-img"
                     onError={(e) => handleImageError(e, 'https://images.unsplash.com/photo-1598439216761-09625547348b?w=400&h=300&fit=crop')}
                   />
-                </div>
+                </div> */}
                 <div className="hero-image-secondary hero-image-secondary-2">
                   <img 
                     src={herbalIngredientsImg} 
@@ -105,7 +105,7 @@ const Hero = () => {
                 </div>
               </div>
 
-              <motion.div
+              {/* <motion.div
                 className="floating-badge badge-gmp"
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -133,7 +133,7 @@ const Hero = () => {
               >
                 <FiStar />
                 <span>15+ Years</span>
-              </motion.div>
+              </motion.div> */}
             </div>
           </motion.div>
         </div>

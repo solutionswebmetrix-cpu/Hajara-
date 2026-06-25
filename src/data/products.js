@@ -9,7 +9,6 @@ export const products = [
   {
     id: 1,
     name: 'Grower Hair Oil',
-    price: '₹449',
     shortDescription: 'Premium Ayurvedic hair oil for hair growth and nourishment with natural herbal extracts.',
     image: growerHairOilImg,
     longDescription: 'Grower Hair Oil is a premium Ayurvedic formulation designed to promote healthy hair growth and nourishment from root to tip. Crafted with a blend of potent herbal ingredients, this oil penetrates deep into the hair follicles to strengthen hair, reduce hair fall, and improve overall hair texture. With regular use, it helps in making hair thicker, longer, and naturally shiny.',
@@ -42,7 +41,6 @@ export const products = [
   {
     id: 2,
     name: 'Grower Sat',
-    price: '₹399',
     shortDescription: 'Herbal hair care product for strong, healthy, and shiny hair.',
     image: growerSatImg,
     longDescription: 'Grower Sat is a natural herbal powder formulation specially designed for complete hair care. This traditional Ayurvedic remedy helps in maintaining healthy hair and scalp, addressing common hair concerns like hair fall, dandruff, and dullness. It provides essential nutrients to hair follicles, promoting stronger and more resilient hair.',
@@ -171,7 +169,6 @@ export const products = [
   {
     id: 6,
     name: 'Irovit-Z',
-    price: '₹499',
     shortDescription: 'Premium Ayurvedic syrup for energy, vitality, and improved immunity.',
     image: irovitZImg,
     longDescription: 'Irovit-Z is a premium Ayurvedic syrup formulated to boost energy, vitality, and immunity. This tonic is packed with essential nutrients and herbal extracts that help in maintaining overall health and well-being. Regular consumption helps in improving energy levels, supporting the immune system, and enhancing the body\'s natural defense mechanisms. It is perfect for individuals looking for a natural way to stay healthy and active.',

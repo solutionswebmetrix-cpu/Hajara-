@@ -6,6 +6,9 @@ import FeaturedProducts from '../components/FeaturedProducts'
 import Certifications from '../components/Certifications'
 import Manufacturing from '../components/Manufacturing'
 import Export from '../components/Export'
+import ExportCapabilities from '../components/ExportCapabilities'
+import BusinessType from '../components/BusinessType'
+import OurStrengths from '../components/OurStrengths'
 import Testimonials from '../components/Testimonials'
 import CTABanner from '../components/CTABanner'
 import HomeContact from '../components/HomeContact'
@@ -20,6 +23,9 @@ const Home = () => {
       <FeaturedProducts />
       <Certifications />
       <Manufacturing />
+      <ExportCapabilities />
+      <BusinessType />
+      <OurStrengths />
       <Export />
       <Testimonials />
       <CTABanner />

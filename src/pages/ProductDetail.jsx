@@ -34,9 +34,7 @@ const ProductDetail = () => {
             </div>
             <div className="product-detail-info">
               <h2>{product.name}</h2>
-              <p className="price">{product.price}</p>
               <p className="description">{product.shortDescription}</p>
-              <button className="btn btn-primary">Add to Cart</button>
             </div>
           </div>
         </div>

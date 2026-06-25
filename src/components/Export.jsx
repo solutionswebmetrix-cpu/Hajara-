@@ -3,8 +3,8 @@ import { FiGlobe, FiHeart, FiPackage, FiStar } from 'react-icons/fi';
 import './Export.css';
 
 const countries = [
-  'USA', 'UK', 'Canada', 'Australia', 'Germany',
-  'France', 'UAE', 'Saudi Arabia', 'Singapore', 'Malaysia'
+  'United States (US)', 'United Kingdom (UK)', 'United Arab Emirates (UAE)',
+  'Germany', 'Italy', 'China', 'France', 'Nepal', 'Australia', 'Japan', 'Canada'
 ];
 
 const Export = () => {

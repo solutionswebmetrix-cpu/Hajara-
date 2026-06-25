@@ -21,7 +21,6 @@ const Products = () => {
                   <th>Sr. No.</th>
                   <th>Product Image</th>
                   <th>Product Name</th>
-                  <th>Price</th>
                   <th>Short Description</th>
                   <th>Action</th>
                 </tr>
@@ -42,7 +41,6 @@ const Products = () => {
                       </div>
                     </td>
                     <td className="product-name-cell">{product.name}</td>
-                    <td className="product-price-cell">{product.price}</td>
                     <td className="product-desc-cell">{product.shortDescription}</td>
                     <td>
                       <Link to={`/product/${product.id}`} className="view-details-btn">
