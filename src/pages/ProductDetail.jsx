@@ -1,10 +1,21 @@
-import { useParams } from 'react-router-dom'
-import { getProductById } from '../data/products'
-import './ProductDetail.css'
+import { useParams } from 'react-router-dom';
+import { useState, useRef, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { FiMail, FiPhone } from 'react-icons/fi';
+import { getProductById, getRelatedProducts } from '../data/products';
+import './ProductDetail.css';
 
 const ProductDetail = () => {
-  const { id } = useParams()
-  const product = getProductById(id)
+  const { id } = useParams();
+  const product = getProductById(id);
+  const relatedProducts = product ? getRelatedProducts(product) : [];
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [isZoomed, setIsZoomed] = useState(false);
+  const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
+  const [touchStartX, setTouchStartX] = useState(0);
+  
+  const galleryRef = useRef(null);
 
   if (!product) {
     return (
@@ -15,26 +26,138 @@ const ProductDetail = () => {
           </div>
         </section>
       </div>
-    )
+    );
   }
+
+  const handleMouseEnter = () => {
+    if (product.gallery && product.gallery.length > 0) {
+      setIsZoomed(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setIsZoomed(false);
+  };
+
+  const handleMouseMove = (e) => {
+    if (!galleryRef.current) return;
+    const rect = galleryRef.current.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    setZoomPosition({ x, y });
+  };
+
+  const handleTouchStart = (e) => {
+    setTouchStartX(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = (e) => {
+    if (!product.gallery || product.gallery.length <= 1) return;
+    const touchEndX = e.changedTouches[0].clientX;
+    const diff = touchStartX - touchEndX;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) {
+        setSelectedImageIndex((prev) => (prev + 1) % product.gallery.length);
+      } else {
+        setSelectedImageIndex((prev) => (prev - 1 + product.gallery.length) % product.gallery.length);
+      }
+    }
+  };
+
+  const handleInquiry = () => {
+    const subject = encodeURIComponent(`Inquiry about ${product.name}`);
+    const body = encodeURIComponent(`Hello,\n\nI am interested in ${product.name}.\n\nPlease provide more details.\n\nThank you!`);
+    window.location.href = `mailto:hajaramulticare17@gmail.com?subject=${subject}&body=${body}`;
+  };
+
+  const handleWhatsApp = () => {
+    const message = encodeURIComponent(`Hello! I'm interested in ${product.name}.`);
+    window.open(`https://wa.me/919897023005?text=${message}`, '_blank');
+  };
+
+  const galleryImages = product.gallery || (product.image ? [product.image] : []);
+  const hasMultipleImages = galleryImages.length > 1;
 
   return (
     <div className="product-detail-page">
-      <section className="page-header">
+      <section className="page-header" style={{ background: 'var(--gradient-green-light)' }}>
         <div className="container">
-          <h1 className="page-title">Product Details</h1>
+          <motion.h1 
+            initial={{ opacity: 0, y: 30 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            className="page-title"
+          >
+            Product Details
+          </motion.h1>
         </div>
       </section>
 
       <section className="section product-hero">
         <div className="container">
           <div className="product-detail">
-            <div className="product-detail-image">
-              <img src={product.image} alt={product.name} />
+            {/* Product Gallery */}
+            <div className="product-gallery-wrapper">
+              <div 
+                ref={galleryRef}
+                className={`product-main-image ${isZoomed ? 'zoomed' : ''}`}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                onMouseMove={handleMouseMove}
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+              >
+                {galleryImages.length > 0 ? (
+                  <img 
+                    src={galleryImages[selectedImageIndex]} 
+                    alt={product.name}
+                    style={isZoomed ? {
+                      transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
+                    } : {}}
+                  />
+                ) : null}
+              </div>
+              {hasMultipleImages && (
+                <div className="product-thumbnails">
+                  {galleryImages.map((img, index) => (
+                    <motion.button
+                      key={index}
+                      className={`thumbnail ${selectedImageIndex === index ? 'active' : ''}`}
+                      onClick={() => setSelectedImageIndex(index)}
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      <img src={img} alt={`${product.name} ${index + 1}`} />
+                    </motion.button>
+                  ))}
+                </div>
+              )}
             </div>
+
             <div className="product-detail-info">
+              <span className="product-category">{product.category}</span>
               <h2>{product.name}</h2>
               <p className="description">{product.shortDescription}</p>
+
+              <div className="action-buttons">
+                <motion.button
+                  className="btn inquiry-btn"
+                  onClick={handleInquiry}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <FiMail />
+                  Send Inquiry
+                </motion.button>
+                <motion.button
+                  className="btn whatsapp-btn"
+                  onClick={handleWhatsApp}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <FiPhone />
+                  WhatsApp
+                </motion.button>
+              </div>
             </div>
           </div>
         </div>
@@ -45,69 +168,66 @@ const ProductDetail = () => {
           <div className="product-details-grid">
             <div className="product-details-content">
               <div className="product-section">
-                <h3 className="section-heading">Product Overview</h3>
-                <p>{product.longDescription}</p>
+                <h3 className="section-heading">Description</h3>
+                <p>{product.description || product.longDescription}</p>
               </div>
 
               <div className="product-section">
-                <h3 className="section-heading">
-                  {product.oralCareBenefits ? 'Oral Care Benefits' : 'Benefits'}
-                </h3>
-                <ul className="benefits-list">
-                  {(product.benefits || product.oralCareBenefits).map((benefit, index) => (
-                    <li key={index}>{benefit}</li>
+                <h3 className="section-heading">Uses & Benefits</h3>
+                <ul className="uses-list">
+                  {product.uses.map((use, index) => (
+                    <li key={index}>{use}</li>
                   ))}
                 </ul>
               </div>
 
               <div className="product-section">
-                <h3 className="section-heading">
-                  {product.keyIngredients ? 'Key Ingredients' : (product.herbalIngredients ? 'Herbal Ingredients' : 'Ingredients')}
-                </h3>
-                <ul className="ingredients-list">
-                  {(product.keyIngredients || product.herbalIngredients || product.ingredients).map((ingredient, index) => (
-                    <li key={index}>{ingredient}</li>
+                <h3 className="section-heading">Dosage & Directions</h3>
+                <ul className="dosage-list">
+                  {product.dosage.map((dose, index) => (
+                    <li key={index}>{dose}</li>
                   ))}
                 </ul>
               </div>
-
-              <div className="product-section">
-                <h3 className="section-heading">
-                  {product.usageDirections ? 'Usage Directions' : (product.howToUse ? 'How to Use' : 'Usage Instructions')}
-                </h3>
-                <ul className="usage-list">
-                  {(product.usageInstructions || product.howToUse || product.usageDirections).map((instruction, index) => (
-                    <li key={index}>{instruction}</li>
-                  ))}
-                </ul>
-              </div>
-
-              {product.suitableFor && (
-                <div className="product-section">
-                  <h3 className="section-heading">Suitable For</h3>
-                  <p>{product.suitableFor}</p>
-                </div>
-              )}
-
-              {product.precautions && (
-                <div className="product-section">
-                  <h3 className="section-heading">Precautions</h3>
-                  <p>{product.precautions}</p>
-                </div>
-              )}
-
-              {product.storageInformation && (
-                <div className="product-section">
-                  <h3 className="section-heading">Storage Information</h3>
-                  <p>{product.storageInformation}</p>
-                </div>
-              )}
             </div>
           </div>
         </div>
       </section>
-    </div>
-  )
-}
 
-export default ProductDetail
+      {/* Related Products */}
+      {relatedProducts.length > 0 && (
+        <section className="section related-products-section">
+          <div className="container">
+            <h2 className="related-products-title">Related Products</h2>
+            <div className="related-products-grid">
+              {relatedProducts.map((relatedProduct, index) => (
+                <motion.div
+                  key={relatedProduct.id}
+                  className="related-product-card"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: index * 0.1 }}
+                >
+                  <Link to={`/product/${relatedProduct.id}`} className="related-product-link">
+                    <div className="related-product-image">
+                      {relatedProduct.image && (
+                        <img src={relatedProduct.image} alt={relatedProduct.name} />
+                      )}
+                    </div>
+                    <div className="related-product-info">
+                      <h3 className="related-product-name">{relatedProduct.name}</h3>
+                      <p className="related-product-category">{relatedProduct.category}</p>
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
+  );
+};
+
+export default ProductDetail;

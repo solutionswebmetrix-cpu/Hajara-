@@ -5,7 +5,7 @@ import { products } from '../data/products';
 import './FeaturedProducts.css';
 
 const FeaturedProducts = () => {
-  const featuredProducts = products;
+  const featuredProducts = products.slice(0, 6);
 
   return (
     <section className="section featured-products">
@@ -31,7 +31,9 @@ const FeaturedProducts = () => {
             >
               <div className="product-image-wrapper">
                 <div className="product-badge">Best Seller</div>
-                <img src={product.image} alt={product.name} className="product-image" />
+                {product.image && (
+                  <img src={product.image} alt={product.name} className="product-image" />
+                )}
                 <div className="product-actions">
                   <button className="action-btn" aria-label="Add to wishlist">
                     <FiHeart />
@@ -45,6 +47,7 @@ const FeaturedProducts = () => {
                 </div>
               </div>
               <div className="product-info">
+                <span className="product-category-tag">{product.category}</span>
                 <h3 className="product-name">{product.name}</h3>
                 <p className="product-desc">{product.shortDescription}</p>
                 <div className="product-footer">
@@ -56,6 +59,13 @@ const FeaturedProducts = () => {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className="view-all-wrapper">
+          <Link to="/products" className="view-all-btn">
+            View All Products
+            <FiArrowRight />
+          </Link>
         </div>
       </div>
     </section>

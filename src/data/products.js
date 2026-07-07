@@ -1,204 +1,331 @@
-import growerHairOilImg from '../assets/product/Grower hair oil.png'
-import growerSatImg from '../assets/product/Hajara Herbal Hair.png'
-import vajrikaToothpasteImg from '../assets/product/Vajrika Ayurvedic toothpaste.png'
-import kabjvidaPowderImg from '../assets/product/Kabjvida powde.png'
-import kamaxiCapsuleImg from '../assets/product/Kamaxi capsule.png'
-import irovitZImg from '../assets/product/Irovit -z.png'
 
+// Import ALL available images
+import memoryKind1 from '../assets/product/Ayurvedic brain tonic.png';
+import memoryKind2 from '../assets/product/Ayurvedic brain tonic 1.png';
+import vajrikaToothpaste from '../assets/product/Vajrika Ayurvedic toothpaste.png';
+import carelivSyrup from '../assets/product/Careliv liver disorder syrup.png';
+import charmolin1 from '../assets/product/Charmolin herbal restorative.png';
+import charmolin2 from '../assets/product/Charmolin herbal restorative 1.png';
+import charmolin3 from '../assets/product/Charmolin herbal restorative 2.png';
+import gacidSyrup from '../assets/product/Gacid syrup.png';
+import growerHairOil from '../assets/product/Grower hair oil.png';
+import growerShampoo from '../assets/product/Hajara Herbal Hair.png';
+import appezyme from '../assets/product/Hajara Appezyme digestive syrup.png';
+import faceWash from '../assets/product/Herbal face wash with turmeric and aloe.png';
+import shilajit1 from '../assets/product/Himalayan Shilajit.png';
+import shilajit2 from '../assets/product/Himalayan Shilajit 1.png';
+import irovitz1 from '../assets/product/Irovitz syrup with herbal ingredients.png';
+import irovitz2 from '../assets/product/Irovitz syrup with herbal ingredients 1.png';
+import kabjvida from '../assets/product/Kabjvida powde.png';
+import kamaxi from '../assets/product/Kamaxi capsule.png';
+import mrOrtho from '../assets/product/Mr.Ortho pain oil.png';
+import puspanjali1 from '../assets/product/Puspanjali Ayurvedic Medicine syrup.png';
+import puspanjali2 from '../assets/product/Puspanjali Ayurvedic Medicine syrup 1.png';
+import puspanjali3 from '../assets/product/Puspanjali Ayurvedic Medicine syrup 2.png';
+import puspanjali4 from '../assets/product/Puspanjali Ayurvedic Medicine syrup 3.png';
+
+// ALL 11 Categories
+export const categories = [
+  'Vati & Gutika',
+  'Guggul Formulations',
+  'Churna',
+  'Topical Application Powders',
+  'Ayurvedic Tooth Powders',
+  'Advanced Brain Tonics & Mineral Rasayanas',
+  'Loh & Mandur',
+  'Pak, Avaleha & Murabba',
+  'Sharbat',
+  'Medicated Taila',
+  'Single Herb Powders'
+];
+
+// Helper function to create product objects
+const createProduct = (id, name, category, desc, uses, dosage, img = null, gallery = []) => ({
+  id,
+  name,
+  category,
+  shortDescription: desc,
+  description: desc,
+  uses,
+  dosage,
+  image: img,
+  gallery: gallery.length ? gallery : (img ? [img] : [])
+});
+
+let idCounter = 1;
+
+// ================== CATEGORY 1: Vati & Gutika ==================
+const vatiGutikaProducts = [
+  'Viryashodhan Vati', 'Virya Stambhan Vati', 'Swasroggantak Vati', 'Hingul Vati',
+  'Karanjadi Vati', 'Karpooradi Vati', 'Kanth Sudhar Vati', 'Kashisadi Vati',
+  'Gandhak Vati', 'Chandraprabha Vati', 'Jwarari Vati', 'Dhananjay Vati',
+  'Baljiwan Vati', 'Shilajatu Vati', 'Histeriyanashak Vati', 'Hingwadi Vati',
+  'Panchansudha Vati', 'Lavanrasayan Vati', 'Raktarodhak Vati', 'Rasraj Vati',
+  'Sarvtobhadra Vati', 'Vrakkshoolantak Vati', 'Ambarsundari Vati', 'Arogyavardhani Vati',
+  'Jawahar Mohra', 'Agnivardhak Vati', 'Amritprabha Vati', 'Arshoghani Vati',
+  'Amvatari Vati', 'Elad Vati', 'Kankayan Vati', 'Kas Vati',
+  'Kutajghan Vati', 'Kaharwa Vati', 'Khadiradi Vati', 'Raj Vati',
+  'Chandanadi Vati', 'Chitrakadi Vati', 'Prabhakar Vati', 'Boladi Vati',
+  'Byoshadi Vati', 'Vradhibadhika Vati', 'Vradhihari Vatika', 'Brahmi Vati',
+  'Makardwaj Vati', 'Madhumeh Nashni Gutika', 'Mahabhra Vati', 'Mahasankh Vati',
+  'Mehmudgar Vati', 'Rajpravartani Vati', 'Ratanprabha Vati', 'Rechak Vati',
+  'Lavangadi Vati', 'Lashunadi Vati', 'Sankh Vati', 'Shukramatrika Vati',
+  'Shulvajrini Vati', 'Sarpgandhaghan Vati', 'Sanjivani Vati', 'Saubhagya Vati',
+  'Kshuda Vati'
+].map(name => createProduct(idCounter++, name, 'Vati & Gutika',
+  `Ayurvedic ${name} for traditional wellness support.`,
+  ['Supports overall health', 'Traditional formulation', 'Natural ingredients'],
+  ['Take as directed by Ayurvedic physician', 'Follow recommended dosage']
+));
+
+// ================== CATEGORY 2: Guggul Formulations ==================
+const guggulProducts = [
+  'Amritadi Guggul', 'Abha Guggul', 'Kanchanar Guggul', 'Kaishor Guggul',
+  'Gokshuradi Guggul', 'Trayodashang Guggul', 'Triphala Guggul', 'Panchatikta Ghrita Guggul',
+  'Punarnavadi Guggul', 'Panchamrit Loh Guggul', 'Mahayograj Guggul', 'Yograj Guggul',
+  'Rasnadi Guggul', 'Lakshadi Guggul', 'Singhnad Guggul', 'Brahad Singhnad Guggul',
+  'Haritkyadi Guggul', 'Agastya Guggul', 'Ashwagandhadi Guggul', 'Medohar Guggul'
+].map(name => createProduct(idCounter++, name, 'Guggul Formulations',
+  `Ayurvedic ${name} with Guggul base.`,
+  ['Supports joint & muscle health', 'Traditional Guggul formulation', 'Natural ingredients'],
+  ['Take 1-2 tablets twice daily', 'Or as directed by physician']
+));
+
+// ================== CATEGORY 3: Churna ==================
+const churnaProducts = [
+  'Agnimukh Churna', 'Ajmodadi Churna', 'Avipattikar Churna', 'Eladi Churna',
+  'Kamdev Churna', 'Gokshuradi Churna', 'Chitrakadi Churna', 'Chopchinyadi Churna',
+  'Jatiphaladi Churna', 'Talisadi Churna', 'Triphala Churna', 'Dantprabha Churna',
+  'Dadimashtaka Churna', 'Dhatu Pushti Churna', 'Namak Sulemani Churna', 'Narasimha Churna',
+  'Narayan Churna', 'Nimbadi Churna', 'Panchsakar Churna', 'Panchsam Churna',
+  'Pradarnashak Churna', 'Punarnava Churna', 'Pushyanuga Churna', 'Vajrakshar Churna',
+  'Bakuchi Churna', 'Balachaturbhadra Churna', 'Bilwadi Churna', 'Vidaryadi Churna',
+  'Lavanbhaskar Churna', 'Madanprakash Churna', 'Manjisthadi Churna', 'Marichadi Churna',
+  'Malshodhak Churna', 'Mahakhand Churna', 'Swadishta Virechan Churna', 'Mahasudarshan Churna',
+  'Lavangadi Churna', 'Lal Churna', 'Satpatradi Churna', 'Satavaryadi Churna',
+  'Shivakshar Pachan Churna', 'Virechan Churna', 'Saraswata Churna', 'Sitopaladi Churna',
+  'Hingvastak Churna', 'Antravradhihar Churna', 'Amritadi Churna', 'Chandanadi Churna',
+  'Chintamani Churna', 'Bhasmaknashak Churna', 'Mutravirechan Churna', 'Raj Pravartak Churna',
+  'Vasadi Churna', 'Viryashodhan Churna', 'Madhumehdaman Churna'
+].map(name => createProduct(idCounter++, name, 'Churna',
+  `Ayurvedic herbal powder ${name} for wellness.`,
+  ['Traditional herbal powder', 'Natural ingredients', 'Supports digestive health'],
+  ['Take 3-5g with warm water', 'Or as directed']
+));
+
+// ================== CATEGORY 4: Topical Application Powders ==================
+const topicalPowdersProducts = [
+  'Dashang Lep Churna', 'Pamari Pralep Churna'
+].map(name => createProduct(idCounter++, name, 'Topical Application Powders',
+  `Topical herbal powder ${name} for external use.`,
+  ['For external application', 'Supports skin health', 'Natural ingredients'],
+  ['Apply externally as directed', 'For topical use only']
+));
+
+// ================== CATEGORY 5: Ayurvedic Tooth Powders ==================
+const toothPowdersProducts = [
+  'Dantmanjan Lal', 'Dantdoshhar Manjan', 'Dantrashak Manjan', 'Dantshoolhar Manjan'
+].map(name => createProduct(idCounter++, name, 'Ayurvedic Tooth Powders',
+  `Ayurvedic tooth powder ${name} for oral care.`,
+  ['Cleans teeth & gums', 'Freshens breath', 'Natural ingredients'],
+  ['Use daily for brushing', 'Follow usage instructions']
+));
+
+// ================== CATEGORY 6: Advanced Brain Tonics & Mineral Rasayanas ==================
+const brainRasayanasProducts = [
+  'Mastiskbal Vardhak Churna', 'Navjeevan Ras', 'Kamchudamani Ras'
+].map(name => createProduct(idCounter++, name, 'Advanced Brain Tonics & Mineral Rasayanas',
+  `Ayurvedic ${name} for brain & vitality support.`,
+  ['Supports cognitive function', 'Promotes vitality', 'Traditional rasayana'],
+  ['Take as directed by physician', 'Follow recommended dosage']
+));
+
+// ================== CATEGORY 7: Loh & Mandur ==================
+const lohMandurProducts = [
+  'Agnimukh Loh', 'Astadashang Loh', 'Amritavaran Loh', 'Guduchiyadi Loh',
+  'Tara Mandur', 'Triphaladi Loh', 'Dhatri Loh', 'Pradarantak Loh',
+  'Pipalyadi Loh', 'Punarnavadi Mandur', 'Panchamrit Lohmandur', 'Vishamjwarantak Loh',
+  'Vidangadi Loh', 'Medohar Vidangadi Loh', 'Yograj Loh', 'Rohitak Loh',
+  'Shilajitwadi Loh', 'Shothari Mandur', 'Saptamrit Loh', 'Sarvjwarhar Loh'
+].map(name => createProduct(idCounter++, name, 'Loh & Mandur',
+  `Ayurvedic ${name} for traditional support.`,
+  ['Supports blood health', 'Traditional formulation', 'Natural ingredients'],
+  ['Take as directed', 'Follow physician advice']
+));
+
+// ================== CATEGORY 8: Pak, Avaleha & Murabba ==================
+const pakAvalehaProducts = [
+  'Amritprash Avaleha', 'Ashwagandha Pak', 'Aamr Pak', 'Aadrak Pak',
+  'Amaltas Pak', 'Amaltas Ki Chatani', 'Amla Murabba', 'Khameere Gajwan',
+  'Gokharu Pak', 'Chitrak Haritaki', 'Chyawanprash Avaleha', 'Chuhara Pak',
+  'Jeevan Kalp', 'Badam Pak', 'Vasa Avaleha', 'Majun Falsafa',
+  'Musali Pak', 'Lauh-e-Sapistan', 'Supari Pak', 'Haridra Khand',
+  'Saubhagya Sunthi Pak', 'Avale Ka Murabba'
+].map(name => createProduct(idCounter++, name, 'Pak, Avaleha & Murabba',
+  `Ayurvedic ${name} for vitality & wellness.`,
+  ['Supports overall vitality', 'Traditional formulation', 'Tasteful & healthy'],
+  ['Take 1-2 tsp daily', 'Or as directed']
+));
+
+// ================== CATEGORY 9: Sharbat ==================
+const sharbatProducts = [
+  'Adusa Sharbat', 'Unnab Sharbat', 'Gaozaban Sharbat', 'Anar Sharbat',
+  'Kevda Sharbat', 'Khus Sharbat', 'Gul Banafsha Sharbat', 'Gulab Sharbat',
+  'Chandan Sharbat', 'Neebu Sharbat', 'Bel Sharbat', 'Santara Sharbat',
+  'Rakta Shodhak Sharbat', 'Brahmi Sharbat', 'Shankhpushpi Sharbat', 'Adrak Sharbat'
+].map(name => createProduct(idCounter++, name, 'Sharbat',
+  `Refreshing Ayurvedic ${name} for wellness.`,
+  ['Cooling & refreshing', 'Supports overall health', 'Natural ingredients'],
+  ['Mix with water & drink', 'Follow dosage instructions']
+));
+
+// ================== CATEGORY 10: Medicated Taila ==================
+const medicatedTailaProducts = [
+  'Jaitoon Oil', 'Almond Oil', 'Croton Seed Oil', 'Clove Oil',
+  'Castor Oil', 'Ajwain Oil', 'Zingiber Oil', 'Jatamansi Oil',
+  'Cardamom Oil', 'Cinnamon Bark Oil', 'Karanj Oil', 'Neem Oil',
+  'Bakuchi Oil', 'Terpen Oil', 'Kapasbeej Oil', 'Chalmoogra Oil',
+  'Tuvrak Oil'
+].map(name => createProduct(idCounter++, name, 'Medicated Taila',
+  `Ayurvedic medicated oil ${name} for external use.`,
+  ['For external application', 'Supports skin & hair health', 'Natural oil'],
+  ['Apply externally as directed', 'Massage gently']
+));
+
+// ================== CATEGORY 11: Single Herb Powders ==================
+const singleHerbProducts = [
+  'Multani Mitti', 'Harad', 'Baheda', 'Amla',
+  'Methi', 'Mulathi', 'Chirayta', 'Chandan',
+  'Giloy', 'Bel', 'Neem', 'Kachnar',
+  'Musali', 'Satavari', 'Ashwagandha', 'Neelni',
+  'Brahmi', 'Tulsi', 'Jamun Seed', 'Arjuna',
+  'Reetha', 'Garbhkar', 'Shilajit', 'Alsi',
+  'Ishabagol Husk', 'Henna (Mehandi)', 'Sanay'
+].map(name => createProduct(idCounter++, name, 'Single Herb Powders',
+  `Pure ${name} single herb powder.`,
+  ['Pure single herb', 'Natural & organic', 'Traditional wellness support'],
+  ['Take as directed', 'Follow usage instructions']
+));
+
+// ================== EXISTING 15 PRODUCTS (with FULL IMAGES RESTORED) ==================
+const existingProducts = [
+  createProduct(idCounter++, 'Memory Kind Gold Avaleh', 'Pak, Avaleha & Murabba',
+    'Premium Ayurvedic avaleh for memory and brain health',
+    ['Supports memory and concentration', 'Promotes cognitive function', 'Helps in maintaining brain health', 'Made with traditional Ayurvedic ingredients'],
+    ['Take 1-2 teaspoons daily', 'Or as directed by Ayurvedic physician'],
+    memoryKind1, [memoryKind1, memoryKind2]
+  ),
+  createProduct(idCounter++, 'Vajrika Ayurvedic Oral Care Toothpaste', 'Ayurvedic Tooth Powders',
+    'Ayurvedic toothpaste for complete oral care',
+    ['Cleans teeth and gums', 'Freshens breath', 'Maintains oral health', 'Ayurvedic formula'],
+    ['Use twice daily', 'Brush with a soft brush'],
+    vajrikaToothpaste, [vajrikaToothpaste]
+  ),
+  createProduct(idCounter++, 'Careliv Liver Syrup', 'Sharbat',
+    'Syrup for supporting liver health',
+    ['Supports liver function', 'Helps in detoxification', 'Maintains liver health', 'Natural ingredients'],
+    ['Take 10-15 ml twice daily', 'Or as directed by physician'],
+    carelivSyrup, [carelivSyrup]
+  ),
+  createProduct(idCounter++, 'Charmolin Syrup', 'Sharbat',
+    'Herbal restorative syrup for wellness',
+    ['Promotes overall wellness', 'Supports vitality', 'Herbal formulation', 'Traditional Ayurvedic blend'],
+    ['Take 10-15 ml twice daily', 'Or as directed by physician'],
+    charmolin1, [charmolin1, charmolin2, charmolin3]
+  ),
+  createProduct(idCounter++, 'Gacid Gastric Syrup', 'Sharbat',
+    'Syrup for gastric and digestive health',
+    ['Supports digestive health', 'Relieves gastric discomfort', 'Promotes digestion', 'Natural formula'],
+    ['Take 10-15 ml as needed', 'Or as directed by physician'],
+    gacidSyrup, [gacidSyrup]
+  ),
+  createProduct(idCounter++, 'Grower Hair Oil', 'Medicated Taila',
+    'Ayurvedic hair oil for hair care',
+    ['Nourishes hair and scalp', 'Supports healthy hair', 'Natural oil blend'],
+    ['Apply to scalp and massage gently', 'Leave for 30 mins or overnight'],
+    growerHairOil, [growerHairOil]
+  ),
+  createProduct(idCounter++, 'Grower Herbal Hair Cleanser Shampoo', 'Medicated Taila',
+    'Herbal shampoo for hair cleansing',
+    ['Cleanses hair and scalp', 'Herbal formula', 'Maintains hair health'],
+    ['Wet hair, lather, massage and rinse', 'Use as needed'],
+    growerShampoo, [growerShampoo]
+  ),
+  createProduct(idCounter++, 'Appezyme Digestive Syrup', 'Sharbat',
+    'Digestive syrup for better digestion',
+    ['Supports digestion', 'Improves appetite', 'Herbal digestive aid'],
+    ['Take 10-15 ml before meals', 'Or as directed'],
+    appezyme, [appezyme]
+  ),
+  createProduct(idCounter++, 'Hajara Multicare Face Wash', 'Topical Application Powders',
+    'Herbal face wash for clean skin',
+    ['Cleanses skin', 'Maintains skin health', 'Natural ingredients'],
+    ['Use twice daily', 'Massage on face and rinse'],
+    faceWash, [faceWash]
+  ),
+  createProduct(idCounter++, 'Himalayan Shilajit Resin', 'Advanced Brain Tonics & Mineral Rasayanas',
+    'Pure Himalayan Shilajit for vitality',
+    ['Supports vitality and strength', 'Natural energy booster', 'Pure Himalayan Shilajit'],
+    ['Take a pea-sized portion daily', 'Dissolve in water or milk'],
+    shilajit1, [shilajit1, shilajit2]
+  ),
+  createProduct(idCounter++, 'Irovitz Syrup', 'Sharbat',
+    'Herbal syrup for blood and vitality',
+    ['Supports blood health', 'Promotes vitality', 'Herbal ingredients'],
+    ['Take 10-15 ml twice daily', 'Or as directed'],
+    irovitz1, [irovitz1, irovitz2]
+  ),
+  createProduct(idCounter++, 'Kabjvida Powder', 'Churna',
+    'Ayurvedic powder for digestive health',
+    ['Supports digestion', 'Maintains gut health', 'Ayurvedic powder'],
+    ['Take 3-5 g with warm water', 'Or as directed'],
+    kabjvida, [kabjvida]
+  ),
+  createProduct(idCounter++, 'Kamaxi Capsule', 'Vati & Gutika',
+    'Herbal capsules for wellness',
+    ['Supports overall wellness', 'Herbal capsules', 'Natural ingredients'],
+    ['Take 1-2 capsules twice daily', 'Or as directed by physician'],
+    kamaxi, [kamaxi]
+  ),
+  createProduct(idCounter++, 'Mr. Ortho Pain Oil', 'Medicated Taila',
+    'Oil for joint and muscle pain',
+    ['Relieves joint and muscle pain', 'Supports joint health', 'Natural oil'],
+    ['Apply to affected area and massage', 'Use as needed'],
+    mrOrtho, [mrOrtho]
+  ),
+  createProduct(idCounter++, 'Puspanjali Syrup', 'Sharbat',
+    'Ayurvedic syrup for women\'s health',
+    ['Supports women\'s health', 'Maintains overall wellness', 'Ayurvedic formula'],
+    ['Take 10-15 ml twice daily', 'Or as directed'],
+    puspanjali1, [puspanjali1, puspanjali2, puspanjali3, puspanjali4]
+  )
+];
+
+// Combine ALL products
 export const products = [
-  {
-    id: 1,
-    name: 'Grower Hair Oil',
-    shortDescription: 'Premium Ayurvedic hair oil for hair growth and nourishment with natural herbal extracts.',
-    image: growerHairOilImg,
-    longDescription: 'Grower Hair Oil is a premium Ayurvedic formulation designed to promote healthy hair growth and nourishment from root to tip. Crafted with a blend of potent herbal ingredients, this oil penetrates deep into the hair follicles to strengthen hair, reduce hair fall, and improve overall hair texture. With regular use, it helps in making hair thicker, longer, and naturally shiny.',
-    benefits: [
-      'Stimulates hair growth and reduces hair fall',
-      'Nourishes and strengthens hair follicles',
-      'Prevents premature graying of hair',
-      'Reduces dandruff and scalp irritation',
-      'Improves hair texture and adds natural shine',
-      'Soothes dry and itchy scalp'
-    ],
-    keyIngredients: [
-      'Bhringraj (Eclipta alba): Known for promoting hair growth and preventing hair fall',
-      'Amla (Emblica officinalis): Rich in Vitamin C, strengthens hair and boosts collagen',
-      'Neem (Azadirachta indica): Fights dandruff and scalp infections',
-      'Coconut Oil: Deeply moisturizes hair and scalp',
-      'Brahmi (Bacopa monnieri): Improves scalp health and reduces stress-induced hair loss',
-      'Almond Oil: Rich in Vitamin E, nourishes hair from within'
-    ],
-    usageInstructions: [
-      'Take a small amount of Grower Hair Oil in your palms',
-      'Gently massage into your scalp and hair using circular motions',
-      'Leave it on for at least 1-2 hours, preferably overnight',
-      'Wash off with a mild herbal shampoo',
-      'Use 2-3 times a week for best results'
-    ],
-    suitableFor: 'Suitable for all hair types, including dry, oily, and combination hair. Safe for both men and women.',
-    storageInformation: 'Store in a cool, dry place away from direct sunlight. Keep the bottle tightly closed when not in use to preserve the potency of herbal ingredients.'
-  },
-  {
-    id: 2,
-    name: 'Grower Sat',
-    shortDescription: 'Herbal hair care product for strong, healthy, and shiny hair.',
-    image: growerSatImg,
-    longDescription: 'Grower Sat is a natural herbal powder formulation specially designed for complete hair care. This traditional Ayurvedic remedy helps in maintaining healthy hair and scalp, addressing common hair concerns like hair fall, dandruff, and dullness. It provides essential nutrients to hair follicles, promoting stronger and more resilient hair.',
-    benefits: [
-      'Strengthens hair roots and reduces hair fall',
-      'Promotes healthy and shiny hair',
-      'Controls dandruff and scalp infections',
-      'Conditions and nourishes hair naturally',
-      'Prevents premature graying',
-      'Improves hair volume and thickness'
-    ],
-    keyIngredients: [
-      'Amla: Rich in Vitamin C and antioxidants, boosts hair health',
-      'Shikakai: Natural cleanser that gently cleanses hair without harsh chemicals',
-      'Bhringraj: Promotes hair growth and prevents hair fall',
-      'Neem: Antibacterial and antifungal properties for scalp health',
-      'Hibiscus: Conditions hair and adds natural shine',
-      'Mehndi: Improves hair texture and color'
-    ],
-    usageInstructions: [
-      'Mix Grower Sat powder with water to form a smooth paste',
-      'Apply evenly to wet hair and scalp',
-      'Gently massage for a few minutes',
-      'Leave on for 15-20 minutes',
-      'Rinse thoroughly with water',
-      'Use once or twice a week for optimal results'
-    ],
-    precautions: 'Avoid contact with eyes. If irritation occurs, discontinue use. For external use only. Store in a cool, dry place. Perform a patch test on a small area of skin before full use to check for any allergic reactions.'
-  },
-  {
-    id: 3,
-    name: 'Vajrika Toothpaste',
-    price: '₹199',
-    shortDescription: 'Ayurvedic toothpaste for healthy gums and fresh breath with natural ingredients.',
-    image: vajrikaToothpasteImg,
-    longDescription: 'Vajrika Toothpaste is a natural Ayurvedic formulation that provides complete oral care without any harsh chemicals. Made with a blend of traditional herbal ingredients, it helps maintain healthy teeth and gums, prevents cavities, and ensures long-lasting fresh breath. This herbal toothpaste gently cleanses teeth while protecting the enamel and promoting overall oral hygiene.',
-    oralCareBenefits: [
-      'Prevents cavities and tooth decay',
-      'Strengthens gums and prevents bleeding',
-      'Fights bad breath naturally',
-      'Reduces plaque and tartar formation',
-      'Maintains healthy oral pH balance',
-      'Soothes gum inflammation and irritation'
-    ],
-    herbalIngredients: [
-      'Neem: Powerful antibacterial properties to fight oral bacteria',
-      'Clove: Relieves toothache and prevents cavities',
-      'Peppermint: Provides fresh breath and cooling sensation',
-      'Babool: Strengthens gums and prevents gum diseases',
-      'Miswak: Natural tooth cleaner with antimicrobial properties',
-      'Turmeric: Anti-inflammatory and antibacterial properties for oral health'
-    ],
-    usageDirections: [
-      'Wet your toothbrush and apply a small amount of Vajrika Toothpaste',
-      'Brush teeth thoroughly for 2-3 minutes in circular motions',
-      'Clean all surfaces of teeth, gums, and tongue',
-      'Rinse your mouth thoroughly with water',
-      'Use twice daily, morning and night, for best results'
-    ],
-    storageInstructions: 'Store in a cool, dry place away from direct sunlight. Close the cap tightly after each use to prevent drying out. Keep out of reach of children. For best results, use within 12 months of opening.'
-  },
-  {
-    id: 4,
-    name: 'Kabjvida Powder',
-    price: '₹299',
-    shortDescription: 'Herbal churna for relief from constipation and better digestive health.',
-    image: kabjvidaPowderImg,
-    longDescription: 'Kabjvida Powder is a natural Ayurvedic laxative and digestive aid formulated to provide relief from constipation and promote healthy bowel movements. Made with a blend of herbal ingredients known for their digestive properties, this churna gently cleanses the digestive tract, relieves gas and bloating, and supports overall digestive health without any harsh side effects.',
-    benefits: [
-      'Relieves constipation naturally',
-      'Promotes regular bowel movements',
-      'Reduces gas, bloating, and indigestion',
-      'Improves digestive health',
-      'Cleanses the digestive tract gently',
-      'Supports healthy gut function'
-    ],
-    keyIngredients: [
-      'Haritaki (Terminalia chebula): Traditional digestive tonic and laxative',
-      'Senna: Natural purgative for relieving constipation',
-      'Ajwain (Carom Seeds): Reduces gas and improves digestion',
-      'Saunf (Fennel Seeds): Soothes the digestive system',
-      'Jeera (Cumin Seeds): Aids in digestion and reduces bloating',
-      'Hing (Asafoetida): Relieves gas and stomach discomfort'
-    ],
-    howToUse: [
-      'Take 1-2 teaspoons of Kabjvida Powder with warm water or milk',
-      'Consume preferably at bedtime for best results',
-      'For best results, take it regularly for 2-4 weeks',
-      'Do not exceed the recommended dosage',
-      'Consult a healthcare professional before use if you have any medical conditions'
-    ],
-    storageInformation: 'Store in a cool, dry place away from direct sunlight and moisture. Keep the container tightly closed after each use. Keep out of reach of children. Do not use if the seal is broken.'
-  },
-  {
-    id: 5,
-    name: 'Kamaxi Capsule',
-    price: '₹599',
-    shortDescription: 'Advanced herbal capsules for overall wellness, strength, and vitality.',
-    image: kamaxiCapsuleImg,
-    longDescription: 'Kamaxi Capsules are a premium Ayurvedic formulation designed to promote overall wellness, strength, and vitality. Made with a potent blend of natural herbs and ingredients, these capsules help in boosting energy levels, improving stamina, and enhancing overall physical performance. They are specially formulated to support the body\'s natural systems and promote a healthy and active lifestyle.',
-    benefits: [
-      'Boosts energy levels and improves stamina',
-      'Enhances physical strength and vitality',
-      'Supports overall health and wellness',
-      'Improves concentration and mental clarity',
-      'Reduces stress and fatigue',
-      'Strengthens the immune system'
-    ],
-    ingredients: [
-      'Ashwagandha (Withania somnifera): Adaptogenic herb that reduces stress and improves stamina',
-      'Shatavari (Asparagus racemosus): Supports overall wellness and vitality',
-      'Gokshura (Tribulus terrestris): Improves strength and stamina',
-      'Safed Musli (Chlorophytum borivilianum): Traditional vitality booster',
-      'Bala (Sida cordifolia): Strengthens the body and improves energy',
-      'Kapikacchu (Mucuna pruriens): Supports nervous system health'
-    ],
-    usageInstructions: [
-      'Take 1 capsule twice daily with warm water or milk',
-      'For best results, take one capsule in the morning after breakfast and one in the evening after dinner',
-      'Continue use regularly for 2-3 months for long-term benefits',
-      'Do not exceed the recommended dosage',
-      'Consult a healthcare professional before use if you have any medical conditions or are taking other medications'
-    ],
-    precautions: 'Not recommended for children, pregnant or nursing women without consulting a healthcare professional. Store in a cool, dry place away from direct sunlight. Keep out of reach of children. If you experience any adverse effects, discontinue use and consult a doctor.'
-  },
-  {
-    id: 6,
-    name: 'Irovit-Z',
-    shortDescription: 'Premium Ayurvedic syrup for energy, vitality, and improved immunity.',
-    image: irovitZImg,
-    longDescription: 'Irovit-Z is a premium Ayurvedic syrup formulated to boost energy, vitality, and immunity. This tonic is packed with essential nutrients and herbal extracts that help in maintaining overall health and well-being. Regular consumption helps in improving energy levels, supporting the immune system, and enhancing the body\'s natural defense mechanisms. It is perfect for individuals looking for a natural way to stay healthy and active.',
-    benefits: [
-      'Boosts natural energy levels and reduces fatigue',
-      'Strengthens the immune system',
-      'Improves overall vitality and well-being',
-      'Provides essential nutrients for the body',
-      'Supports healthy blood formation',
-      'Enhances overall physical performance'
-    ],
-    ingredients: [
-      'Amla: Rich in Vitamin C, boosts immunity and acts as an antioxidant',
-      'Ashwagandha: Adaptogenic herb that helps the body cope with stress',
-      'Shatavari: Nourishes and revitalizes the body',
-      'Dates: Natural source of energy and essential minerals',
-      'Honey: Natural sweetener with numerous health benefits',
-      'Iron-rich herbs: Support healthy blood formation'
-    ],
-    usageDirections: [
-      'Adults: Take 2 teaspoons (10ml) twice daily',
-      'Children: Take 1 teaspoon (5ml) twice daily or as directed by a physician',
-      'Take preferably after meals for better absorption',
-      'Shake the bottle well before each use',
-      'Continue use regularly for best results'
-    ],
-    storageInformation: 'Store in a cool, dry place away from direct sunlight. Do not refrigerate. Keep the bottle tightly closed after each use. Keep out of reach of children. Use within the shelf life mentioned on the bottle.'
-  }
-]
+  ...vatiGutikaProducts,
+  ...guggulProducts,
+  ...churnaProducts,
+  ...topicalPowdersProducts,
+  ...toothPowdersProducts,
+  ...brainRasayanasProducts,
+  ...lohMandurProducts,
+  ...pakAvalehaProducts,
+  ...sharbatProducts,
+  ...medicatedTailaProducts,
+  ...singleHerbProducts,
+  ...existingProducts
+];
 
+// Helper functions
 export const getProductById = (id) => {
-  return products.find(product => product.id === parseInt(id))
-}
+  return products.find(product => product.id === parseInt(id));
+};
+
+export const getProductsByCategory = (category) => {
+  return products.filter(product => product.category === category);
+};
+
+export const getRelatedProducts = (product) => {
+  return products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
+};
