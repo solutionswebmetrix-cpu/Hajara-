@@ -129,21 +129,124 @@ body {
 }
 
 /* Responsive */
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding: 100px 0;
+  }
+  
+  .section-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .section {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    font-size: 36px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 20px;
   }
   
   .section {
-    padding: 80px 0;
+    padding: 70px 0;
   }
   
   .section-title {
     font-size: 32px;
   }
   
+  .section-subtitle {
+    font-size: 15px;
+  }
+  
   .btn {
     padding: 12px 24px;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .section-subtitle {
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 11px 20px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    font-size: 24px;
+  }
+  
+  .section-subtitle {
+    font-size: 13px;
+  }
+  
+  .btn {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0 12px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+  }
+  
+  .btn {
+    padding: 9px 16px;
+    font-size: 12px;
   }
 }

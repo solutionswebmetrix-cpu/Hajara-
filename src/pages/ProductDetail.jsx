@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FiMail, FiPhone } from 'react-icons/fi';
@@ -29,8 +29,44 @@ const ProductDetail = () => {
     );
   }
 
+  // Merge product with productDetails
+  const fullProduct = useMemo(() => {
+    // Handle dosage (could be string or array)
+    let dosageArray = [];
+    if (product?.dosage) {
+      if (Array.isArray(product.dosage)) {
+        dosageArray = product.dosage;
+      } else if (typeof product.dosage) {
+        dosageArray = [product.dosage];
+      }
+    }
+    if (dosageArray.length === 0) {
+      dosageArray = ['Take as directed by Ayurvedic physician', 'Follow recommended dosage'];
+    }
+
+    // Uses (could be string or array)
+    let usesArray = [];
+    if (product?.uses) {
+      if (Array.isArray(product.uses)) {
+        usesArray = product.uses;
+      } else if (typeof product.uses) {
+        usesArray = [product.uses];
+      }
+    }
+    if (usesArray.length === 0) {
+      usesArray = ['Supports overall health', 'Traditional formulation', 'Natural ingredients'];
+    }
+
+    return {
+      ...product,
+      uses: usesArray,
+      dosage: dosageArray,
+      gallery: product.gallery || (product.image ? [product.image] : [])
+    };
+  }, [product]);
+
   const handleMouseEnter = () => {
-    if (product.gallery && product.gallery.length > 0) {
+    if (fullProduct.gallery && fullProduct.gallery.length > 0) {
       setIsZoomed(true);
     }
   };
@@ -52,30 +88,30 @@ const ProductDetail = () => {
   };
 
   const handleTouchEnd = (e) => {
-    if (!product.gallery || product.gallery.length <= 1) return;
+    if (!fullProduct.gallery || fullProduct.gallery.length <= 1) return;
     const touchEndX = e.changedTouches[0].clientX;
     const diff = touchStartX - touchEndX;
     if (Math.abs(diff) > 50) {
       if (diff > 0) {
-        setSelectedImageIndex((prev) => (prev + 1) % product.gallery.length);
+        setSelectedImageIndex((prev) => (prev + 1) % fullProduct.gallery.length);
       } else {
-        setSelectedImageIndex((prev) => (prev - 1 + product.gallery.length) % product.gallery.length);
+        setSelectedImageIndex((prev) => (prev - 1 + fullProduct.gallery.length) % fullProduct.gallery.length);
       }
     }
   };
 
   const handleInquiry = () => {
-    const subject = encodeURIComponent(`Inquiry about ${product.name}`);
-    const body = encodeURIComponent(`Hello,\n\nI am interested in ${product.name}.\n\nPlease provide more details.\n\nThank you!`);
+    const subject = encodeURIComponent(`Inquiry about ${fullProduct.name}`);
+    const body = encodeURIComponent(`Hello,\n\nI am interested in ${fullProduct.name}.\n\nPlease provide more details.\n\nThank you!`);
     window.location.href = `mailto:hajaramulticare17@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent(`Hello! I'm interested in ${product.name}.`);
+    const message = encodeURIComponent(`Hello! I'm interested in ${fullProduct.name}.`);
     window.open(`https://wa.me/919897023005?text=${message}`, '_blank');
   };
 
-  const galleryImages = product.gallery || (product.image ? [product.image] : []);
+  const galleryImages = fullProduct.gallery || (fullProduct.image ? [fullProduct.image] : []);
   const hasMultipleImages = galleryImages.length > 1;
 
   return (
@@ -109,7 +145,7 @@ const ProductDetail = () => {
                 {galleryImages.length > 0 ? (
                   <img 
                     src={galleryImages[selectedImageIndex]} 
-                    alt={product.name}
+                    alt={fullProduct.name}
                     style={isZoomed ? {
                       transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
                     } : {}}
@@ -126,7 +162,7 @@ const ProductDetail = () => {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      <img src={img} alt={`${product.name} ${index + 1}`} />
+                      <img src={img} alt={`${fullProduct.name} ${index + 1}`} />
                     </motion.button>
                   ))}
                 </div>
@@ -134,9 +170,9 @@ const ProductDetail = () => {
             </div>
 
             <div className="product-detail-info">
-              <span className="product-category">{product.category}</span>
-              <h2>{product.name}</h2>
-              <p className="description">{product.shortDescription}</p>
+              <span className="product-category">{fullProduct.category}</span>
+              <h2>{fullProduct.name}</h2>
+              <p className="description">{fullProduct.shortDescription}</p>
 
               <div className="action-buttons">
                 <motion.button
@@ -169,13 +205,13 @@ const ProductDetail = () => {
             <div className="product-details-content">
               <div className="product-section">
                 <h3 className="section-heading">Description</h3>
-                <p>{product.description || product.longDescription}</p>
+                <p>{fullProduct.description || fullProduct.longDescription}</p>
               </div>
 
               <div className="product-section">
                 <h3 className="section-heading">Uses & Benefits</h3>
                 <ul className="uses-list">
-                  {product.uses.map((use, index) => (
+                  {fullProduct.uses.map((use, index) => (
                     <li key={index}>{use}</li>
                   ))}
                 </ul>
@@ -184,7 +220,7 @@ const ProductDetail = () => {
               <div className="product-section">
                 <h3 className="section-heading">Dosage & Directions</h3>
                 <ul className="dosage-list">
-                  {product.dosage.map((dose, index) => (
+                  {fullProduct.dosage.map((dose, index) => (
                     <li key={index}>{dose}</li>
                   ))}
                 </ul>

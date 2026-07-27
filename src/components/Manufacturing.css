@@ -106,9 +106,42 @@
   line-height: 1.7;
 }
 
+@media (max-width: 1920px) {
+  .manufacturing-grid {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .manufacturing-grid {
+    gap: 50px;
+  }
+  .facility-main-image {
+    height: 420px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .manufacturing-grid {
+    gap: 40px;
+  }
+  .facility-main-image {
+    height: 400px;
+  }
+}
+
 @media (max-width: 1024px) {
   .manufacturing-grid {
     grid-template-columns: 1fr;
+  }
+  .facility-main-image {
+    height: 380px;
+  }
+}
+
+@media (max-width: 991px) {
+  .facility-main-image {
+    height: 360px;
   }
 }
 
@@ -120,5 +153,60 @@
 
   .stat-number {
     font-size: 32px;
+  }
+  .facility-main-image {
+    height: 340px;
+  }
+  .feature-title {
+    font-size: 19px;
+  }
+  .feature-text {
+    font-size: 14px;
+  }
+  .facility-overlay {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .facility-main-image {
+    height: 320px;
+  }
+  .stat-number {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .facility-main-image {
+    height: 280px;
+  }
+  .facility-overlay {
+    padding: 25px;
+  }
+  .feature-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 375px) {
+  .facility-main-image {
+    height: 260px;
+  }
+  .stat-number {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .facility-main-image {
+    height: 240px;
+  }
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
   }
 }

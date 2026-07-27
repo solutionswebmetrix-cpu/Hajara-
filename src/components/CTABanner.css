@@ -85,6 +85,24 @@
   transform: translateY(-3px);
 }
 
+@media (max-width: 1920px) {
+  .cta-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .cta-title {
+    font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cta-title {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .cta {
     padding: 4rem 0;
@@ -92,6 +110,21 @@
   
   .cta-title {
     font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .cta-title {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 2rem;
+  }
+  .cta-description {
+    font-size: 1rem;
   }
 }
 
@@ -107,5 +140,41 @@
   
   .cta .btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .cta-title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta {
+    padding: 3.5rem 0;
+  }
+  .cta-title {
+    font-size: 1.6rem;
+  }
+  .cta-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .cta-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .cta {
+    padding: 3rem 0;
+  }
+  .cta-title {
+    font-size: 1.35rem;
+  }
+  .cta-description {
+    font-size: 0.9rem;
   }
 }
