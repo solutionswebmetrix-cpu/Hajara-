@@ -1,15 +1,21 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
-import { products, categories } from '../data/products';
+import { products, categories, slugifyCategory, deslugifyCategory } from '../data/products';
 import './Products.css';
 
 const Products = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const { category: categorySlug } = useParams();
+  const navigate = useNavigate();
+  const [selectedCategory, setSelectedCategory] = useState(() => deslugifyCategory(categorySlug));
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 36;
   const productsSectionRef = useRef(null);
+
+  useEffect(() => {
+    setSelectedCategory(deslugifyCategory(categorySlug));
+  }, [categorySlug]);
 
   // Filter products
   let filteredProducts = products;
@@ -27,6 +33,14 @@ const Products = () => {
   useEffect(() => {
     setCurrentPage(1);
   }, [selectedCategory, searchQuery]);
+
+  const handleCategorySelect = (categoryName) => {
+    if (categoryName) {
+      navigate(`/products/${slugifyCategory(categoryName)}`, { replace: false });
+    } else {
+      navigate('/products', { replace: false });
+    }
+  };
 
   // Pagination logic
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
@@ -61,11 +75,13 @@ const Products = () => {
 
   const pageNumbers = getPageNumbers();
 
+  const pageTitle = selectedCategory ? `${selectedCategory}` : 'Our Products';
+
   return (
     <div className="products-page">
       <section className="page-header" style={{ background: 'var(--gradient-green-light)' }}>
         <div className="container">
-          <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="page-title">Our Products</motion.h1>
+          <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} key={pageTitle} className="page-title">{pageTitle}</motion.h1>
         </div>
       </section>
 
@@ -93,9 +109,7 @@ const Products = () => {
             <motion.button
               key="all"
               className={`category-btn ${!selectedCategory ? 'active' : ''}`}
-              onClick={() => {
-                setSelectedCategory(null);
-              }}
+              onClick={() => handleCategorySelect(null)}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
@@ -105,9 +119,7 @@ const Products = () => {
               <motion.button
                 key={category}
                 className={`category-btn ${selectedCategory === category ? 'active' : ''}`}
-                onClick={() => {
-                  setSelectedCategory(category);
-                }}
+                onClick={() => handleCategorySelect(category)}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 transition={{ delay: index * 0.02 }}
@@ -123,7 +135,26 @@ const Products = () => {
         <div className="container">
           {filteredProducts.length === 0 ? (
             <div className="no-products">
-              <p>No products found matching your search.</p>
+              {selectedCategory && !searchQuery ? (
+                <>
+                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.75rem', color: 'var(--text)' }}>
+                    No products available
+                  </h3>
+                  <p>This product category is currently being updated. Please check back soon or explore our other categories.</p>
+                  <div style={{ marginTop: '1.5rem' }}>
+                    <Link to="/products" className="category-btn active" style={{ display: 'inline-block', textDecoration: 'none' }}>
+                      View All Products
+                    </Link>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <h3 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.75rem', color: 'var(--text)' }}>
+                    No products found
+                  </h3>
+                  <p>No products match your current search criteria. Please try a different search term or category.</p>
+                </>
+              )}
             </div>
           ) : (
             <>

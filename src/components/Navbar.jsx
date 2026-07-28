@@ -1,47 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FiSearch, FiMenu, FiX, FiPhone, FiMessageSquare } from 'react-icons/fi'
+import { categories, slugifyCategory } from '../data/products'
 import './Navbar.css'
 import logoImg from '../assets/logo.png'
-
-const categories = [
-  {
-    name: 'Herbal Syrups'
-  },
-  {
-    name: 'Ayurvedic Capsules & Tablets'
-  },
-  {
-    name: 'Herbal Powders (Churna)'
-  },
-  {
-    name: 'Health Tonic & Immunity Boosters'
-  },
-  {
-    name: 'Liver Tonic & Blood Purifier'
-  },
-  {
-    name: 'Women\'s Health Products'
-  },
-  {
-    name: 'Men\'s Health Products'
-  },
-  {
-    name: 'Herbal Cosmetics & Personal Care'
-  },
-  {
-    name: 'Ayurvedic Oils'
-  },
-  {
-    name: 'Herbal Toothpaste & Oral Care'
-  },
-  {
-    name: 'Skin Care Products'
-  },
-  {
-    name: 'Hair Care Products'
-  }
-]
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -86,11 +48,10 @@ const Navbar = () => {
     { name: 'Contact', path: '/contact' },
   ]
 
-  // Split categories into 4 columns
   const getCategoriesColumns = () => {
     const columns = [[], [], [], []];
     categories.forEach((cat, idx) => {
-      columns[idx % 4].push(cat);
+      columns[idx % 4].push({ name: cat, slug: slugifyCategory(cat) });
     });
     return columns;
   }
@@ -124,8 +85,8 @@ const Navbar = () => {
                       <div className="mega-columns">
                         {categoriesColumns.map((column, colIdx) => (
                           <div key={colIdx} className="mega-column">
-                            {column.map((cat, catIdx) => (
-                              <Link to="/products" key={catIdx} className="mega-link">
+                            {column.map((cat) => (
+                              <Link to={`/products/${cat.slug}`} key={cat.slug} className="mega-link">
                                 {cat.name}
                               </Link>
                             ))}

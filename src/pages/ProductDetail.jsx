@@ -1,10 +1,25 @@
 import { useParams } from 'react-router-dom';
-import { useState, useRef, useMemo } from 'react';
+import { useState, useRef, useMemo, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FiMail, FiPhone } from 'react-icons/fi';
 import { getProductById, getRelatedProducts } from '../data/products';
 import './ProductDetail.css';
+
+const normalizeList = (value, defaults) => {
+  let list = [];
+  if (value) {
+    if (Array.isArray(value)) {
+      list = value;
+    } else if (typeof value === 'string') {
+      list = [value];
+    }
+  }
+  if (list.length === 0) {
+    list = defaults;
+  }
+  return list;
+};
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -17,46 +32,22 @@ const ProductDetail = () => {
   
   const galleryRef = useRef(null);
 
-  if (!product) {
-    return (
-      <div className="product-detail-page">
-        <section className="page-header">
-          <div className="container">
-            <h1 className="page-title">Product Not Found</h1>
-          </div>
-        </section>
-      </div>
-    );
-  }
+  useEffect(() => {
+    setSelectedImageIndex(0);
+    setIsZoomed(false);
+  }, [id]);
 
-  // Merge product with productDetails
   const fullProduct = useMemo(() => {
-    // Handle dosage (could be string or array)
-    let dosageArray = [];
-    if (product?.dosage) {
-      if (Array.isArray(product.dosage)) {
-        dosageArray = product.dosage;
-      } else if (typeof product.dosage) {
-        dosageArray = [product.dosage];
-      }
-    }
-    if (dosageArray.length === 0) {
-      dosageArray = ['Take as directed by Ayurvedic physician', 'Follow recommended dosage'];
-    }
-
-    // Uses (could be string or array)
-    let usesArray = [];
-    if (product?.uses) {
-      if (Array.isArray(product.uses)) {
-        usesArray = product.uses;
-      } else if (typeof product.uses) {
-        usesArray = [product.uses];
-      }
-    }
-    if (usesArray.length === 0) {
-      usesArray = ['Supports overall health', 'Traditional formulation', 'Natural ingredients'];
-    }
-
+    if (!product) return null;
+    const dosageArray = normalizeList(product.dosage, [
+      'Take as directed by Ayurvedic physician',
+      'Follow recommended dosage'
+    ]);
+    const usesArray = normalizeList(product.uses, [
+      'Supports overall health',
+      'Traditional formulation',
+      'Natural ingredients'
+    ]);
     return {
       ...product,
       uses: usesArray,
@@ -66,7 +57,7 @@ const ProductDetail = () => {
   }, [product]);
 
   const handleMouseEnter = () => {
-    if (fullProduct.gallery && fullProduct.gallery.length > 0) {
+    if (fullProduct?.gallery && fullProduct.gallery.length > 0) {
       setIsZoomed(true);
     }
   };
@@ -88,7 +79,7 @@ const ProductDetail = () => {
   };
 
   const handleTouchEnd = (e) => {
-    if (!fullProduct.gallery || fullProduct.gallery.length <= 1) return;
+    if (!fullProduct?.gallery || fullProduct.gallery.length <= 1) return;
     const touchEndX = e.changedTouches[0].clientX;
     const diff = touchStartX - touchEndX;
     if (Math.abs(diff) > 50) {
@@ -108,8 +99,25 @@ const ProductDetail = () => {
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent(`Hello! I'm interested in ${fullProduct.name}.`);
-    window.open(`https://wa.me/919897023005?text=${message}`, '_blank');
+    window.open(`https://wa.me/919897023005?text=${message}`, '_blank', 'noopener,noreferrer');
   };
+
+  if (!product || !fullProduct) {
+    return (
+      <div className="product-detail-page">
+        <section className="page-header">
+          <div className="container">
+            <h1 className="page-title">Product Not Found</h1>
+            <div style={{ marginTop: '1rem', textAlign: 'center' }}>
+              <Link to="/products" className="btn btn-primary" style={{ textDecoration: 'none' }}>
+                View All Products
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
 
   const galleryImages = fullProduct.gallery || (fullProduct.image ? [fullProduct.image] : []);
   const hasMultipleImages = galleryImages.length > 1;
