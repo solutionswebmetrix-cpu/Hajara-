@@ -4,8 +4,31 @@ import { FiHeart, FiStar, FiGlobe, FiArrowRight } from 'react-icons/fi';
 import { products } from '../data/products';
 import './FeaturedProducts.css';
 
+const hotProductOrder = [
+  341,
+  342,
+  35,
+  286,
+  343,
+  93,
+  6,
+  63,
+  18,
+  344,
+  345,
+  346,
+  19,
+  92,
+  21,
+  60,
+  54,
+  222
+];
+
 const FeaturedProducts = () => {
-  const featuredProducts = products.slice(0, 6);
+  const featuredProducts = hotProductOrder
+    .map(id => products.find(p => p.id === id))
+    .filter(Boolean);
 
   return (
     <section className="section featured-products">

@@ -2,9 +2,7 @@ import { motion } from 'framer-motion';
 import './Certifications.css';
 import wellCert from '../assets/Certifications/Well Certified.png';
 import isoCert from '../assets/Certifications/ISO Certified.png';
-import fssaiCert from '../assets/Certifications/FSSAI Approved.png';
 import ayushCert from '../assets/Certifications/AYUSH Licensed.png';
-import halalCert from '../assets/Certifications/Halal Certified.png';
 
 const certifications = [
   { 
@@ -18,19 +16,9 @@ const certifications = [
     image: isoCert
   },
   { 
-    name: 'FSSAI Approved', 
-    description: 'Food Safety and Standards Authority of India',
-    image: fssaiCert
-  },
-  { 
     name: 'AYUSH Licensed', 
     description: 'Ayurveda, Yoga & Naturopathy, Unani, Siddha, Homoeopathy',
     image: ayushCert
-  },
-  { 
-    name: 'Halal Certified', 
-    description: 'Halal certification for global markets',
-    image: halalCert
   }
 ];
 

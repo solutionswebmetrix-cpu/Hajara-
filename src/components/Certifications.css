@@ -5,8 +5,10 @@
 
 .certifications-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .cert-card {
@@ -81,24 +83,6 @@
 
 .cert-card:hover .cert-desc {
   color: rgba(255, 255, 255, 0.9);
-}
-
-@media (max-width: 1920px) {
-  .certifications-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-@media (max-width: 1440px) {
-  .certifications-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (max-width: 1200px) {
-  .certifications-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 @media (max-width: 1024px) {

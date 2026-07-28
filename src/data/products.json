@@ -50,7 +50,7 @@
     "name": "Mr Ortho Pain Oil",
     "category": "Medicated Taila",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722880/mr_ortho_pain_oil_wmq9xk.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Mr Ortho Pain Oil for traditional wellness support."
   },
   {
@@ -158,7 +158,7 @@
     "name": "Kamaxi Capsule",
     "category": "Capsule",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784723084/Kamaxi_capsule_r55wwy.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Kamaxi Capsule for traditional wellness support."
   },
   {
@@ -167,7 +167,7 @@
     "name": "Careliv Liver Disorder Syrup",
     "category": "Sharbat",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722764/careliv_liver_disorder_syrup_x9s3r2.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Careliv Liver Disorder Syrup for traditional wellness support."
   },
   {
@@ -185,7 +185,7 @@
     "name": "Charmolin Herbal Restorative",
     "category": "Sharbat",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722764/charmolin_herbal_restorative_1_q1fc8w.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Charmolin Herbal Restorative for traditional wellness support."
   },
   {
@@ -311,7 +311,7 @@
     "name": "Grower Hair Oil",
     "category": "Medicated Taila",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722879/grower_hair_oil_dkykvo.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Grower Hair Oil for traditional wellness support."
   },
   {
@@ -482,7 +482,7 @@
     "name": "Hajara Appezyme Digestive Syrup",
     "category": "Sharbat",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/hajara_appezyme_digestive_syrup.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Hajara Appezyme Digestive Syrup for traditional wellness support."
   },
   {
@@ -536,7 +536,7 @@
     "name": "Irovitz Syrup With Herbal Ingredients",
     "category": "Sharbat",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722767/irovitz_syrup_1_feamti.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Irovitz Syrup With Herbal Ingredients for traditional wellness support."
   },
   {
@@ -563,7 +563,7 @@
     "name": "Kabjvida Powder",
     "category": "Churna",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722824/kabjvida_powder_jfugts.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Kabjvida Powder for traditional wellness support."
   },
   {
@@ -824,7 +824,7 @@
     "name": "Puspanjali Ayurvedic Medicine Syrup",
     "category": "Sharbat",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722769/puspanjali_syrup_2_gzvem2.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Puspanjali Ayurvedic Medicine Syrup for traditional wellness support."
   },
   {
@@ -833,7 +833,7 @@
     "name": "Vajrika Ayurvedic Toothpaste",
     "category": "Ayurvedic Tooth Powders",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784723117/Vajrika_Ayurvedic_toothpaste_bv5uem.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Vajrika Ayurvedic Toothpaste for traditional wellness support."
   },
   {
@@ -1994,7 +1994,7 @@
     "name": "Memory Kind Gold Avaleha",
     "category": "Advanced Brain Tonics & Mineral Rasayanas",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/memory-kind-gold-avaleha.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Memory Kind Gold Avaleha for traditional wellness support."
   },
   {
@@ -2570,7 +2570,7 @@
     "name": "Hajara Multicare Face Wash",
     "category": "Sharbat",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722766/Herbal_face_wash_with_turmeric_and_aloe_zqdhxr.webp",
-    "featured": false,
+    "featured": true,
     "shortDescription": "Hajara Multicare Face Wash for traditional wellness support."
   },
   {
@@ -3058,5 +3058,59 @@
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887214/Mahanarayan_Oil_Mahanarayan_Tail_Pure_Herbal_Oil_Authentic_oil_for_pain_Wellness_Oil_Ayurvedic_Pain_Oil_Knee_joint_pain_Solution_Herbal_Oil_Herbal_Joint_Massage_Oil_Pain_relief_oil_wui6na.webp",
     "featured": false,
     "shortDescription": "Mahanarayan Tail for traditional wellness support."
+  },
+  {
+    "id": 341,
+    "slug": "grower-sat",
+    "name": "Grower Sat",
+    "category": "Medicated Taila",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887213/Mahabhringraj_Tail_Mahabhringraj_Oil_Hari_Oil_Hair_Regrowth_Oil_Hari_Grayness_Oil_Hair_Fall_control_oil_Hari_Fall_control_Medicine_Hair_whitening_Solution_Tradition_solution_for_Hair_Loss_kmhzel.webp",
+    "featured": true,
+    "shortDescription": "Grower Sat for traditional wellness support."
+  },
+  {
+    "id": 342,
+    "slug": "dev-black-care-shampoo",
+    "name": "Dev Black Care Shampoo",
+    "category": "Sharbat",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Medicated Taila/hajara_herbal_hair.webp",
+    "featured": true,
+    "shortDescription": "Dev Black Care Shampoo for traditional wellness support."
+  },
+  {
+    "id": 343,
+    "slug": "rosy-face-cream",
+    "name": "Rosy Face Cream",
+    "category": "Sharbat",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Jawahar Mohra.webp",
+    "featured": true,
+    "shortDescription": "Rosy Face Cream for traditional wellness support."
+  },
+  {
+    "id": 344,
+    "slug": "edno-capsule",
+    "name": "EDNO Capsule",
+    "category": "Capsule",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722973/Abha_Guggul_jawujz.webp",
+    "featured": true,
+    "shortDescription": "EDNO Capsule for traditional wellness support."
+  },
+  {
+    "id": 345,
+    "slug": "pilock-h-capsule",
+    "name": "Pilock-H Capsule",
+    "category": "Capsule",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722974/AGASTYA_GUGGUL_Guggul_Tablets._fxj9vx.webp",
+    "featured": true,
+    "shortDescription": "Pilock-H Capsule for traditional wellness support."
+  },
+  {
+    "id": 346,
+    "slug": "activa-syrup",
+    "name": "Activa Syrup",
+    "category": "Sharbat",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/khameere-gajwan.webp",
+    "featured": true,
+    "shortDescription": "Activa Syrup for traditional wellness support."
   }
 ]

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FiSearch, FiMenu, FiX, FiPhone, FiMessageSquare } from 'react-icons/fi'
 import './Navbar.css'
@@ -48,14 +48,34 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [megaMenuOpen, setMegaMenuOpen] = useState(false)
   const location = useLocation()
+  const closeTimeoutRef = useRef(null)
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20)
     }
     window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      if (closeTimeoutRef.current) {
+        clearTimeout(closeTimeoutRef.current)
+      }
+    }
   }, [])
+
+  const handleMegaEnter = () => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current)
+      closeTimeoutRef.current = null
+    }
+    setMegaMenuOpen(true)
+  }
+
+  const handleMegaLeave = () => {
+    closeTimeoutRef.current = setTimeout(() => {
+      setMegaMenuOpen(false)
+    }, 150)
+  }
 
   const navLinks = [
     { name: 'Home', path: '/' },
@@ -90,8 +110,8 @@ const Navbar = () => {
               <div
                 key={link.path}
                 className={`nav-link-wrapper ${location.pathname === link.path ? 'active' : ''}`}
-                onMouseEnter={() => link.hasMegaMenu && setMegaMenuOpen(true)}
-                onMouseLeave={() => link.hasMegaMenu && setMegaMenuOpen(false)}
+                onMouseEnter={() => link.hasMegaMenu && handleMegaEnter()}
+                onMouseLeave={() => link.hasMegaMenu && handleMegaLeave()}
               >
                 <Link to={link.path} className="nav-link">
                   {link.name}

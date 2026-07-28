@@ -54,6 +54,8 @@
 
 .nav-link-wrapper {
   position: relative;
+  padding-bottom: 20px;
+  margin-bottom: -20px;
 }
 
 .nav-link {
@@ -104,23 +106,26 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-8px);
   width: 900px;
   background: white;
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-xl);
-  margin-top: 10px;
+  margin-top: 0;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+  transition: opacity 0.25s ease, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.25s ease;
   transform-origin: top center;
+  pointer-events: none;
 }
 
 .nav-link-wrapper:hover .mega-menu,
 .nav-link-wrapper.active .mega-menu {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(5px);
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+  transition: opacity 0.3s ease, transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), visibility 0s ease;
 }
 
 .mega-menu-container {
