@@ -156,7 +156,7 @@
   {
     "id": 18,
     "slug": "kamaxi-capsule",
-    "name": "Kamesi Capsule",
+    "name": "kamaxi Capsule",
     "category": "Female Vital & Wellness",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786176025/Kamesi_Capsule_owif5a.webp",
     "featured": true,
@@ -3101,7 +3101,7 @@
   {
     "id": 344,
     "slug": "edno-capsule",
-    "name": "EDN6 Capsule",
+    "name": "EDNO Capsule",
     "category": "Male Vital & Vitality",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786170685/EDNO_Herbal_ED_Solution_Capsules_z6bntg.webp",
     "featured": true,
@@ -3111,7 +3111,7 @@
   {
     "id": 345,
     "slug": "pilock-h-capsule",
-    "name": "Piloek-H Capsule",
+    "name": "Pilock-H Capsule",
     "category": "Herbal Haemorrhoids",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786170693/Hajara_Pilock-H_Capsules_ogmbvn.webp",
     "featured": true,
@@ -3121,7 +3121,7 @@
   {
     "id": 346,
     "slug": "activa-syrup",
-    "name": "Activ Syrup",
+    "name": "Activa Syrup",
     "category": "Herbal Generality Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169028/Hajara_Activa_General_Health_Syrup_faqst8.webp",
     "featured": true,
