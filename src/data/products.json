@@ -4,7 +4,7 @@
     "slug": "agnimukh-Powder",
     "name": "Agnimukh Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/agnimukh_powder.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840785/agnimukh_powder_cpiu60_yb2nap.webp",
     "featured": false,
     "shortDescription": "Agnimukh Powder for traditional wellness support."
   },
@@ -13,7 +13,7 @@
     "slug": "ajmodadi-powder",
     "name": "Ajmodadi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722801/ajmodadi_powder_xgsmnb.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840796/ajmodadi_powder_xgsmnb_uojawu.webp",
     "featured": false,
     "shortDescription": "Ajmodadi Powder for traditional wellness support."
   },
@@ -22,7 +22,7 @@
     "slug": "aladi-powder",
     "name": "Aladi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722802/aladi_powder_dfa5iq.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840496/aladi_powder_dfa5iq_swzgey.webp",
     "featured": false,
     "shortDescription": "Aladi Powder for traditional wellness support."
   },
@@ -31,7 +31,7 @@
     "slug": "alsi-flex-seed-powder",
     "name": "Alsi Flex Seed Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722802/alsi_flex_seed_powder_gqnq49.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840806/alsi_flex_seed_powder_gqnq49_gcsu7v.webp",
     "featured": false,
     "shortDescription": "Alsi Flex Seed Powder for traditional wellness support."
   },
@@ -40,25 +40,26 @@
     "slug": "amla-powder",
     "name": "Amla Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722803/amla_powder_wuxo2u.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841242/amla_powder_wuxo2u_qqhgin.webp",
     "featured": false,
     "shortDescription": "Amla Powder for traditional wellness support."
   },
   {
     "id": 6,
     "slug": "mr-ortho-pain-oil",
-    "name": "Mr Ortho Pain Oil",
-    "category": "Medicated Taila",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722880/mr_ortho_pain_oil_wmq9xk.webp",
+    "name": "Mr. Ortho Pain Oil",
+    "category": "Pain Relief Oil",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786175903/Mr._Ortho_Pain_Oil_h0gp7y.webp",
     "featured": true,
-    "shortDescription": "Mr Ortho Pain Oil for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For painful and swelling conditions",
+    "description": "Proprietary Medicine: For painful and swelling conditions"
   },
   {
     "id": 7,
     "slug": "arjuna-powder",
     "name": "Arjuna Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722804/arjuna_powder_soc0zx.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840816/arjuna_powder_soc0zx_lo2ndq.webp",
     "featured": false,
     "shortDescription": "Arjuna Powder for traditional wellness support."
   },
@@ -67,7 +68,7 @@
     "slug": "ashwagandha-powder",
     "name": "Ashwagandha Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722805/ashwagandha_powder_rg11jf.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840515/ashwagandha_powder_rg11jf_l47iee.webp",
     "featured": false,
     "shortDescription": "Ashwagandha Powder for traditional wellness support."
   },
@@ -76,7 +77,7 @@
     "slug": "avipattikar-powder",
     "name": "Avipattikar Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722805/avipattikar_powder_wkxoju.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841253/avipattikar_powder_wkxoju_ebtcbe.webp",
     "featured": false,
     "shortDescription": "Avipattikar Powder for traditional wellness support."
   },
@@ -85,7 +86,7 @@
     "slug": "ayurvedic-brain-tonic",
     "name": "Ayurvedic Brain Tonic",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722807/ayurvedic_brain_tonic_llicwg.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840827/ayurvedic_brain_tonic_llicwg_rvdtg6.webp",
     "featured": false,
     "shortDescription": "Ayurvedic Brain Tonic for traditional wellness support."
   },
@@ -103,7 +104,7 @@
     "slug": "bakuchi-powder",
     "name": "Bakuchi Powder",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722808/bakuchi_powder_wklkcg.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840536/bakuchi_powder_wklkcg_msw7jm.webp  ",
     "featured": false,
     "shortDescription": "Bakuchi Powder for traditional wellness support."
   },
@@ -112,7 +113,7 @@
     "slug": "balchaturbhadra-powder",
     "name": "Balchaturbhadra Powder",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722809/balchaturbhadra_powder_tirxms.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840837/balchaturbhadra_powder_tirxms_htckyt.webp",
     "featured": false,
     "shortDescription": "Balchaturbhadra Powder for traditional wellness support."
   },
@@ -121,7 +122,7 @@
     "slug": "balmitra-churna",
     "name": "Balmitra Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722809/balmitra_powder_gmnvlm.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840848/balmitra_powder_gmnvlm_euqfrz.webp",
     "featured": false,
     "shortDescription": "Balmitra Churna for traditional wellness support."
   },
@@ -130,7 +131,7 @@
     "slug": "bhasmak-nashak-churna",
     "name": "Bhasmak Nashak churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722810/bhasmak_nashak_powder_jthwa1.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840547/bhasmak_nashak_powder_jthwa1_utlson.webp",
     "featured": false,
     "shortDescription": "Bhasmak Nashak Powder for traditional wellness support."
   },
@@ -139,7 +140,7 @@
     "slug": "brahat-sitopaladi-churna",
     "name": "Brahat Sitopaladi churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722811/brahat_sitopaladi_powder_m5skv2.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840858/brahat_sitopaladi_powder_m5skv2_ltzy39.webp",
     "featured": false,
     "shortDescription": "Brahat Sitopaladi churna for traditional wellness support."
   },
@@ -148,34 +149,36 @@
     "slug": "brahmi-powder",
     "name": "Brahmi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722812/brahmi_powder_mnkjtf.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840869/brahmi_powder_mnkjtf_rmnnbv.webp",
     "featured": false,
     "shortDescription": "Brahmi Powder for traditional wellness support."
   },
   {
     "id": 18,
     "slug": "kamaxi-capsule",
-    "name": "Kamaxi Capsule",
-    "category": "Capsule",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784723084/Kamaxi_capsule_r55wwy.webp",
+    "name": "Kamesi Capsule",
+    "category": "Female Vital & Wellness",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786176025/Kamesi_Capsule_owif5a.webp",
     "featured": true,
-    "shortDescription": "Kamaxi Capsule for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For female vitality and wellness support",
+    "description": "Proprietary Medicine: For female vitality and wellness support"
   },
   {
     "id": 19,
     "slug": "careliv-liver-disorder-syrup",
-    "name": "Careliv Liver Disorder Syrup",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722764/careliv_liver_disorder_syrup_x9s3r2.webp",
+    "name": "Careliv Syrup",
+    "category": "Herbal Liver Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928759/careliv_liver_disorder_syrup_x9s3r2_kq7vlm.webp",
     "featured": true,
-    "shortDescription": "Careliv Liver Disorder Syrup for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For detox and liver wellness support",
+    "description": "Proprietary Medicine: For detox and liver wellness support"
   },
   {
     "id": 20,
     "slug": "chandan-powder",
     "name": "Chandan Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722812/chandan_powder_ycedir.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840557/chandan_powder_ycedir_w3rd0h.webp",
     "featured": false,
     "shortDescription": "Chandan Powder for traditional wellness support."
   },
@@ -183,8 +186,8 @@
     "id": 21,
     "slug": "charmolin-herbal-restorative",
     "name": "Charmolin Herbal Restorative",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722764/charmolin_herbal_restorative_1_q1fc8w.webp",
+    "category": "Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928760/charmolin_herbal_restorative_1_q1fc8w_czictg.webp",
     "featured": true,
     "shortDescription": "Charmolin Herbal Restorative for traditional wellness support."
   },
@@ -193,7 +196,7 @@
     "slug": "chirayata-powder",
     "name": "Chirayata Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722813/chirayata_powder_cauwvd.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840879/chirayata_powder_cauwvd_yet3hb.webp",
     "featured": false,
     "shortDescription": "Chirayata Powder for traditional wellness support."
   },
@@ -202,7 +205,7 @@
     "slug": "chitrakadi-powder",
     "name": "Chitrakadi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722813/chitrakadi_powder_yplzpv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840889/chitrakadi_powder_yplzpv_lcf0r9.webp",
     "featured": false,
     "shortDescription": "Chitrakadi Powder for traditional wellness support."
   },
@@ -211,7 +214,7 @@
     "slug": "chopchiniyadi-powder",
     "name": "Chopchiniyadi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722814/chopchiniyadi_powder_riihzq.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840900/chopchiniyadi_powder_riihzq_w8l1ow.webp",
     "featured": false,
     "shortDescription": "Chopchiniyadi Powder for traditional wellness support."
   },
@@ -220,7 +223,7 @@
     "slug": "dandimastak-powder",
     "name": "Dandimastak Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722815/dandimastak_powder_e8thzl.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840567/dandimastak_powder_e8thzl_xebxbb.webp",
     "featured": false,
     "shortDescription": "Dandimastak Powder for traditional wellness support."
   },
@@ -229,7 +232,7 @@
     "slug": "dantmanjan-lal",
     "name": "Dantmanjan Lal",
     "category": "Ayurvedic Tooth Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722815/dantmanjan_lal_puwt5t.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840910/dantmanjan_lal_puwt5t_l3nzkt.webp",
     "featured": false,
     "shortDescription": "Dantmanjan Lal for traditional wellness support."
   },
@@ -238,7 +241,7 @@
     "slug": "dantrashak-manjan",
     "name": "Dantrashak Manjan",
     "category": "Ayurvedic Tooth Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722816/dantrashak_manjan_wxocup.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840921/dantrashak_manjan_wxocup_jj55xf.webp",
     "featured": false,
     "shortDescription": "Dantrashak Manjan for traditional wellness support."
   },
@@ -247,7 +250,7 @@
     "slug": "dantshoolhar-manjan",
     "name": "Dantshoolhar Manjan",
     "category": "Ayurvedic Tooth Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722817/dantshoolhar_manjan_cntpcp.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840577/dantshoolhar_manjan_cntpcp_fhivxc.webp",
     "featured": false,
     "shortDescription": "Dantshoolhar Manjan for traditional wellness support."
   },
@@ -256,7 +259,7 @@
     "slug": "dhatuposhtik-powder",
     "name": "Dhatuposhtik Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722817/dhatuposhtik_powder_wshhcv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840588/dhatuposhtik_powder_wshhcv_o1cytb.webp",
     "featured": false,
     "shortDescription": "Dhatuposhtik Powder for traditional wellness support."
   },
@@ -264,8 +267,8 @@
     "id": 30,
     "slug": "gacid-syrup",
     "name": "Gacid Syrup",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/gacid_syrup.webp",
+    "category": "Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169028/Hajara_Gacid_Gastric_Syrup_ui39o4.webp",
     "featured": false,
     "shortDescription": "Gacid Syrup for traditional wellness support."
   },
@@ -274,7 +277,7 @@
     "slug": "garbhakar-powder",
     "name": "Garbhakar Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722818/garbhakar_powder_bd3yu0.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840931/garbhakar_powder_bd3yu0_s8kx5l.webp",
     "featured": false,
     "shortDescription": "Garbhakar Powder for traditional wellness support."
   },
@@ -283,7 +286,7 @@
     "slug": "giloy-powder",
     "name": "Giloy Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722819/giloy_powder_i7q7fq.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840942/giloy_powder_i7q7fq_bobj7r.webp",
     "featured": false,
     "shortDescription": "Giloy Powder for traditional wellness support."
   },
@@ -292,7 +295,7 @@
     "slug": "giloy-satva-powder",
     "name": "Giloy Satva Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722819/giloy_satva_powder_wfav7p.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840952/giloy_satva_powder_wfav7_hju8lh.webp",
     "featured": false,
     "shortDescription": "Giloy Satva Powder for traditional wellness support."
   },
@@ -309,10 +312,11 @@
     "id": 35,
     "slug": "grower-hair-oil",
     "name": "Grower Hair Oil",
-    "category": "Medicated Taila",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722879/grower_hair_oil_dkykvo.webp",
+    "category": "Herbal Regrowth Hair Oil",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786171251/Grower_Hair_Oil_rbhfap.webp",
     "featured": true,
-    "shortDescription": "Grower Hair Oil for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For hair regrowth and scalp support",
+    "description": "Proprietary Medicine: For hair regrowth and scalp support"
   },
   {
     "id": 36,
@@ -480,8 +484,8 @@
     "id": 54,
     "slug": "hajara-appezyme-digestive-syrup",
     "name": "Hajara Appezyme Digestive Syrup",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/hajara_appezyme_digestive_syrup.webp",
+    "category": "Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169028/Hajara_Appezyme_Syrup_bd7zso.webp",
     "featured": true,
     "shortDescription": "Hajara Appezyme Digestive Syrup for traditional wellness support."
   },
@@ -489,7 +493,7 @@
     "id": 55,
     "slug": "hajara-herbal-hair",
     "name": "Hajara Herbal Hair",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Medicated Taila/hajara_herbal_hair.webp",
     "featured": false,
     "shortDescription": "Hajara Herbal Hair for traditional wellness support."
@@ -499,7 +503,7 @@
     "slug": "harad-powder",
     "name": "Harad Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722821/harad_powder_ankdok.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840962/harad_powder_ankdok_df4rbp.webp",
     "featured": false,
     "shortDescription": "Harad Powder for traditional wellness support."
   },
@@ -507,7 +511,7 @@
     "id": 57,
     "slug": "herbal-face-wash-with-turmeric-and-aloe",
     "name": "Herbal Face Wash With Turmeric And Aloe",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722766/Herbal_face_wash_with_turmeric_and_aloe_zqdhxr.webp",
     "featured": false,
     "shortDescription": "Herbal Face Wash With Turmeric And Aloe for traditional wellness support."
@@ -517,7 +521,7 @@
     "slug": "himalayan-shilajit",
     "name": "Himalayan Shilajit",
     "category": "Advanced Brain Tonics & Mineral Rasayanas",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722821/Himalayan_Shilajit_imgi5b.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840598/Himalayan_Shilajit_imgi5b_i1ezg4.webp",
     "featured": false,
     "shortDescription": "Himalayan Shilajit for traditional wellness support."
   },
@@ -526,7 +530,7 @@
     "slug": "indigo-powder",
     "name": "Indigo Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722822/indigo_powder_hjhzch.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840609/indigo_powder_hjhzch_qh4tge.webp",
     "featured": false,
     "shortDescription": "Indigo Powder for traditional wellness support."
   },
@@ -534,8 +538,8 @@
     "id": 60,
     "slug": "irovitz-syrup-with-herbal-ingredients",
     "name": "Irovitz Syrup With Herbal Ingredients",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722767/irovitz_syrup_1_feamti.webp",
+    "category": "Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928762/irovitz_syrup_oceplr_fwpg2d.webp",
     "featured": true,
     "shortDescription": "Irovitz Syrup With Herbal Ingredients for traditional wellness support."
   },
@@ -544,7 +548,7 @@
     "slug": "jamun-seed-powder",
     "name": "Jamun Seed Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722822/jamun_seed_powder_viqrrg.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840619/jamun_seed_powder_viqrrg_ioqvgr.webp",
     "featured": false,
     "shortDescription": "Jamun Seed Powder for traditional wellness support."
   },
@@ -553,25 +557,26 @@
     "slug": "jatifaladi-powder",
     "name": "Jatifaladi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722823/jatifaladi_powder_h9zsvv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840984/jatifaladi_powder_h9zsvv_ytbkme.webp",
     "featured": false,
     "shortDescription": "Jatifaladi Powder for traditional wellness support."
   },
   {
     "id": 63,
     "slug": "kabjvida-powder",
-    "name": "Kabjvida Powder",
-    "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722824/kabjvida_powder_jfugts.webp",
+    "name": "Kabj Vida Churna",
+    "category": "Constipation Churna",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840630/kabjvida_powder_jfugts_huc5oc.webp",
     "featured": true,
-    "shortDescription": "Kabjvida Powder for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For constipation and digestive support",
+    "description": "Proprietary Medicine: For constipation and digestive support"
   },
   {
     "id": 64,
     "slug": "kachnar-powder",
     "name": "Kachnar Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722824/kachnar_powder_urfn7f.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840994/kachnar_powder_urfn7f_ilrsfv.webp",
     "featured": false,
     "shortDescription": "Kachnar Powder for traditional wellness support."
   },
@@ -580,7 +585,7 @@
     "slug": "madhumeh-daman-powder",
     "name": "Madhumeh Daman Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722825/madhumeh_daman_powder_wnhui3.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841124/madhumeh_daman_powder_wnhui3_htmqf6.webp",
     "featured": false,
     "shortDescription": "Madhumeh Daman Powder for traditional wellness support."
   },
@@ -589,7 +594,7 @@
     "slug": "mahasudarshan-powder",
     "name": "Mahasudarshan Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722826/mahasudarshan_powder_ede43g.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840640/mahasudarshan_powder_ede43g_o3g9oa.webp",
     "featured": false,
     "shortDescription": "Mahasudarshan Powder for traditional wellness support."
   },
@@ -598,7 +603,7 @@
     "slug": "mastishkabal-powder",
     "name": "Mastishkabal Powder",
     "category": "Advanced Brain Tonics & Mineral Rasayanas",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722826/mastishkabal_powder_clrahz.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840650/mastishkabal_powder_clrahz_llerhq.webp",
     "featured": false,
     "shortDescription": "Mastishkabal Powder for traditional wellness support."
   },
@@ -607,7 +612,7 @@
     "slug": "methi-powder",
     "name": "Methi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722827/methi_powder_fejhlp.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841135/methi_powder_fejhlp_db3jj3.webp",
     "featured": false,
     "shortDescription": "Methi Powder for traditional wellness support."
   },
@@ -634,7 +639,7 @@
     "slug": "namak-sulemani-powder",
     "name": "Namak Sulemani Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722829/namak_sulemani_powder_ym92fv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841145/namak_sulemani_powder_ym92fv_iqofmb.webp",
     "featured": false,
     "shortDescription": "Namak Sulemani Powder for traditional wellness support."
   },
@@ -643,7 +648,7 @@
     "slug": "narayan-powder",
     "name": "Narayan Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722830/narayan_powder_nytqpv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841156/narayan_powder_nytqpv_k3aoz1.webp",
     "featured": false,
     "shortDescription": "Narayan Powder for traditional wellness support."
   },
@@ -652,7 +657,7 @@
     "slug": "neem-powder",
     "name": "Neem Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722830/neem_powder_cqe5ir.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841167/neem_powder_cqe5ir_fhxkgw.webp",
     "featured": false,
     "shortDescription": "Neem Powder for traditional wellness support."
   },
@@ -661,7 +666,7 @@
     "slug": "pamari-pralep-powder",
     "name": "Pamari Pralep Powder",
     "category": "Topical Application Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722831/pamari_pralep_powder_vxshi3.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840661/pamari_pralep_powder_vxshi3_c68hlq.webp",
     "featured": false,
     "shortDescription": "Pamari Pralep Powder for traditional wellness support."
   },
@@ -670,7 +675,7 @@
     "slug": "panchsam-powder",
     "name": "Panchsam Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722832/panchsam_powder_aahksi.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841177/panchsam_powder_aahksi_s8yqby.webp",
     "featured": false,
     "shortDescription": "Panchsam Powder for traditional wellness support."
   },
@@ -679,7 +684,7 @@
     "slug": "pradarnashak-powder",
     "name": "Pradarnashak Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722832/pradarnashak_powder_zzrmn7.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841188/pradarnashak_powder_zzrmn7_qhufoy.webp",
     "featured": false,
     "shortDescription": "Pradarnashak Powder for traditional wellness support."
   },
@@ -688,7 +693,7 @@
     "slug": "pramehentak-powder",
     "name": "Pramehentak Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722833/pramehentak_powder_r0uzn7.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840671/pramehentak_powder_r0uzn7_urpw4z.webp",
     "featured": false,
     "shortDescription": "Pramehentak Powder for traditional wellness support."
   },
@@ -697,7 +702,7 @@
     "slug": "punarnava-powder",
     "name": "Punarnava Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722834/punarnava_powder_f0vvnh.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840681/punarnava_powder_f0vvnh_zrvjae.webp",
     "featured": false,
     "shortDescription": "Punarnava Powder for traditional wellness support."
   },
@@ -706,7 +711,7 @@
     "slug": "pusyanug-powder",
     "name": "Pusyanug Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722834/pusyanug_powder_hvrjuk.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841198/pusyanug_powder_hvrjuk_qy1z0a.webp",
     "featured": false,
     "shortDescription": "Pusyanug Powder for traditional wellness support."
   },
@@ -715,7 +720,7 @@
     "slug": "raj-pravartak-powder",
     "name": "Raj Pravartak Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722835/raj_pravartak_powder_mrmc0f.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840692/raj_pravartak_powder_mrmc0f_uayfhm.webp",
     "featured": false,
     "shortDescription": "Raj Pravartak Powder for traditional wellness support."
   },
@@ -724,7 +729,7 @@
     "slug": "reetha-powder",
     "name": "Reetha Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722835/reetha_powder_uysoe4.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841209/reetha_powder_uysoe4_zrnigq.webp",
     "featured": false,
     "shortDescription": "Reetha Powder for traditional wellness support."
   },
@@ -733,7 +738,7 @@
     "slug": "sanay-powder",
     "name": "Sanay Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722836/sanay_powder_ttyh3j.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840702/sanay_powder_ttyh3j_syrxvl.webp",
     "featured": false,
     "shortDescription": "Sanay Powder for traditional wellness support."
   },
@@ -742,7 +747,7 @@
     "slug": "satavar-powder",
     "name": "Satavar Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722839/triphala_powder_qzma1k.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840713/satavar_powder_rni8e7_ht40u4.webp",
     "featured": false,
     "shortDescription": "Satavar Powder for traditional wellness support."
   },
@@ -751,7 +756,7 @@
     "slug": "shikakai-powder",
     "name": "Shikakai Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722837/shikakai_powder_xf6btr.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840723/shikakai_powder_xf6btr_g9e2je.webp",
     "featured": false,
     "shortDescription": "Shikakai Powder for traditional wellness support."
   },
@@ -760,7 +765,7 @@
     "slug": "talisadi-powder",
     "name": "Talisadi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722838/talisadi_powder_u3jnxh.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840733/talisadi_powder_u3jnxh_tlpdhl.webp",
     "featured": false,
     "shortDescription": "Talisadi Powder for traditional wellness support."
   },
@@ -769,7 +774,7 @@
     "slug": "triphala-powder",
     "name": "Triphala Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722839/triphala_powder_qzma1k.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840744/triphala_powder_qzma1k_tuclcc.webp",
     "featured": false,
     "shortDescription": "Triphala Powder for traditional wellness support."
   },
@@ -778,7 +783,7 @@
     "slug": "tulsi-powder",
     "name": "Tulsi Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722839/tulsi_powder_lkc9ob.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841219/tulsi_powder_lkc9ob_xjknra.webp",
     "featured": false,
     "shortDescription": "Tulsi Powder for traditional wellness support."
   },
@@ -787,7 +792,7 @@
     "slug": "vajrachar-powder",
     "name": "Vajrachar Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722840/vajrachar_powder_chvohm.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840754/vajrachar_powder_chvohm_cdk2y7.webp",
     "featured": false,
     "shortDescription": "Vajrachar Powder for traditional wellness support."
   },
@@ -796,7 +801,7 @@
     "slug": "vajrakshar-powder",
     "name": "Vajrakshar Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722841/vajrakshar_powder_b6rahc.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840765/vajrakshar_powder_b6rahc_bxhois.webp",
     "featured": false,
     "shortDescription": "Vajrakshar Powder for traditional wellness support."
   },
@@ -814,34 +819,36 @@
     "slug": "virya-shodhan-powder",
     "name": "Virya Shodhan Powder",
     "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722842/virya_shodhan_powder_ryvkab.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840775/virya_shodhan_powder_ryvkab_t5gjwm.webp",
     "featured": false,
     "shortDescription": "Virya Shodhan Powder for traditional wellness support."
   },
   {
     "id": 92,
     "slug": "puspanjali-ayurvedic-medicine-syrup",
-    "name": "Puspanjali Ayurvedic Medicine Syrup",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722769/puspanjali_syrup_2_gzvem2.webp",
+    "name": "Pushpangali Syrup",
+    "category": "Herbal Female Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786173935/Pushpangali_Syrup_s4z5sa.webp",
     "featured": true,
-    "shortDescription": "Puspanjali Ayurvedic Medicine Syrup for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For uterus and female wellness",
+    "description": "Proprietary Medicine: For uterus and female wellness"
   },
   {
     "id": 93,
     "slug": "vajrika-ayurvedic-toothpaste",
-    "name": "Vajrika Ayurvedic Toothpaste",
-    "category": "Ayurvedic Tooth Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784723117/Vajrika_Ayurvedic_toothpaste_bv5uem.webp",
+    "name": "Vajikaran Toothpowder",
+    "category": "Ayurvedic Toothpowder",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786175962/Vajikaran_Toothpowder_qvwulh.webp",
     "featured": true,
-    "shortDescription": "Vajrika Ayurvedic Toothpaste for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For teeth, gums and oral support",
+    "description": "Proprietary Medicine: For teeth, gums and oral support"
   },
   {
     "id": 94,
     "slug": "viryashodhan-vati",
     "name": "Viryashodhan Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Aroshoghani Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930306/Veeryashodhan_Vati_rx3ffx.webp",
     "featured": false,
     "shortDescription": "Viryashodhan Vati for traditional wellness support."
   },
@@ -850,7 +857,7 @@
     "slug": "virya-stambhan-vati",
     "name": "Virya Stambhan Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Arogya Vardhani Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930305/Veerya_Stambhan_Vati_cqdphb.webp",
     "featured": false,
     "shortDescription": "Virya Stambhan Vati for traditional wellness support."
   },
@@ -859,7 +866,7 @@
     "slug": "swasroggantak-vati",
     "name": "Swasroggantak Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Aroshoghani Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930304/Swasrogantak_Vati_opedhr.webp",
     "featured": false,
     "shortDescription": "Swasroggantak Vati for traditional wellness support."
   },
@@ -886,7 +893,7 @@
     "slug": "karpooradi-vati",
     "name": "Karpooradi Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kapooradi Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722711/Kapooradi_Vati_rxowge.webp",
     "featured": false,
     "shortDescription": "Karpooradi Vati for traditional wellness support."
   },
@@ -904,7 +911,7 @@
     "slug": "kashisadi-vati",
     "name": "Kashisadi Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Khadiradi Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930313/Kashisadi_Vati_qjklhm.webp",
     "featured": false,
     "shortDescription": "Kashisadi Vati for traditional wellness support."
   },
@@ -913,7 +920,7 @@
     "slug": "gandhak-vati",
     "name": "Gandhak Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Agnivardhak Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930310/Gandhak_Vati_xvemfh.webp",
     "featured": false,
     "shortDescription": "Gandhak Vati for traditional wellness support."
   },
@@ -922,7 +929,7 @@
     "slug": "chandraprabha-vati",
     "name": "Chandraprabha Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Mahabhra Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722715/Mahabhra_Vati_shy8cl.webp",
     "featured": false,
     "shortDescription": "Chandraprabha Vati for traditional wellness support."
   },
@@ -931,7 +938,7 @@
     "slug": "jwarari-vati",
     "name": "Jwarari Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Amvatari Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930312/Jwarari_Vati_rppvp5.webp",
     "featured": false,
     "shortDescription": "Jwarari Vati for traditional wellness support."
   },
@@ -940,7 +947,7 @@
     "slug": "dhananjay-vati",
     "name": "Dhananjay Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kankayan Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930309/Dhananjay_Vati_w3voc6.webp",
     "featured": false,
     "shortDescription": "Dhananjay Vati for traditional wellness support."
   },
@@ -949,7 +956,7 @@
     "slug": "balajiwan-vati",
     "name": "Balajiwan Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Lavan Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722706/Baljivan_Gutika_fyledj.webp",
     "featured": false,
     "shortDescription": "Balajiwan Vati for traditional wellness support."
   },
@@ -958,7 +965,7 @@
     "slug": "shilajatu-vati",
     "name": "Shilajatu Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Lavan Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930299/Shilajatu_Vati_wexzvv.webp",
     "featured": false,
     "shortDescription": "Shilajatu Vati for traditional wellness support."
   },
@@ -967,7 +974,7 @@
     "slug": "histeriyanashak-vati",
     "name": "Histeriyanashak Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Agnivardhak Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930311/Histeriyanashak_Vati_onn8ex.webp",
     "featured": false,
     "shortDescription": "Histeriyanashak Vati for traditional wellness support."
   },
@@ -976,7 +983,7 @@
     "slug": "hingwadi-vati",
     "name": "Hingwadi Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Lavangadi Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722714/Lavan_Vati_bbsqoi.webp",
     "featured": false,
     "shortDescription": "Hingwadi Vati for traditional wellness support."
   },
@@ -985,7 +992,7 @@
     "slug": "panchansudha-vati",
     "name": "Panchansudha Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kanthasudhar Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930315/Pachansudha_Vati_x7jlzx.webp",
     "featured": false,
     "shortDescription": "Panchansudha Vati for traditional wellness support."
   },
@@ -1003,7 +1010,7 @@
     "slug": "raktarodhak-vati",
     "name": "Raktarodhak Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Agnivardhak Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930297/Raktrodhak_Vati_ei0kqn.webp",
     "featured": false,
     "shortDescription": "Raktarodhak Vati for traditional wellness support."
   },
@@ -1021,7 +1028,7 @@
     "slug": "sarvtobhadra-vati",
     "name": "Sarvtobhadra Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kaharwa Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930298/Sartobhadra_Vati_olilgk.webp",
     "featured": false,
     "shortDescription": "Sarvtobhadra Vati for traditional wellness support."
   },
@@ -1030,7 +1037,7 @@
     "slug": "vrakkshoolantak-vati",
     "name": "Vrakkshoolantak Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Aroshoghani Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930307/Vrakkashoolantak_Vati_mc20pk.webp",
     "featured": false,
     "shortDescription": "Vrakkshoolantak Vati for traditional wellness support."
   },
@@ -1183,7 +1190,7 @@
     "slug": "prabhakar-vati",
     "name": "Prabhakar Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Rechak Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930297/Prabhakar_Vati_wcgq9n.webp",
     "featured": false,
     "shortDescription": "Prabhakar Vati for traditional wellness support."
   },
@@ -1201,7 +1208,7 @@
     "slug": "byoshadi-vati",
     "name": "Byoshadi Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Byosadi Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722708/Byosadi_Vati_aoixbx.webp",
     "featured": false,
     "shortDescription": "Byoshadi Vati for traditional wellness support."
   },
@@ -1228,7 +1235,7 @@
     "slug": "brahmi-vati",
     "name": "Brahmi Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722707/Brahmi_Vati_Gold_f7cdzl.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722707/Brahmi_Vati_Saada_ag4ul6.webp",
     "featured": false,
     "shortDescription": "Brahmi Vati for traditional wellness support."
   },
@@ -1273,7 +1280,7 @@
     "slug": "mehmudgar-vati",
     "name": "Mehmudgar Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kshudha Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930314/Mehmudgar_Vati_u8tdyv.webp",
     "featured": false,
     "shortDescription": "Mehmudgar Vati for traditional wellness support."
   },
@@ -1327,7 +1334,7 @@
     "slug": "sankh-vati",
     "name": "Sankh Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Mahasankh Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930316/Shankh_Vati_btsvwn.webp",
     "featured": false,
     "shortDescription": "Sankh Vati for traditional wellness support."
   },
@@ -1336,7 +1343,7 @@
     "slug": "shukramatrika-vati",
     "name": "Shukramatrika Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Amvatari Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930302/Shukramatrka_Vati_u8cieo.webp",
     "featured": false,
     "shortDescription": "Shukramatrika Vati for traditional wellness support."
   },
@@ -1363,7 +1370,7 @@
     "slug": "sanjivani-vati",
     "name": "Sanjivani Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Sanjivani Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722717/Sanjivani_Vati_inclpv.webp",
     "featured": false,
     "shortDescription": "Sanjivani Vati for traditional wellness support."
   },
@@ -1381,7 +1388,7 @@
     "slug": "kshuda-vati",
     "name": "Kshuda Vati",
     "category": "Vati & Gutika",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kshudha Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722712/Kshudha_Vati_tjjpob.webp",
     "featured": false,
     "shortDescription": "Kshuda Vati for traditional wellness support."
   },
@@ -1417,7 +1424,7 @@
     "slug": "agnimukh-churna",
     "name": "Agnimukh Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722801/agnimukh_powder_cpiu60.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840785/agnimukh_powder_cpiu60_yb2nap.webp",
     "featured": false,
     "shortDescription": "Agnimukh Churna for traditional wellness support."
   },
@@ -1426,7 +1433,7 @@
     "slug": "ajmodadi-churna",
     "name": "Ajmodadi Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722801/ajmodadi_powder_xgsmnb.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840796/ajmodadi_powder_xgsmnb_uojawu.webp",
     "featured": false,
     "shortDescription": "Ajmodadi Churna for traditional wellness support."
   },
@@ -1435,7 +1442,7 @@
     "slug": "avipattikar-churna",
     "name": "Avipattikar Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722805/avipattikar_powder_wkxoju.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840496/aladi_powder_dfa5iq_swzgey.webp",
     "featured": false,
     "shortDescription": "Avipattikar Churna for traditional wellness support."
   },
@@ -1462,7 +1469,7 @@
     "slug": "chitrakadi-churna",
     "name": "Chitrakadi Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722813/chitrakadi_powder_yplzpv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840889/chitrakadi_powder_yplzpv_lcf0r9.webp",
     "featured": false,
     "shortDescription": "Chitrakadi Churna for traditional wellness support."
   },
@@ -1471,7 +1478,7 @@
     "slug": "chopchiniyadi-churna",
     "name": "Chopchiniyadi Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722814/chopchiniyadi_powder_riihzq.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840900/chopchiniyadi_powder_riihzq_w8l1ow.webp",
     "featured": false,
     "shortDescription": "Chopchiniyadi Churna for traditional wellness support."
   },
@@ -1480,7 +1487,7 @@
     "slug": "jatiphaladi-churna",
     "name": "Jatiphaladi Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722823/jatifaladi_powder_h9zsvv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840984/jatifaladi_powder_h9zsvv_ytbkme.webp",
     "featured": false,
     "shortDescription": "Jatiphaladi Churna for traditional wellness support."
   },
@@ -1489,7 +1496,7 @@
     "slug": "talisadi-churna",
     "name": "Talisadi Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722838/talisadi_powder_u3jnxh.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840733/talisadi_powder_u3jnxh_tlpdhl.webp",
     "featured": false,
     "shortDescription": "Talisadi Churna for traditional wellness support."
   },
@@ -1498,7 +1505,7 @@
     "slug": "triphala-churna",
     "name": "Triphala Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722839/triphala_powder_qzma1k.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840744/triphala_powder_qzma1k_tuclcc.webp",
     "featured": false,
     "shortDescription": "Triphala Churna for traditional wellness support."
   },
@@ -1534,7 +1541,7 @@
     "slug": "namak-sulemani-churna",
     "name": "Namak Sulemani Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722829/namak_sulemani_powder_ym92fv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841145/namak_sulemani_powder_ym92fv_iqofmb.webp",
     "featured": false,
     "shortDescription": "Namak Sulemani Churna for traditional wellness support."
   },
@@ -1552,7 +1559,7 @@
     "slug": "narayan-churna",
     "name": "Narayan Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722830/narayan_powder_nytqpv.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841156/narayan_powder_nytqpv_k3aoz1.webp",
     "featured": false,
     "shortDescription": "Narayan Churna for traditional wellness support."
   },
@@ -1579,7 +1586,7 @@
     "slug": "panchsam-churna",
     "name": "Panchsam Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722832/panchsam_powder_aahksi.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841177/panchsam_powder_aahksi_s8yqby.webp",
     "featured": false,
     "shortDescription": "Panchsam Churna for traditional wellness support."
   },
@@ -1588,7 +1595,7 @@
     "slug": "pradarnashak-churna",
     "name": "Pradarnashak Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722832/pradarnashak_powder_zzrmn7.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841188/pradarnashak_powder_zzrmn7_qhufoy.webp",
     "featured": false,
     "shortDescription": "Pradarnashak Churna for traditional wellness support."
   },
@@ -1597,7 +1604,7 @@
     "slug": "punarnava-churna",
     "name": "Punarnava Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722834/punarnava_powder_f0vvnh.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840681/punarnava_powder_f0vvnh_zrvjae.webp",
     "featured": false,
     "shortDescription": "Punarnava Churna for traditional wellness support."
   },
@@ -1606,7 +1613,7 @@
     "slug": "pushyanuga-churna",
     "name": "Pushyanuga Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722834/pusyanug_powder_hvrjuk.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841198/pusyanug_powder_hvrjuk_qy1z0a.webp",
     "featured": false,
     "shortDescription": "Pushyanuga Churna for traditional wellness support."
   },
@@ -1624,7 +1631,7 @@
     "slug": "bakuchi-churna",
     "name": "Bakuchi Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722808/bakuchi_powder_wklkcg.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840536/bakuchi_powder_wklkcg_msw7jm.webp",
     "featured": false,
     "shortDescription": "Bakuchi Churna for traditional wellness support."
   },
@@ -1633,7 +1640,7 @@
     "slug": "balachaturbhadra-churna",
     "name": "Balachaturbhadra Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722809/balchaturbhadra_powder_tirxms.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840837/balchaturbhadra_powder_tirxms_htckyt.webp",
     "featured": false,
     "shortDescription": "Balachaturbhadra Churna for traditional wellness support."
   },
@@ -1705,7 +1712,7 @@
     "slug": "mahakhand-churna",
     "name": "Mahakhand Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Mahasankh Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722716/Mahasankh_Vati_jn29ky.webp",
     "featured": false,
     "shortDescription": "Mahakhand Churna for traditional wellness support."
   },
@@ -1912,7 +1919,7 @@
     "slug": "aladi-churna",
     "name": "Aladi Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722802/aladi_powder_dfa5iq.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840496/aladi_powder_dfa5iq_swzgey.webp",
     "featured": false,
     "shortDescription": "Aladi Churna for traditional wellness support."
   },
@@ -1993,7 +2000,7 @@
     "slug": "memory-kind-gold-avaleha",
     "name": "Memory Kind Gold Avaleha",
     "category": "Advanced Brain Tonics & Mineral Rasayanas",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/memory-kind-gold-avaleha.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786174022/Hajara_Memory_Kind_Gold_Avaleh_cg6old.webp",
     "featured": true,
     "shortDescription": "Memory Kind Gold Avaleha for traditional wellness support."
   },
@@ -2155,7 +2162,7 @@
     "slug": "shilajitwadi-loh",
     "name": "Shilajitwadi Loh",
     "category": "Loh & Mandur",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722932/Shilajitwadi_Loh_if6kgu.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785930300/Shilajitwadi_Vati_Gold_ylfbpd.webp",
     "featured": false,
     "shortDescription": "Shilajitwadi Loh for traditional wellness support."
   },
@@ -2218,7 +2225,7 @@
     "slug": "aadrak-pak",
     "name": "Aadrak Pak",
     "category": "Pak, Avaleha & Murabba",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Agnivardhak Vati.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722705/Agnivardhak_Vati_wdboi8.webp",
     "featured": false,
     "shortDescription": "Aadrak Pak for traditional wellness support."
   },
@@ -2299,7 +2306,7 @@
     "slug": "jeevan-kalp",
     "name": "Jeevan Kalp",
     "category": "Pak, Avaleha & Murabba",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Baljivan Gutika.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722706/Baljivan_Gutika_fyledj.webp",
     "featured": false,
     "shortDescription": "Jeevan Kalp for traditional wellness support."
   },
@@ -2388,7 +2395,7 @@
     "id": 266,
     "slug": "adusa-sharbat",
     "name": "Adusa Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Gasharad Vati.webp",
     "featured": false,
     "shortDescription": "Adusa Sharbat for traditional wellness support."
@@ -2397,7 +2404,7 @@
     "id": 267,
     "slug": "adrak-sharbat",
     "name": "Adrak Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Gasharad Vati.webp",
     "featured": false,
     "shortDescription": "Adrak Sharbat for traditional wellness support."
@@ -2406,7 +2413,7 @@
     "id": 268,
     "slug": "unnab-sharbat",
     "name": "Unnab Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Gasharad Vati.webp",
     "featured": false,
     "shortDescription": "Unnab Sharbat for traditional wellness support."
@@ -2415,7 +2422,7 @@
     "id": 269,
     "slug": "gaozaban-sharbat",
     "name": "Gaozaban Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Gasharad Vati.webp",
     "featured": false,
     "shortDescription": "Gaozaban Sharbat for traditional wellness support."
@@ -2424,7 +2431,7 @@
     "id": 270,
     "slug": "anar-sharbat",
     "name": "Anar Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kanthasudhar Vati.webp",
     "featured": false,
     "shortDescription": "Anar Sharbat for traditional wellness support."
@@ -2433,7 +2440,7 @@
     "id": 271,
     "slug": "kevda-sharbat",
     "name": "Kevda Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kaharwa Vati.webp",
     "featured": false,
     "shortDescription": "Kevda Sharbat for traditional wellness support."
@@ -2442,7 +2449,7 @@
     "id": 272,
     "slug": "khus-sharbat",
     "name": "Khus Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kanthasudhar Vati.webp",
     "featured": false,
     "shortDescription": "Khus Sharbat for traditional wellness support."
@@ -2451,7 +2458,7 @@
     "id": 273,
     "slug": "gul-banafsha-sharbat",
     "name": "Gul Banafsha Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kanthasudhar Vati.webp",
     "featured": false,
     "shortDescription": "Gul Banafsha Sharbat for traditional wellness support."
@@ -2460,7 +2467,7 @@
     "id": 274,
     "slug": "gulab-sharbat",
     "name": "Gulab Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Gasharad Vati.webp",
     "featured": false,
     "shortDescription": "Gulab Sharbat for traditional wellness support."
@@ -2469,7 +2476,7 @@
     "id": 275,
     "slug": "chandan-sharbat",
     "name": "Chandan Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/chandan_powder.webp",
     "featured": false,
     "shortDescription": "Chandan Sharbat for traditional wellness support."
@@ -2478,7 +2485,7 @@
     "id": 276,
     "slug": "neebu-sharbat",
     "name": "Neebu Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/neebu-sharbat.webp",
     "featured": false,
     "shortDescription": "Neebu Sharbat for traditional wellness support."
@@ -2487,7 +2494,7 @@
     "id": 277,
     "slug": "bel-sharbat",
     "name": "Bel Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Amber Sundari Vati.webp",
     "featured": false,
     "shortDescription": "Bel Sharbat for traditional wellness support."
@@ -2496,7 +2503,7 @@
     "id": 278,
     "slug": "santara-sharbat",
     "name": "Santara Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kanthasudhar Vati.webp",
     "featured": false,
     "shortDescription": "Santara Sharbat for traditional wellness support."
@@ -2505,7 +2512,7 @@
     "id": 279,
     "slug": "rakta-shodhak-sharbat",
     "name": "Rakta Shodhak Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kshudha Vati.webp",
     "featured": false,
     "shortDescription": "Rakta Shodhak Sharbat for traditional wellness support."
@@ -2514,7 +2521,7 @@
     "id": 280,
     "slug": "brahmi-sharbat",
     "name": "Brahmi Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Brahmi Vati Gold.webp",
     "featured": false,
     "shortDescription": "Brahmi Sharbat for traditional wellness support."
@@ -2523,7 +2530,7 @@
     "id": 281,
     "slug": "shankhpushpi-sharbat",
     "name": "Shankhpushpi Sharbat",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/shankhpushpi-sharbat.webp",
     "featured": false,
     "shortDescription": "Shankhpushpi Sharbat for traditional wellness support."
@@ -2532,7 +2539,7 @@
     "id": 282,
     "slug": "careliv-liver-syrup",
     "name": "Careliv Liver Syrup",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/careliv_liver_disorder_syrup.webp",
     "featured": false,
     "shortDescription": "Careliv Liver Syrup for traditional wellness support."
@@ -2541,17 +2548,18 @@
     "id": 283,
     "slug": "charmolin-syrup",
     "name": "Charmolin Syrup",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/gacid_syrup.webp",
+    "category": "Herbal Bloodpurify & Skin Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169028/Hajara_Charmolin_Raktshodhak_Charmroga_Syrup_vkvimv.webp",
     "featured": false,
-    "shortDescription": "Charmolin Syrup for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For healthy skin and blood-purification support",
+    "description": "Proprietary Medicine: For healthy skin and blood-purification support"
   },
   {
     "id": 284,
     "slug": "gacid-gastric-syrup",
     "name": "Gacid Gastric Syrup",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/gacid_syrup.webp",
+    "category": "Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928760/gacid_syrup_grajo4_s3pv5y.webp",
     "featured": false,
     "shortDescription": "Gacid Gastric Syrup for traditional wellness support."
   },
@@ -2559,7 +2567,7 @@
     "id": 285,
     "slug": "grower-herbal-hair-cleanser-shampoo",
     "name": "Grower Herbal Hair Cleanser Shampoo",
-    "category": "Sharbat",
+    "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Medicated Taila/grower_hair_oil.webp",
     "featured": false,
     "shortDescription": "Grower Herbal Hair Cleanser Shampoo for traditional wellness support."
@@ -2567,17 +2575,18 @@
   {
     "id": 286,
     "slug": "hajara-multicare-face-wash",
-    "name": "Hajara Multicare Face Wash",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722766/Herbal_face_wash_with_turmeric_and_aloe_zqdhxr.webp",
+    "name": "Hajam Multicare Facewash",
+    "category": "Herbal Facewash",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928761/Herbal_face_wash_with_turmeric_and_aloe_zqdhxr_bg5ppr.webp",
     "featured": true,
-    "shortDescription": "Hajara Multicare Face Wash for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For deep cleansing and skin support",
+    "description": "Proprietary Medicine: For deep cleansing and skin support"
   },
   {
     "id": 287,
     "slug": "jaitoon-oil",
     "name": "Jaitoon Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Jaitun_Oil_Jaitun_Tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Botanical_Oil_mzs9ts.webp",
     "featured": false,
     "shortDescription": "Jaitoon Oil for traditional wellness support."
@@ -2586,7 +2595,7 @@
     "id": 288,
     "slug": "almond-oil",
     "name": "Almond Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887211/Almond_oil_Badam_tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Botanical_Oil_Blend_oi_mfcrqu.webp",
     "featured": false,
     "shortDescription": "Almond Oil for traditional wellness support."
@@ -2595,7 +2604,7 @@
     "id": 289,
     "slug": "castor-oil",
     "name": "Castor Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887211/Castor_oil_Andi_Tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Botanical_Oil_Blend_oil_euedrh.webp",
     "featured": false,
     "shortDescription": "Castor Oil for traditional wellness support."
@@ -2604,7 +2613,7 @@
     "id": 290,
     "slug": "ajwain-oil",
     "name": "Ajwain Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887211/Ajawayan_Tail_Ajwayan_oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Botanical_Oil_Blen_njwv3z.webp",
     "featured": false,
     "shortDescription": "Ajwain Oil for traditional wellness support."
@@ -2613,7 +2622,7 @@
     "id": 291,
     "slug": "jatamansi-oil",
     "name": "Jatamansi Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Jatamansi_Oil_Jatamansi_Tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Pure_O_dhnveh.webp",
     "featured": false,
     "shortDescription": "Jatamansi Oil for traditional wellness support."
@@ -2622,7 +2631,7 @@
     "id": 292,
     "slug": "cardamom-oil",
     "name": "Cardamom Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Elaichi_Tail_Cardamom_Oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Oil_Herbal_Oil_Herbal_Massage_Oil_relief_oil_Therapeutic_Herbal_Oil_Natural_Oil_Natural_Wellness_Oil_rsqaup.webp",
     "featured": false,
     "shortDescription": "Cardamom Oil for traditional wellness support."
@@ -2631,7 +2640,7 @@
     "id": 293,
     "slug": "cinnamon-bark-oil",
     "name": "Cinnamon Bark Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://novellum-filestore-mcp.s3.us-east-2.amazonaws.com/atxp:atxp_acct_lLUhRAqat90HBtv3m3Jzh/71821e87-09d6-423c-84dc-56cf10f2d7e9.png",
     "featured": false,
     "shortDescription": "Cinnamon Bark Oil for traditional wellness support."
@@ -2640,7 +2649,7 @@
     "id": 294,
     "slug": "karanj-oil",
     "name": "Karanj Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887213/karanj_Oil_Karanja_Tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Oil_Herbal_Oil_Herbal_Massage_Oil_relief_oil_Therapeutic_Herbal_Oil_Natural_Oil_Natural_Wellness_Oil_P_o4m6mr.webp",
     "featured": false,
     "shortDescription": "Karanj Oil for traditional wellness support."
@@ -2649,7 +2658,7 @@
     "id": 295,
     "slug": "neem-oil",
     "name": "Neem Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887215/Neem_Oil_Neem_Tail_Skin_problem_Solution_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Oil_Herbal_Oil_Herbal_Massage_Oil_relief_oil_Therapeutic_Herbal_Oil_Natural_Oil_Natur_h0hhop.webp",
     "featured": false,
     "shortDescription": "Neem Oil for traditional wellness support."
@@ -2658,7 +2667,7 @@
     "id": 296,
     "slug": "bakuchi-oil",
     "name": "Bakuchi Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Bakuchi_oil_Babchi_Tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Botanical_Oil_Blend_zt0uyj.webp",
     "featured": false,
     "shortDescription": "Bakuchi Oil for traditional wellness support."
@@ -2667,7 +2676,7 @@
     "id": 297,
     "slug": "terpene-oil",
     "name": "Terpene Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887217/Terpin_Oil_Tarpin_Tail_Therapeutic_Herbal_Oil_Natural_Oil_Natural_Wellness_Oil_Pure_Oil_Best_Oil_Botanical_Oil_Blend_oil_Ayurvedic_Body_Oil_Premium_Herbal_Care_oil_Traditional_oil_wglq8e.webp",
     "featured": false,
     "shortDescription": "Terpene Oil for traditional wellness support."
@@ -2676,7 +2685,7 @@
     "id": 298,
     "slug": "kapasbeej-oil",
     "name": "Kapasbeej Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Kapas_beej_tail_Cotton_seed_Oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Oil_Herbal_Oil_Herbal_Massage_Oil_Natural_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Pure_O_eoc1vb.webp",
     "featured": false,
     "shortDescription": "Kapasbeej Oil for traditional wellness support."
@@ -2685,7 +2694,7 @@
     "id": 299,
     "slug": "chalmoogra-oil",
     "name": "Chalmoogra Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887211/Chalmogra_oil_Chalmogra_Tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Botanical_Oil_stvuoc.webp",
     "featured": false,
     "shortDescription": "Chalmoogra Oil for traditional wellness support."
@@ -2694,7 +2703,7 @@
     "id": 300,
     "slug": "tuvrak-oil",
     "name": "Tuvrak Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Medicated Taila/tuvrak-oil.webp",
     "featured": false,
     "shortDescription": "Tuvrak Oil for traditional wellness support."
@@ -2703,7 +2712,7 @@
     "id": 301,
     "slug": "zingiber-oil",
     "name": "Zingiber Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887210/Adrak_Tail_Zinger_oil_Pure_ayurvedic_oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Bota_m1abhy.webp",
     "featured": false,
     "shortDescription": "Zingiber Oil for traditional wellness support."
@@ -2991,7 +3000,7 @@
     "id": 333,
     "slug": "adrak-oil",
     "name": "Adrak Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887210/Adrak_Tail_Zinger_oil_Pure_ayurvedic_oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Bota_m1abhy.webp",
     "featured": false,
     "shortDescription": "Adrak Oil for traditional wellness support."
@@ -3000,7 +3009,7 @@
     "id": 334,
     "slug": "ajwayan-oil",
     "name": "Ajwayan Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887211/Ajawayan_Tail_Ajwayan_oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Botanical_Oil_Blen_njwv3z.webp",
     "featured": false,
     "shortDescription": "Ajwayan Oil for traditional wellness support."
@@ -3009,7 +3018,7 @@
     "id": 335,
     "slug": "brahmi-oil",
     "name": "Brahmi Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887211/Brahmi_oil_Brahmi_Tail_Baccopa_oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_memory_booster_Herbal_Oil_Headache_Oil_Tension_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Bot_r8n3qo.webp",
     "featured": false,
     "shortDescription": "Brahmi Oil for traditional wellness support."
@@ -3018,7 +3027,7 @@
     "id": 336,
     "slug": "clove-oil",
     "name": "Clove Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Clove_Oil_Longa_Tail_Toothache_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Oil_Herbal_Oil_Herbal_Oil_Pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Oil_Natural_Wellness_O_eenihl.webp",
     "featured": false,
     "shortDescription": "Clove Oil for traditional wellness support."
@@ -3027,7 +3036,7 @@
     "id": 337,
     "slug": "dashmool-oil",
     "name": "Dashmool Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Dashmool_Oil_Dashmool_Tail_Female_Remedy_Uterus_Oil_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Oil_Herbal_Oil_Herbal_Massage_Oil_relief_oil_Therapeutic_Herbal_Oil_Natura_yl432n.webp",
     "featured": false,
     "shortDescription": "Dashmool Oil for traditional wellness support."
@@ -3036,7 +3045,7 @@
     "id": 338,
     "slug": "jamalgota-oil",
     "name": "Jamalgota Oil",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887212/Jamalgota_Oil_Jamalgota_Tail_Pure_Herbal_Oil_Authentic_oil_Wellness_Oil_Ayurvedic_Herbal_Oil_Herbal_Massage_Oil_Joint_pain_relief_oil_Therapeutic_Herbal_Oil_Natural_Wellness_Oil_Pure_uk6hjt.webp",
     "featured": false,
     "shortDescription": "Jamalgota Oil for traditional wellness support."
@@ -3045,7 +3054,7 @@
     "id": 339,
     "slug": "mahabhringraj-tail",
     "name": "Mahabhringraj Tail",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887213/Mahabhringraj_Tail_Mahabhringraj_Oil_Hari_Oil_Hair_Regrowth_Oil_Hari_Grayness_Oil_Hair_Fall_control_oil_Hari_Fall_control_Medicine_Hair_whitening_Solution_Tradition_solution_for_Hair_Loss_kmhzel.webp",
     "featured": false,
     "shortDescription": "Mahabhringraj Tail for traditional wellness support."
@@ -3054,7 +3063,7 @@
     "id": 340,
     "slug": "mahanarayan-tail",
     "name": "Mahanarayan Tail",
-    "category": "Medicated Taila",
+    "category": "Oil",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887214/Mahanarayan_Oil_Mahanarayan_Tail_Pure_Herbal_Oil_Authentic_oil_for_pain_Wellness_Oil_Ayurvedic_Pain_Oil_Knee_joint_pain_Solution_Herbal_Oil_Herbal_Joint_Massage_Oil_Pain_relief_oil_wui6na.webp",
     "featured": false,
     "shortDescription": "Mahanarayan Tail for traditional wellness support."
@@ -3062,55 +3071,61 @@
   {
     "id": 341,
     "slug": "grower-sat",
-    "name": "Grower Sat",
-    "category": "Medicated Taila",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784887213/Mahabhringraj_Tail_Mahabhringraj_Oil_Hari_Oil_Hair_Regrowth_Oil_Hari_Grayness_Oil_Hair_Fall_control_oil_Hari_Fall_control_Medicine_Hair_whitening_Solution_Tradition_solution_for_Hair_Loss_kmhzel.webp",
+    "name": "Grower Herbal Soap",
+    "category": "Herbal Shampoo",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169471/Grover_Herbal_Sat_f0vi8g.webp",
     "featured": true,
-    "shortDescription": "Grower Sat for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For hair & scalp support",
+    "description": "Proprietary Medicine: For hair & scalp support"
   },
   {
     "id": 342,
     "slug": "dev-black-care-shampoo",
-    "name": "Dev Black Care Shampoo",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Medicated Taila/hajara_herbal_hair.webp",
+    "name": "Dev Blackcroma Shampoo",
+    "category": "Herbal Shampoo",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169382/DEV_BlackCare_Herbal_Shampoo_hiswsj.webp",
     "featured": true,
-    "shortDescription": "Dev Black Care Shampoo for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For scalp and hair blackening support",
+    "description": "Proprietary Medicine: For scalp and hair blackening support"
   },
   {
     "id": 343,
     "slug": "rosy-face-cream",
     "name": "Rosy Face Cream",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Jawahar Mohra.webp",
+    "category": "Herbal Face Cream",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786170083/Hajara_Rosy_Face_Cream_eqidqz.webp",
     "featured": true,
-    "shortDescription": "Rosy Face Cream for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For acne, pimples & fairness support",
+    "description": "Proprietary Medicine: For acne, pimples & fairness support"
   },
   {
     "id": 344,
     "slug": "edno-capsule",
-    "name": "EDNO Capsule",
-    "category": "Capsule",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722973/Abha_Guggul_jawujz.webp",
+    "name": "EDN6 Capsule",
+    "category": "Male Vital & Vitality",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786170685/EDNO_Herbal_ED_Solution_Capsules_z6bntg.webp",
     "featured": true,
-    "shortDescription": "EDNO Capsule for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For male vitality & wellness support",
+    "description": "Proprietary Medicine: For male vitality & wellness support"
   },
   {
     "id": 345,
     "slug": "pilock-h-capsule",
-    "name": "Pilock-H Capsule",
-    "category": "Capsule",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722974/AGASTYA_GUGGUL_Guggul_Tablets._fxj9vx.webp",
+    "name": "Piloek-H Capsule",
+    "category": "Herbal Haemorrhoids",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786170693/Hajara_Pilock-H_Capsules_ogmbvn.webp",
     "featured": true,
-    "shortDescription": "Pilock-H Capsule for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: Helpful in relief from haemorrhoids (piles), burning, anal fissure & discomfort",
+    "description": "Proprietary Medicine: Helpful in relief from haemorrhoids (piles), burning, anal fissure & discomfort"
   },
   {
     "id": 346,
     "slug": "activa-syrup",
-    "name": "Activa Syrup",
-    "category": "Sharbat",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/syrup/khameere-gajwan.webp",
+    "name": "Activ Syrup",
+    "category": "Herbal Generality Syrup",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169028/Hajara_Activa_General_Health_Syrup_faqst8.webp",
     "featured": true,
-    "shortDescription": "Activa Syrup for traditional wellness support."
+    "shortDescription": "Proprietary Medicine: For energy support",
+    "description": "Proprietary Medicine: For energy support"
   }
 ]

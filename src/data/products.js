@@ -87,19 +87,19 @@ const mkComboFilter = (categoryNames, keywords = []) => (p) => {
 export const marketingCategoryMap = {
   'herbal-syrups': {
     label: 'Herbal Syrups',
-    filter: mkCategoryFilter(['Sharbat'])
+    filter: mkCategoryFilter(['Syrup'])
   },
   'liver-tonic-blood-purifier': {
     label: 'Liver Tonic & Blood Purifier',
     filter: (p) => {
-      if (!['Sharbat'].includes(p.category)) return false;
+      if (!['Syrup'].includes(p.category)) return false;
       const n = (p.name + ' ' + (p.shortDescription || '')).toLowerCase();
       return containsKw(n, 'liv', 'liver', 'careliv', 'blood', 'purifier', 'puspanjali');
     }
   },
   'ayurvedic-oils': {
     label: 'Ayurvedic Oils',
-    filter: mkCategoryFilter(['Medicated Taila'])
+    filter: mkCategoryFilter(['Oil', 'Hair Care Products'])
   },
   'ayurvedic-capsules-tablets': {
     label: 'Ayurvedic Capsules & Tablets',
@@ -108,18 +108,18 @@ export const marketingCategoryMap = {
   'womens-health-products': {
     label: "Women's Health Products",
     filter: (p) => {
-      const fromCategory = ['Vati & Gutika', 'Sharbat', 'Churna'].includes(p.category);
+      const fromCategory = ['Vati & Gutika', 'Syrup', 'Churna', 'Capsule'].includes(p.category);
       const n = (p.name + ' ' + (p.shortDescription || '')).toLowerCase();
-      const keywordsMatch = containsKw(n, 'women', 'female', 'uterus', 'amber sundari', 'puspanjali', 'pradaran', 'raj pravartak', 'garbha', 'pushyanug');
+      const keywordsMatch = containsKw(n, 'women', 'female', 'uterus', 'amber sundari', 'puspanjali', 'pradaran', 'raj pravartak', 'garbha', 'pushyanug', 'kamarxi');
       return fromCategory && keywordsMatch;
     }
   },
   'herbal-toothpaste-oral-care': {
     label: 'Herbal Toothpaste & Oral Care',
     filter: (p) => {
-      if (['Ayurvedic Tooth Powders'].includes(p.category)) return true;
+      if (['Ayurvedic Tooth Powders', 'Herbal Toothpaste & Oral Care'].includes(p.category)) return true;
       const n = (p.name + ' ' + (p.shortDescription || '')).toLowerCase();
-      return containsKw(n, 'tooth', 'toothpaste', 'oral', 'manjan', 'dant', 'vajrika');
+      return containsKw(n, 'tooth', 'toothpaste', 'oral', 'manjan', 'dant', 'vajrika', 'vajsikta');
     }
   },
   'herbal-powders-churna': {
@@ -136,6 +136,7 @@ export const marketingCategoryMap = {
   'skin-care-products': {
     label: 'Skin Care Products',
     filter: (p) => {
+      if (['Skin Care Products'].includes(p.category)) return true;
       const n = (p.name + ' ' + (p.shortDescription || '')).toLowerCase();
       return containsKw(n, 'face', 'skin', 'cream', 'wash', 'rosy', 'multicare face', 'charmolin');
     }
@@ -152,7 +153,7 @@ export const marketingCategoryMap = {
   'herbal-cosmetics-personal-care': {
     label: 'Herbal Cosmetics & Personal Care',
     filter: (p) => {
-      if (['Topical Application Powders'].includes(p.category)) return true;
+      if (['Topical Application Powders', 'Skin Care Products', 'Hair Care Products', 'Herbal Shampoo'].includes(p.category)) return true;
       const n = (p.name + ' ' + (p.shortDescription || '')).toLowerCase();
       return containsKw(n, 'face', 'cream', 'wash', 'hair', 'rosy', 'multicare', 'cosmetic', 'charmolin', 'shampoo');
     }
@@ -160,10 +161,10 @@ export const marketingCategoryMap = {
   'hair-care-products': {
     label: 'Hair Care Products',
     filter: (p) => {
-      const tailMatch = ['Medicated Taila'].includes(p.category);
+      const categoryMatch = ['Oil', 'Hair Care Products', 'Herbal Shampoo'].includes(p.category);
       const n = (p.name + ' ' + (p.shortDescription || '')).toLowerCase();
-      const kwMatch = containsKw(n, 'hair', 'shampoo', 'grower', 'bhringraj', 'brahmi', 'bringraj', 'mahabhringraj', 'reetha', 'shikakai', 'amla', 'maka');
-      if (tailMatch && kwMatch) return true;
+      const kwMatch = containsKw(n, 'hair', 'shampoo', 'grower', 'bhringraj', 'brahmi', 'bringraj', 'mahabhringraj', 'reetha', 'shikakai', 'amla', 'maka', 'blackzena', 'surt');
+      if (categoryMatch) return true;
       if (kwMatch) return true;
       return false;
     }
