@@ -23,7 +23,7 @@ const Contact = () => {
             <div className="contact-info">
               <h3>Get in Touch</h3>
               <p>Email: info@hajaramulticare.com</p>
-              <p>Phone: +91 98765 43210</p>
+              <p>Phone: +91 9897023005</p>
               <p>Address: Location, India</p>
             </div>
           </div>
