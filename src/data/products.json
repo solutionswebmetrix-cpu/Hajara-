@@ -184,12 +184,12 @@
   },
   {
     "id": 21,
-    "slug": "charmolin-herbal-restorative",
-    "name": "Charmolin Herbal Restorative",
+    "slug": "charmolin-herbal-raktkshodhak-syrup",
+    "name": "Charmolin Herbal raktkshodhak syrup",
     "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928760/charmolin_herbal_restorative_1_q1fc8w_czictg.webp",
     "featured": true,
-    "shortDescription": "Charmolin Herbal Restorative for traditional wellness support."
+    "shortDescription": "Proprietary Medicine For blood and skin wellnes support."
   },
   {
     "id": 22,
@@ -482,12 +482,12 @@
   },
   {
     "id": 54,
-    "slug": "hajara-appezyme-digestive-syrup",
-    "name": "Hajara Appezyme Digestive Syrup",
+    "slug": "appezyme-syrup",
+    "name": " Appezyme  Syrup",
     "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169028/Hajara_Appezyme_Syrup_bd7zso.webp",
     "featured": true,
-    "shortDescription": "Hajara Appezyme Digestive Syrup for traditional wellness support."
+    "shortDescription": "Proprietary Medicine For digestive and appetite support."
   },
   {
     "id": 55,
@@ -536,12 +536,12 @@
   },
   {
     "id": 60,
-    "slug": "irovitz-syrup-with-herbal-ingredients",
-    "name": "Irovitz Syrup With Herbal Ingredients",
+    "slug": "irovitz-syrup",
+    "name": "Irovitz Syrup",
     "category": "Syrup",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928762/irovitz_syrup_oceplr_fwpg2d.webp",
     "featured": true,
-    "shortDescription": "Irovitz Syrup With Herbal Ingredients for traditional wellness support."
+    "shortDescription": "Proprietary Medicine For helpful in iron, vitamin and zinc deficiency."
   },
   {
     "id": 61,
