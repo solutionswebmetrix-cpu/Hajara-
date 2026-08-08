@@ -2,8 +2,8 @@
   {
     "id": 1,
     "slug": "agnimukh-Powder",
-    "name": "Agnimukh Powder",
-    "category": "Single Herb Powders",
+    "name": "",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840785/agnimukh_powder_cpiu60_yb2nap.webp",
     "featured": false,
     "shortDescription": "Agnimukh Powder for traditional wellness support."
@@ -12,16 +12,16 @@
     "id": 2,
     "slug": "ajmodadi-powder",
     "name": "Ajmodadi Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840796/ajmodadi_powder_xgsmnb_uojawu.webp",
     "featured": false,
     "shortDescription": "Ajmodadi Powder for traditional wellness support."
   },
   {
     "id": 3,
-    "slug": "aladi-powder",
-    "name": "Aladi Powder",
-    "category": "Single Herb Powders",
+    "slug": "eladi-powder",
+    "name": "eladi Powder",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840496/aladi_powder_dfa5iq_swzgey.webp",
     "featured": false,
     "shortDescription": "Aladi Powder for traditional wellness support."
@@ -76,7 +76,7 @@
     "id": 9,
     "slug": "avipattikar-powder",
     "name": "Avipattikar Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841253/avipattikar_powder_wkxoju_ebtcbe.webp",
     "featured": false,
     "shortDescription": "Avipattikar Powder for traditional wellness support."
@@ -85,7 +85,7 @@
     "id": 10,
     "slug": "ayurvedic-brain-tonic",
     "name": "Ayurvedic Brain Tonic",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powderBakuchi Powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840827/ayurvedic_brain_tonic_llicwg_rvdtg6.webp",
     "featured": false,
     "shortDescription": "Ayurvedic Brain Tonic for traditional wellness support."
@@ -102,8 +102,8 @@
   {
     "id": 12,
     "slug": "bakuchi-powder",
-    "name": "Bakuchi Powder",
-    "category": "Churna",
+    "name": "Bakuchi kadhya Powder",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840536/bakuchi_powder_wklkcg_msw7jm.webp  ",
     "featured": false,
     "shortDescription": "Bakuchi Powder for traditional wellness support."
@@ -112,7 +112,7 @@
     "id": 13,
     "slug": "balchaturbhadra-powder",
     "name": "Balchaturbhadra Powder",
-    "category": "Churna",
+    "category": "Churayurvedic churn & powderna",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840837/balchaturbhadra_powder_tirxms_htckyt.webp",
     "featured": false,
     "shortDescription": "Balchaturbhadra Powder for traditional wellness support."
@@ -121,7 +121,7 @@
     "id": 14,
     "slug": "balmitra-churna",
     "name": "Balmitra Churna",
-    "category": "Churna",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840848/balmitra_powder_gmnvlm_euqfrz.webp",
     "featured": false,
     "shortDescription": "Balmitra Churna for traditional wellness support."
@@ -130,7 +130,7 @@
     "id": 15,
     "slug": "bhasmak-nashak-churna",
     "name": "Bhasmak Nashak churna",
-    "category": "Churna",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840547/bhasmak_nashak_powder_jthwa1_utlson.webp",
     "featured": false,
     "shortDescription": "Bhasmak Nashak Powder for traditional wellness support."
@@ -139,7 +139,7 @@
     "id": 16,
     "slug": "brahat-sitopaladi-churna",
     "name": "Brahat Sitopaladi churna",
-    "category": "Churna",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840858/brahat_sitopaladi_powder_m5skv2_ltzy39.webp",
     "featured": false,
     "shortDescription": "Brahat Sitopaladi churna for traditional wellness support."
@@ -204,7 +204,7 @@
     "id": 23,
     "slug": "chitrakadi-powder",
     "name": "Chitrakadi Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic herbal powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840889/chitrakadi_powder_yplzpv_lcf0r9.webp",
     "featured": false,
     "shortDescription": "Chitrakadi Powder for traditional wellness support."
@@ -213,7 +213,7 @@
     "id": 24,
     "slug": "chopchiniyadi-powder",
     "name": "Chopchiniyadi Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic herbal powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840900/chopchiniyadi_powder_riihzq_w8l1ow.webp",
     "featured": false,
     "shortDescription": "Chopchiniyadi Powder for traditional wellness support."
@@ -222,7 +222,7 @@
     "id": 25,
     "slug": "dandimastak-powder",
     "name": "Dandimastak Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic herbal powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840567/dandimastak_powder_e8thzl_xebxbb.webp",
     "featured": false,
     "shortDescription": "Dandimastak Powder for traditional wellness support."
@@ -258,7 +258,7 @@
     "id": 29,
     "slug": "dhatuposhtik-powder",
     "name": "Dhatuposhtik Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840588/dhatuposhtik_powder_wshhcv_o1cytb.webp",
     "featured": false,
     "shortDescription": "Dhatuposhtik Powder for traditional wellness support."
@@ -490,15 +490,6 @@
     "shortDescription": "Proprietary Medicine For digestive and appetite support."
   },
   {
-    "id": 55,
-    "slug": "hajara-herbal-hair",
-    "name": "Hajara Herbal Hair",
-    "category": "Oil",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Medicated Taila/hajara_herbal_hair.webp",
-    "featured": false,
-    "shortDescription": "Hajara Herbal Hair for traditional wellness support."
-  },
-  {
     "id": 56,
     "slug": "harad-powder",
     "name": "Harad Powder",
@@ -507,15 +498,7 @@
     "featured": false,
     "shortDescription": "Harad Powder for traditional wellness support."
   },
-  {
-    "id": 57,
-    "slug": "herbal-face-wash-with-turmeric-and-aloe",
-    "name": "Herbal Face Wash With Turmeric And Aloe",
-    "category": "Syrup",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722766/Herbal_face_wash_with_turmeric_and_aloe_zqdhxr.webp",
-    "featured": false,
-    "shortDescription": "Herbal Face Wash With Turmeric And Aloe for traditional wellness support."
-  },
+
   {
     "id": 58,
     "slug": "himalayan-shilajit",
@@ -556,7 +539,7 @@
     "id": 62,
     "slug": "jatifaladi-powder",
     "name": "Jatifaladi Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840984/jatifaladi_powder_h9zsvv_ytbkme.webp",
     "featured": false,
     "shortDescription": "Jatifaladi Powder for traditional wellness support."
@@ -584,7 +567,7 @@
     "id": 65,
     "slug": "madhumeh-daman-powder",
     "name": "Madhumeh Daman Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn &  powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841124/madhumeh_daman_powder_wnhui3_htmqf6.webp",
     "featured": false,
     "shortDescription": "Madhumeh Daman Powder for traditional wellness support."
@@ -593,7 +576,7 @@
     "id": 66,
     "slug": "mahasudarshan-powder",
     "name": "Mahasudarshan Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840640/mahasudarshan_powder_ede43g_o3g9oa.webp",
     "featured": false,
     "shortDescription": "Mahasudarshan Powder for traditional wellness support."
@@ -629,7 +612,7 @@
     "id": 70,
     "slug": "mutravirechan-powder",
     "name": "Mutravirechan Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722829/mutravirechan_powder_qlmsxe.webp",
     "featured": false,
     "shortDescription": "Mutravirechan Powder for traditional wellness support."
@@ -638,7 +621,7 @@
     "id": 71,
     "slug": "namak-sulemani-powder",
     "name": "Namak Sulemani Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841145/namak_sulemani_powder_ym92fv_iqofmb.webp",
     "featured": false,
     "shortDescription": "Namak Sulemani Powder for traditional wellness support."
@@ -647,7 +630,7 @@
     "id": 72,
     "slug": "narayan-powder",
     "name": "Narayan Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841156/narayan_powder_nytqpv_k3aoz1.webp",
     "featured": false,
     "shortDescription": "Narayan Powder for traditional wellness support."
@@ -674,7 +657,7 @@
     "id": 75,
     "slug": "panchsam-powder",
     "name": "Panchsam Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841177/panchsam_powder_aahksi_s8yqby.webp",
     "featured": false,
     "shortDescription": "Panchsam Powder for traditional wellness support."
@@ -683,7 +666,7 @@
     "id": 76,
     "slug": "pradarnashak-powder",
     "name": "Pradarnashak Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841188/pradarnashak_powder_zzrmn7_qhufoy.webp",
     "featured": false,
     "shortDescription": "Pradarnashak Powder for traditional wellness support."
@@ -692,7 +675,7 @@
     "id": 77,
     "slug": "pramehentak-powder",
     "name": "Pramehentak Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840671/pramehentak_powder_r0uzn7_urpw4z.webp",
     "featured": false,
     "shortDescription": "Pramehentak Powder for traditional wellness support."
@@ -710,7 +693,7 @@
     "id": 79,
     "slug": "pusyanug-powder",
     "name": "Pusyanug Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841198/pusyanug_powder_hvrjuk_qy1z0a.webp",
     "featured": false,
     "shortDescription": "Pusyanug Powder for traditional wellness support."
@@ -719,7 +702,7 @@
     "id": 80,
     "slug": "raj-pravartak-powder",
     "name": "Raj Pravartak Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840692/raj_pravartak_powder_mrmc0f_uayfhm.webp",
     "featured": false,
     "shortDescription": "Raj Pravartak Powder for traditional wellness support."
@@ -764,7 +747,7 @@
     "id": 85,
     "slug": "talisadi-powder",
     "name": "Talisadi Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840733/talisadi_powder_u3jnxh_tlpdhl.webp",
     "featured": false,
     "shortDescription": "Talisadi Powder for traditional wellness support."
@@ -773,7 +756,7 @@
     "id": 86,
     "slug": "triphala-powder",
     "name": "Triphala Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840744/triphala_powder_qzma1k_tuclcc.webp",
     "featured": false,
     "shortDescription": "Triphala Powder for traditional wellness support."
@@ -787,20 +770,12 @@
     "featured": false,
     "shortDescription": "Tulsi Powder for traditional wellness support."
   },
-  {
-    "id": 88,
-    "slug": "vajrachar-powder",
-    "name": "Vajrachar Powder",
-    "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840754/vajrachar_powder_chvohm_cdk2y7.webp",
-    "featured": false,
-    "shortDescription": "Vajrachar Powder for traditional wellness support."
-  },
+
   {
     "id": 89,
     "slug": "vajrakshar-powder",
     "name": "Vajrakshar Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840765/vajrakshar_powder_b6rahc_bxhois.webp",
     "featured": false,
     "shortDescription": "Vajrakshar Powder for traditional wellness support."
@@ -809,7 +784,7 @@
     "id": 90,
     "slug": "vasadi-powder",
     "name": "Vasadi Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722841/vasadi_powder_fzxpuz.webp",
     "featured": false,
     "shortDescription": "Vasadi Powder for traditional wellness support."
@@ -818,7 +793,7 @@
     "id": 91,
     "slug": "virya-shodhan-powder",
     "name": "Virya Shodhan Powder",
-    "category": "Single Herb Powders",
+    "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840775/virya_shodhan_powder_ryvkab_t5gjwm.webp",
     "featured": false,
     "shortDescription": "Virya Shodhan Powder for traditional wellness support."
@@ -926,7 +901,7 @@
   },
   {
     "id": 103,
-    "slug": "chandraprabha-vati",
+    "slug": "Chandraprabha-Vati",
     "name": "Chandraprabha Vati",
     "category": "Vati & Gutika",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722715/Mahabhra_Vati_shy8cl.webp",
@@ -980,12 +955,12 @@
   },
   {
     "id": 109,
-    "slug": "hingwadi-vati",
-    "name": "Hingwadi Vati",
+    "slug": "Lavan-vati",
+    "name": "Lavan Vati",
     "category": "Vati & Gutika",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722714/Lavan_Vati_bbsqoi.webp",
     "featured": false,
-    "shortDescription": "Hingwadi Vati for traditional wellness support."
+    "shortDescription": "Lavan Vati for traditional wellness support."
   },
   {
     "id": 110,
@@ -1419,41 +1394,15 @@
     "featured": false,
     "shortDescription": "Panchtikta Ghrita Guggul for traditional wellness support."
   },
-  {
-    "id": 158,
-    "slug": "agnimukh-churna",
-    "name": "Agnimukh Churna",
-    "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840785/agnimukh_powder_cpiu60_yb2nap.webp",
-    "featured": false,
-    "shortDescription": "Agnimukh Churna for traditional wellness support."
-  },
-  {
-    "id": 159,
-    "slug": "ajmodadi-churna",
-    "name": "Ajmodadi Churna",
-    "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840796/ajmodadi_powder_xgsmnb_uojawu.webp",
-    "featured": false,
-    "shortDescription": "Ajmodadi Churna for traditional wellness support."
-  },
+  
   {
     "id": 160,
     "slug": "avipattikar-churna",
     "name": "Avipattikar Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840496/aladi_powder_dfa5iq_swzgey.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841253/avipattikar_powder_wkxoju_ebtcbe.webp",
     "featured": false,
     "shortDescription": "Avipattikar Churna for traditional wellness support."
-  },
-  {
-    "id": 161,
-    "slug": "elad-churna",
-    "name": "Elad Churna",
-    "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Eladi Vati.webp",
-    "featured": false,
-    "shortDescription": "Elad Churna for traditional wellness support."
   },
   {
     "id": 162,
@@ -1464,15 +1413,7 @@
     "featured": false,
     "shortDescription": "Kamdev Churna for traditional wellness support."
   },
-  {
-    "id": 163,
-    "slug": "chitrakadi-churna",
-    "name": "Chitrakadi Churna",
-    "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840889/chitrakadi_powder_yplzpv_lcf0r9.webp",
-    "featured": false,
-    "shortDescription": "Chitrakadi Churna for traditional wellness support."
-  },
+
   {
     "id": 164,
     "slug": "chopchiniyadi-churna",
@@ -1712,7 +1653,7 @@
     "slug": "mahakhand-churna",
     "name": "Mahakhand Churna",
     "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722716/Mahasankh_Vati_jn29ky.webp",
+    "image": "",
     "featured": false,
     "shortDescription": "Mahakhand Churna for traditional wellness support."
   },
@@ -1914,15 +1855,7 @@
     "featured": false,
     "shortDescription": "Vajrachar Churna for traditional wellness support."
   },
-  {
-    "id": 213,
-    "slug": "aladi-churna",
-    "name": "Aladi Churna",
-    "category": "Churna",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840496/aladi_powder_dfa5iq_swzgey.webp",
-    "featured": false,
-    "shortDescription": "Aladi Churna for traditional wellness support."
-  },
+
   {
     "id": 214,
     "slug": "pramehentak-churna",
@@ -1963,7 +1896,7 @@
     "id": 218,
     "slug": "vajrika-ayurvedic-oral-care-toothpaste",
     "name": "Vajrika Ayurvedic Oral Care Toothpaste",
-    "category": "Ayurvedic Tooth Powders",
+    "category": "Herbal Toothpastes",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784723117/Vajrika_Ayurvedic_toothpaste_bv5uem.webp",
     "featured": false,
     "shortDescription": "Vajrika Ayurvedic Oral Care Toothpaste for traditional wellness support."
@@ -2225,7 +2158,7 @@
     "slug": "aadrak-pak",
     "name": "Aadrak Pak",
     "category": "Pak, Avaleha & Murabba",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722705/Agnivardhak_Vati_wdboi8.webp",
+    "image": "",
     "featured": false,
     "shortDescription": "Aadrak Pak for traditional wellness support."
   },
@@ -2306,7 +2239,7 @@
     "slug": "jeevan-kalp",
     "name": "Jeevan Kalp",
     "category": "Pak, Avaleha & Murabba",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722706/Baljivan_Gutika_fyledj.webp",
+    "image": "",
     "featured": false,
     "shortDescription": "Jeevan Kalp for traditional wellness support."
   },
@@ -2568,7 +2501,7 @@
     "slug": "grower-herbal-hair-cleanser-shampoo",
     "name": "Grower Herbal Hair Cleanser Shampoo",
     "category": "Syrup",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Medicated Taila/grower_hair_oil.webp",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169471/Grover_Herbal_Sat_f0vi8g.webp",
     "featured": false,
     "shortDescription": "Grower Herbal Hair Cleanser Shampoo for traditional wellness support."
   },
@@ -2641,7 +2574,7 @@
     "slug": "cinnamon-bark-oil",
     "name": "Cinnamon Bark Oil",
     "category": "Oil",
-    "image": "https://novellum-filestore-mcp.s3.us-east-2.amazonaws.com/atxp:atxp_acct_lLUhRAqat90HBtv3m3Jzh/71821e87-09d6-423c-84dc-56cf10f2d7e9.png",
+    "image": "",
     "featured": false,
     "shortDescription": "Cinnamon Bark Oil for traditional wellness support."
   },
@@ -2854,8 +2787,8 @@
   },
   {
     "id": 317,
-    "slug": "neelni",
-    "name": "Neelni",
+    "slug": "indigo (neelni)",
+    "name": "Indigo (Neelni)",
     "category": "Single Herb Powders",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/neelni.webp",
     "featured": false,
@@ -2934,15 +2867,6 @@
     "shortDescription": "Alsi Flex Seed for traditional wellness support."
   },
   {
-    "id": 326,
-    "slug": "alsi",
-    "name": "Alsi",
-    "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/alsi_flex_seed_powder.webp",
-    "featured": false,
-    "shortDescription": "Alsi for traditional wellness support."
-  },
-  {
     "id": 327,
     "slug": "ishabgol-husk",
     "name": "Ishabgol Husk",
@@ -2977,15 +2901,6 @@
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722803/amrit_powder_fhtrhn.webp",
     "featured": false,
     "shortDescription": "Amrit for traditional wellness support."
-  },
-  {
-    "id": 331,
-    "slug": "amrit-powder",
-    "name": "Amrit Powder",
-    "category": "Single Herb Powders",
-    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/amrit_powder.webp",
-    "featured": false,
-    "shortDescription": "Amrit Powder for traditional wellness support."
   },
   {
     "id": 332,
@@ -3081,7 +2996,7 @@
   {
     "id": 342,
     "slug": "dev-black-care-shampoo",
-    "name": "Dev Blackcroma Shampoo",
+    "name": "Dev Black care Shampoo",
     "category": "Herbal Shampoo",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786169382/DEV_BlackCare_Herbal_Shampoo_hiswsj.webp",
     "featured": true,
