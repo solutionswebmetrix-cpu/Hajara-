@@ -1,7 +1,11 @@
 import { motion } from 'framer-motion';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
+<<<<<<< HEAD
 import { products, categories, slugifyCategory, deslugifyCategory, isComingSoonProduct } from '../data/products';
+=======
+import { products, categories, slugifyCategory, deslugifyCategory } from '../data/products';
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
 import './Products.css';
 
 const Products = () => {
@@ -170,7 +174,11 @@ const Products = () => {
                     whileHover={{ y: -10 }}
                   >
                     <div className="product-image-wrapper-page">
+<<<<<<< HEAD
                       {product.image && !isComingSoonProduct(product) && (
+=======
+                      {product.image && (
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
                         <img 
                           src={product.image} 
                           alt={product.name} 
@@ -179,6 +187,7 @@ const Products = () => {
                           decoding="async"
                         />
                       )}
+<<<<<<< HEAD
                       {isComingSoonProduct(product) && (
                         <div className="coming-soon-overlay">
                           <span className="coming-soon-badge">New</span>
@@ -186,6 +195,8 @@ const Products = () => {
                           <p className="coming-soon-subtitle">Launching Shortly</p>
                         </div>
                       )}
+=======
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
                     </div>
                     <div className="product-info-page">
                       <span className="product-category-tag-page">{product.category}</span>

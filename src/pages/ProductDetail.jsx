@@ -3,7 +3,11 @@ import { useState, useRef, useMemo, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FiMail, FiPhone } from 'react-icons/fi';
+<<<<<<< HEAD
 import { getProductById, getRelatedProducts, isComingSoonProduct } from '../data/products';
+=======
+import { getProductById, getRelatedProducts } from '../data/products';
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
 import './ProductDetail.css';
 
 const normalizeList = (value, defaults) => {
@@ -150,6 +154,7 @@ const ProductDetail = () => {
                 onTouchStart={handleTouchStart}
                 onTouchEnd={handleTouchEnd}
               >
+<<<<<<< HEAD
                 {isComingSoonProduct(fullProduct) ? (
                   <div className="coming-soon-overlay">
                     <span className="coming-soon-badge">New</span>
@@ -157,6 +162,9 @@ const ProductDetail = () => {
                     <p className="coming-soon-subtitle">Launching Shortly</p>
                   </div>
                 ) : galleryImages.length > 0 ? (
+=======
+                {galleryImages.length > 0 ? (
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
                   <img 
                     src={galleryImages[selectedImageIndex]} 
                     alt={fullProduct.name}
@@ -166,7 +174,11 @@ const ProductDetail = () => {
                   />
                 ) : null}
               </div>
+<<<<<<< HEAD
               {hasMultipleImages && !isComingSoonProduct(fullProduct) && (
+=======
+              {hasMultipleImages && (
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
                 <div className="product-thumbnails">
                   {galleryImages.map((img, index) => (
                     <motion.button
@@ -261,6 +273,7 @@ const ProductDetail = () => {
                 >
                   <Link to={`/product/${relatedProduct.id}`} className="related-product-link">
                     <div className="related-product-image">
+<<<<<<< HEAD
                       {relatedProduct.image && !isComingSoonProduct(relatedProduct) && (
                         <img src={relatedProduct.image} alt={relatedProduct.name} />
                       )}
@@ -271,6 +284,11 @@ const ProductDetail = () => {
                           <p className="coming-soon-subtitle">Launching Shortly</p>
                         </div>
                       )}
+=======
+                      {relatedProduct.image && (
+                        <img src={relatedProduct.image} alt={relatedProduct.name} />
+                      )}
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
                     </div>
                     <div className="related-product-info">
                       <h3 className="related-product-name">{relatedProduct.name}</h3>

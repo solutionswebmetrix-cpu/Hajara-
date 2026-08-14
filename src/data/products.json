@@ -22,7 +22,11 @@
     "slug": "eladi-powder",
     "name": "eladi Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786619427/eladi_Powder_kdlkrw.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840496/aladi_powder_dfa5iq_swzgey.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Aladi Powder for traditional wellness support."
   },
@@ -31,7 +35,11 @@
     "slug": "alsi-flex-seed-powder",
     "name": "Alsi Flex Seed Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533751/Alsi_Flex_Seed_sswzd4.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840806/alsi_flex_seed_powder_gqnq49_gcsu7v.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Alsi Flex Seed Powder for traditional wellness support."
   },
@@ -40,7 +48,11 @@
     "slug": "amla-powder",
     "name": "Amla Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534008/amla-powder_kp6ddc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841242/amla_powder_wuxo2u_qqhgin.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Amla Powder for traditional wellness support."
   },
@@ -59,7 +71,11 @@
     "slug": "arjuna-powder",
     "name": "Arjuna Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533980/arjuna-powder_mu8xmh.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840816/arjuna_powder_soc0zx_lo2ndq.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Arjuna Powder for traditional wellness support."
   },
@@ -68,7 +84,11 @@
     "slug": "ashwagandha-powder",
     "name": "Ashwagandha Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533856/Ashwagandha_Powder_e2w6di.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840515/ashwagandha_powder_rg11jf_l47iee.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Ashwagandha Powder for traditional wellness support."
   },
@@ -95,16 +115,26 @@
     "slug": "baheda-powder",
     "name": "Baheda Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533975/baheda-powder_ucpuj7.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/baheda_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Baheda Powder for traditional wellness support."
   },
   {
     "id": 12,
     "slug": "bakuchi-powder",
+<<<<<<< HEAD
     "name": "Bakuchi Powder",
     "category": "ayurvedic churn & powder",
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617846/Bakuchi_Churna_sasxok.png",
+=======
+    "name": "Bakuchi kadhya Powder",
+    "category": "ayurvedic churn & powder",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840536/bakuchi_powder_wklkcg_msw7jm.webp  ",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Bakuchi Powder for traditional wellness support."
   },
@@ -113,7 +143,11 @@
     "slug": "balchaturbhadra-powder",
     "name": "Balchaturbhadra Powder",
     "category": "Churayurvedic churn & powderna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786619426/Balchaturbhadra_Powder_hcdjhi.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840837/balchaturbhadra_powder_tirxms_htckyt.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Balchaturbhadra Powder for traditional wellness support."
   },
@@ -131,7 +165,11 @@
     "slug": "bhasmak-nashak-churna",
     "name": "Bhasmak Nashak churna",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534062/bhasmak-nashak-churna_wskioc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840547/bhasmak_nashak_powder_jthwa1_utlson.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Bhasmak Nashak Powder for traditional wellness support."
   },
@@ -149,7 +187,11 @@
     "slug": "brahmi-powder",
     "name": "Brahmi Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534112/brahmi-powder_mwh2se.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840869/brahmi_powder_mnkjtf_rmnnbv.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Brahmi Powder for traditional wellness support."
   },
@@ -168,7 +210,11 @@
     "slug": "careliv-liver-disorder-syrup",
     "name": "Careliv Syrup",
     "category": "Herbal Liver Syrup",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786619519/Careliv_Syrup_lt7pu8.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928759/careliv_liver_disorder_syrup_x9s3r2_kq7vlm.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": true,
     "shortDescription": "Proprietary Medicine For detox and liver wellness support",
     "description": "Proprietary Medicine For detox and liver wellness support"
@@ -178,7 +224,11 @@
     "slug": "chandan-powder",
     "name": "Chandan Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534047/Chandan_Powder_svkhni.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840557/chandan_powder_ycedir_w3rd0h.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Chandan Powder for traditional wellness support."
   },
@@ -196,7 +246,11 @@
     "slug": "chirayata-powder",
     "name": "Chirayata Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534149/chirayta-powder_ocbxes.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840879/chirayata_powder_cauwvd_yet3hb.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Chirayata Powder for traditional wellness support."
   },
@@ -223,7 +277,11 @@
     "slug": "dandimastak-powder",
     "name": "Dandimastak Powder",
     "category": "ayurvedic herbal powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626234/Dandimastak_Powder_ygsyzz.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840567/dandimastak_powder_e8thzl_xebxbb.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dandimastak Powder for traditional wellness support."
   },
@@ -232,7 +290,11 @@
     "slug": "dantmanjan-lal",
     "name": "Dantmanjan Lal",
     "category": "Ayurvedic Tooth Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626232/Dantmanjan_Lal_dfeqsv.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840910/dantmanjan_lal_puwt5t_l3nzkt.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dantmanjan Lal for traditional wellness support."
   },
@@ -241,7 +303,11 @@
     "slug": "dantrashak-manjan",
     "name": "Dantrashak Manjan",
     "category": "Ayurvedic Tooth Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626227/Dantrashak_Manjan_iy9hac.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840921/dantrashak_manjan_wxocup_jj55xf.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dantrashak Manjan for traditional wellness support."
   },
@@ -250,7 +316,11 @@
     "slug": "dantshoolhar-manjan",
     "name": "Dantshoolhar Manjan",
     "category": "Ayurvedic Tooth Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626224/Dantshoolhar_Manjan_vwylk5.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840577/dantshoolhar_manjan_cntpcp_fhivxc.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dantshoolhar Manjan for traditional wellness support."
   },
@@ -259,7 +329,11 @@
     "slug": "dhatuposhtik-powder",
     "name": "Dhatuposhtik Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626223/Dhatuposhtik_Powder_lrygmm.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840588/dhatuposhtik_powder_wshhcv_o1cytb.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dhatuposhtik Powder for traditional wellness support."
   },
@@ -277,7 +351,11 @@
     "slug": "garbhakar-powder",
     "name": "Garbhakar Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534035/Garbhakar_Powder_nmlij7.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840931/garbhakar_powder_bd3yu0_s8kx5l.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Garbhakar Powder for traditional wellness support."
   },
@@ -286,7 +364,11 @@
     "slug": "giloy-powder",
     "name": "Giloy Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534053/giloy-powder_coczrf.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840942/giloy_powder_i7q7fq_bobj7r.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Giloy Powder for traditional wellness support."
   },
@@ -304,7 +386,11 @@
     "slug": "gokshuradi-churna",
     "name": "Gokshuradi churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617862/Gokshuradi_churna_w7mbhy.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722820/gokshuradi_powder_cxz64e.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Gokshuradi Powder for traditional wellness support."
   },
@@ -494,7 +580,11 @@
     "slug": "harad-powder",
     "name": "Harad Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786535889/Harad_powder_al7yja.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840962/harad_powder_ankdok_df4rbp.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Harad Powder for traditional wellness support."
   },
@@ -513,7 +603,11 @@
     "slug": "indigo-powder",
     "name": "Indigo Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534139/indigo-powder_bhpu81.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840609/indigo_powder_hjhzch_qh4tge.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Indigo Powder for traditional wellness support."
   },
@@ -522,7 +616,11 @@
     "slug": "irovitz-syrup",
     "name": "Irovitz Syrup",
     "category": "Syrup",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534215/Irovit-Z_Syrup_xr4nmo.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785928762/irovitz_syrup_oceplr_fwpg2d.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": true,
     "shortDescription": "Proprietary Medicine For helpful in iron, vitamin and zinc deficiency."
   },
@@ -531,7 +629,11 @@
     "slug": "jamun-seed-powder",
     "name": "Jamun Seed Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534125/jamun-seed-powder_onqfyo.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840619/jamun_seed_powder_viqrrg_ioqvgr.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Jamun Seed Powder for traditional wellness support."
   },
@@ -540,7 +642,11 @@
     "slug": "jatifaladi-powder",
     "name": "Jatifaladi Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626218/Jatifaladi_Powder_y0vmmm.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840984/jatifaladi_powder_h9zsvv_ytbkme.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Jatifaladi Powder for traditional wellness support."
   },
@@ -559,7 +665,11 @@
     "slug": "kachnar-powder",
     "name": "Kachnar Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786538076/Kachnar_powder_ddppyo.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840994/kachnar_powder_urfn7f_ilrsfv.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Kachnar Powder for traditional wellness support."
   },
@@ -577,7 +687,11 @@
     "slug": "mahasudarshan-powder",
     "name": "Mahasudarshan Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626218/Mahasudarshan_Powder_h8qkzy.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840640/mahasudarshan_powder_ede43g_o3g9oa.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Mahasudarshan Powder for traditional wellness support."
   },
@@ -586,7 +700,11 @@
     "slug": "mastishkabal-powder",
     "name": "Mastishkabal Powder",
     "category": "Advanced Brain Tonics & Mineral Rasayanas",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690887/Mastishkabal_Powder_nualhb.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840650/mastishkabal_powder_clrahz_llerhq.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Mastishkabal Powder for traditional wellness support."
   },
@@ -595,7 +713,11 @@
     "slug": "methi-powder",
     "name": "Methi Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534031/methi-powder_rffdwp.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841135/methi_powder_fejhlp_db3jj3.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Methi Powder for traditional wellness support."
   },
@@ -604,7 +726,11 @@
     "slug": "musali-powder",
     "name": "Musali Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533971/Musali_Powder_diaiyu.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/musali_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Musali Powder for traditional wellness support."
   },
@@ -613,7 +739,11 @@
     "slug": "mutravirechan-powder",
     "name": "Mutravirechan Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626214/Mutravirechan_Powder_yyoyg0.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722829/mutravirechan_powder_qlmsxe.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Mutravirechan Powder for traditional wellness support."
   },
@@ -640,7 +770,11 @@
     "slug": "neem-powder",
     "name": "Neem Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533971/Neem_Powder_fow9oi.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841167/neem_powder_cqe5ir_fhxkgw.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Neem Powder for traditional wellness support."
   },
@@ -649,7 +783,11 @@
     "slug": "pamari-pralep-powder",
     "name": "Pamari Pralep Powder",
     "category": "Topical Application Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626214/Pamari_Pralep_Powder_bqzrqi.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840661/pamari_pralep_powder_vxshi3_c68hlq.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Pamari Pralep Powder for traditional wellness support."
   },
@@ -658,7 +796,11 @@
     "slug": "panchsam-powder",
     "name": "Panchsam Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626189/Panchsam_Powder_etmkad.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841177/panchsam_powder_aahksi_s8yqby.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Panchsam Powder for traditional wellness support."
   },
@@ -676,7 +818,11 @@
     "slug": "pramehentak-powder",
     "name": "Pramehentak Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690887/Pramehentak_Powder_bls4o6.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840671/pramehentak_powder_r0uzn7_urpw4z.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Pramehentak Powder for traditional wellness support."
   },
@@ -685,7 +831,11 @@
     "slug": "punarnava-powder",
     "name": "Punarnava Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786538069/Punarnava_powder_s5drxb.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840681/punarnava_powder_f0vvnh_zrvjae.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Punarnava Powder for traditional wellness support."
   },
@@ -694,7 +844,11 @@
     "slug": "pusyanug-powder",
     "name": "Pusyanug Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786626189/Pramehentak_Powder_bmwqbx.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841198/pusyanug_powder_hvrjuk_qy1z0a.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Pusyanug Powder for traditional wellness support."
   },
@@ -703,7 +857,11 @@
     "slug": "raj-pravartak-powder",
     "name": "Raj Pravartak Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690886/Raj_Pravartak_Powder_mzzhfe.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840692/raj_pravartak_powder_mrmc0f_uayfhm.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Raj Pravartak Powder for traditional wellness support."
   },
@@ -712,7 +870,11 @@
     "slug": "reetha-powder",
     "name": "Reetha Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533756/Reetha_Powder_ibumoc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841209/reetha_powder_uysoe4_zrnigq.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Reetha Powder for traditional wellness support."
   },
@@ -721,7 +883,11 @@
     "slug": "sanay-powder",
     "name": "Sanay Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534004/sanay-powder_nvjcfj.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840702/sanay_powder_ttyh3j_syrxvl.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Sanay Powder for traditional wellness support."
   },
@@ -730,7 +896,11 @@
     "slug": "satavar-powder",
     "name": "Satavar Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786536556/Satavar_Powder_s45g6i.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840713/satavar_powder_rni8e7_ht40u4.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Satavar Powder for traditional wellness support."
   },
@@ -739,7 +909,11 @@
     "slug": "shikakai-powder",
     "name": "Shikakai Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786536546/Shikakai_Powder_hntltp.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840723/shikakai_powder_xf6btr_g9e2je.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Shikakai Powder for traditional wellness support."
   },
@@ -748,7 +922,11 @@
     "slug": "talisadi-powder",
     "name": "Talisadi Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690885/Talisadi_Powder_fuyque.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840733/talisadi_powder_u3jnxh_tlpdhl.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Talisadi Powder for traditional wellness support."
   },
@@ -776,7 +954,11 @@
     "slug": "vajrakshar-powder",
     "name": "Vajrakshar Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690885/Vajrakshar_Powder_p3rdzd.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840765/vajrakshar_powder_b6rahc_bxhois.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vajrakshar Powder for traditional wellness support."
   },
@@ -785,7 +967,11 @@
     "slug": "vasadi-powder",
     "name": "Vasadi Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690884/Vasadi_Powder_mzdhzr.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722841/vasadi_powder_fzxpuz.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vasadi Powder for traditional wellness support."
   },
@@ -794,7 +980,11 @@
     "slug": "virya-shodhan-powder",
     "name": "Virya Shodhan Powder",
     "category": "ayurvedic churn & powder",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533986/virya-shodhan-churna_kelxjj.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840775/virya_shodhan_powder_ryvkab_t5gjwm.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Virya Shodhan Powder for traditional wellness support."
   },
@@ -803,7 +993,11 @@
     "slug": "puspanjali-ayurvedic-medicine-syrup",
     "name": "Pushpangali Syrup",
     "category": "Herbal Female Syrup",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534245/Puspanjali_Syrup_j0jfwb.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786173935/Pushpangali_Syrup_s4z5sa.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": true,
     "shortDescription": "Proprietary Medicine For uterus and female wellness",
     "description": "Proprietary Medicine For uterus and female wellness"
@@ -850,7 +1044,11 @@
     "slug": "hingul-vati",
     "name": "Hingul Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692635/Hingul_Vati_ksx2jk.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kshudha Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Hingul Vati for traditional wellness support."
   },
@@ -859,7 +1057,11 @@
     "slug": "karanjadi-vati",
     "name": "Karanjadi Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692638/Karanjadi_Vatiki_vmnwld.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Lavangadi Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Karanjadi Vati for traditional wellness support."
   },
@@ -994,7 +1196,11 @@
     "slug": "rasraj-vati",
     "name": "Rasraj Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692629/Rasraj_Vati_qj2yqx.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Gasharad Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Rasraj Vati for traditional wellness support."
   },
@@ -1057,7 +1263,11 @@
     "slug": "amritprabha-vati",
     "name": "Amritprabha Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692633/Amritprabha_Vati_sfo97j.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Mahabhra Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Amritprabha Vati for traditional wellness support."
   },
@@ -1138,7 +1348,11 @@
     "slug": "raj-vati",
     "name": "Raj Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692628/Raj_Vati_m1ntbu.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kas Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Raj Vati for traditional wellness support."
   },
@@ -1147,7 +1361,11 @@
     "slug": "chandanadi-vati",
     "name": "Chandanadi Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692629/Chandanadi_Vati_si8alk.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Khadiradi Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Chandanadi Vati for traditional wellness support."
   },
@@ -1156,7 +1374,11 @@
     "slug": "chitrakadi-vati",
     "name": "Chitrakadi Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692632/Chitrakadi_Vati_tgpmfo.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Rechak Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Chitrakadi Vati for traditional wellness support."
   },
@@ -1192,7 +1414,11 @@
     "slug": "vradhibadhika-vati",
     "name": "Vradhibadhika Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692631/Vradhibadhika_Vati_kr9bhx.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Mahabhra Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vradhibadhika Vati for traditional wellness support."
   },
@@ -1201,7 +1427,11 @@
     "slug": "vradhihari-vatika",
     "name": "Vradhihari Vatika",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692627/Vradhihari_Vatika_slgkds.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kaharwa Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vradhihari Vatika for traditional wellness support."
   },
@@ -1228,7 +1458,11 @@
     "slug": "madhumeh-nashni-gutika",
     "name": "Madhumeh Nashni Gutika",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692631/Madhumeh_Nashni_Gutika_mfarez.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/madhumeh_daman_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Madhumeh Nashni Gutika for traditional wellness support."
   },
@@ -1264,7 +1498,11 @@
     "slug": "rajpravartani-vati",
     "name": "Rajpravartani Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692628/Rajpravartani_Vati_ixlaxs.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Arogya Vardhani Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Rajpravartani Vati for traditional wellness support."
   },
@@ -1273,7 +1511,11 @@
     "slug": "ratanprabha-vati",
     "name": "Ratanprabha Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692629/Ratanprabha_Vati_qsvimw.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Mahabhra Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Ratanprabha Vati for traditional wellness support."
   },
@@ -1327,7 +1569,11 @@
     "slug": "shulvajrini-vati",
     "name": "Shulvajrini Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692631/Shulvajrini_Vati_j1rizj.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Lavan Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Shulvajrini Vati for traditional wellness support."
   },
@@ -1336,7 +1582,11 @@
     "slug": "sarpgandhaghan-vati",
     "name": "Sarpgandhaghan Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692625/Sarpgandhaghan_Vati_nzmhla.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Aroshoghani Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Sarpgandhaghan Vati for traditional wellness support."
   },
@@ -1354,7 +1604,11 @@
     "slug": "saubhagya-vati",
     "name": "Saubhagya Vati",
     "category": "Vati & Gutika",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786692626/Saubhagya_Vati_ebzqif.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kaharwa Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Saubhagya Vati for traditional wellness support."
   },
@@ -1409,7 +1663,11 @@
     "slug": "kamdev-churna",
     "name": "Kamdev Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617861/Kamdev_Churna_t6z4cc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/kamdev-churna.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Kamdev Churna for traditional wellness support."
   },
@@ -1428,7 +1686,11 @@
     "slug": "jatiphaladi-churna",
     "name": "Jatiphaladi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617860/Jatiphaladi_Churna_aj1vuh.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840984/jatifaladi_powder_h9zsvv_ytbkme.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Jatiphaladi Churna for traditional wellness support."
   },
@@ -1437,7 +1699,11 @@
     "slug": "talisadi-churna",
     "name": "Talisadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617859/Talisadi_Churna_i8xmk0.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840733/talisadi_powder_u3jnxh_tlpdhl.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Talisadi Churna for traditional wellness support."
   },
@@ -1455,7 +1721,11 @@
     "slug": "dantprabha-churna",
     "name": "Dantprabha Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617857/Dantprabha_Churna_oaczxz.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/dantrashak_manjan.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dantprabha Churna for traditional wellness support."
   },
@@ -1464,7 +1734,11 @@
     "slug": "dadimashtaka-churna",
     "name": "Dadimashtaka Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617856/Dadimashtaka_Churna_v6wfuu.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722815/dandimastak_powder_e8thzl.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dadimashtaka Churna for traditional wellness support."
   },
@@ -1473,7 +1747,11 @@
     "slug": "dhatu-pushti-churna",
     "name": "Dhatu Pushti Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617855/Dhatu_Pushti_Churna_diemy5.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722817/dhatuposhtik_powder_wshhcv.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dhatu Pushti Churna for traditional wellness support."
   },
@@ -1491,7 +1769,11 @@
     "slug": "narasimha-churna",
     "name": "Narasimha Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617854/Narasimha_Churna_u91bf3.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/narasimha-churna.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Narasimha Churna for traditional wellness support."
   },
@@ -1509,7 +1791,11 @@
     "slug": "nimbadi-churna",
     "name": "Nimbadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617853/Nimbadi_Churna_zyhtqz.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/nimbadi-churna.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Nimbadi Churna for traditional wellness support."
   },
@@ -1518,7 +1804,11 @@
     "slug": "panchsakar-churna",
     "name": "Panchsakar Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617852/Panchsakar_Churna_rpggrz.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/panchsam_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Panchsakar Churna for traditional wellness support."
   },
@@ -1527,7 +1817,11 @@
     "slug": "panchsam-churna",
     "name": "Panchsam Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617851/Panchsam_Churna_gjzm0f.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841177/panchsam_powder_aahksi_s8yqby.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Panchsam Churna for traditional wellness support."
   },
@@ -1545,7 +1839,11 @@
     "slug": "punarnava-churna",
     "name": "Punarnava Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617850/Punarnava_Churna_nzcxsj.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840681/punarnava_powder_f0vvnh_zrvjae.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Punarnava Churna for traditional wellness support."
   },
@@ -1554,7 +1852,11 @@
     "slug": "pushyanuga-churna",
     "name": "Pushyanuga Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617848/Pushyanuga_Churna_a51cfs.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841198/pusyanug_powder_hvrjuk_qy1z0a.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Pushyanuga Churna for traditional wellness support."
   },
@@ -1563,7 +1865,11 @@
     "slug": "vajrakshar-churna",
     "name": "Vajrakshar Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617847/Vajrakshar_Churna_hdulmr.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722841/vajrakshar_powder_b6rahc.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vajrakshar Churna for traditional wellness support."
   },
@@ -1572,7 +1878,11 @@
     "slug": "bakuchi-churna",
     "name": "Bakuchi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617846/Bakuchi_Churna_sasxok.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840536/bakuchi_powder_wklkcg_msw7jm.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Bakuchi Churna for traditional wellness support."
   },
@@ -1581,7 +1891,11 @@
     "slug": "balachaturbhadra-churna",
     "name": "Balachaturbhadra Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617845/Balachaturbhadra_Churna_komdxl.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840837/balchaturbhadra_powder_tirxms_htckyt.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Balachaturbhadra Churna for traditional wellness support."
   },
@@ -1590,7 +1904,11 @@
     "slug": "bilwadi-churna",
     "name": "Bilwadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617844/Bilwadi_Churna_guhdj6.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Boladi Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Bilwadi Churna for traditional wellness support."
   },
@@ -1599,7 +1917,11 @@
     "slug": "vidaryadi-churna",
     "name": "Vidaryadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617843/Vidaryadi_Churna_mgjdaz.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Vidangadi Loh.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vidaryadi Churna for traditional wellness support."
   },
@@ -1608,7 +1930,11 @@
     "slug": "lavanbhaskar-churna",
     "name": "Lavanbhaskar Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617841/Lavanbhaskar_Churna_noqpfc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Jawahar Mohra.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Lavanbhaskar Churna for traditional wellness support."
   },
@@ -1617,7 +1943,11 @@
     "slug": "madanprakash-churna",
     "name": "Madanprakash Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617840/Madanprakash_Churna_objwns.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/madanprakash-churna.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Madanprakash Churna for traditional wellness support."
   },
@@ -1626,7 +1956,11 @@
     "slug": "manjisthadi-churna",
     "name": "Manjisthadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617839/Manjisthadi_Churna_wfw8q3.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Shilajitwadi Loh.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Manjisthadi Churna for traditional wellness support."
   },
@@ -1635,7 +1969,11 @@
     "slug": "marichadi-churna",
     "name": "Marichadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617838/Marichadi_Churna_qgps9n.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Guggul Formulations/Amritadi Guggul.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Marichadi Churna for traditional wellness support."
   },
@@ -1644,7 +1982,11 @@
     "slug": "malshodhak-churna",
     "name": "Malshodhak Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617842/Malshodhak_Churna_tufsuc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Shothari Mandur.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Malshodhak Churna for traditional wellness support."
   },
@@ -1653,7 +1995,11 @@
     "slug": "mahakhand-churna",
     "name": "Mahakhand Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617836/Mahakhand_Churna_xaf2ek.png",
+=======
+    "image": "",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Mahakhand Churna for traditional wellness support."
   },
@@ -1662,7 +2008,11 @@
     "slug": "swadishta-virechan-churna",
     "name": "Swadishta Virechan Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617835/Swadishta_Virechan_Churna_aj5yqj.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/mutravirechan_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Swadishta Virechan Churna for traditional wellness support."
   },
@@ -1671,7 +2021,11 @@
     "slug": "mahasudarshan-churna",
     "name": "Mahasudarshan Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617834/Mahasudarshan_Churna_jxzhv2.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722826/mahasudarshan_powder_ede43g.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Mahasudarshan Churna for traditional wellness support."
   },
@@ -1680,7 +2034,11 @@
     "slug": "lavangadi-churna",
     "name": "Lavangadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617833/Lavangadi_Churna_jech2v.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Lavangadi Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Lavangadi Churna for traditional wellness support."
   },
@@ -1689,7 +2047,11 @@
     "slug": "lal-churna",
     "name": "Lal Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617831/Lal_Churna_hoy6fi.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/lal-churna.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Lal Churna for traditional wellness support."
   },
@@ -1698,7 +2060,11 @@
     "slug": "satpatradi-churna",
     "name": "Satpatradi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617830/Satpatradi_Churna_hr2xmf.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Kapooradi Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Satpatradi Churna for traditional wellness support."
   },
@@ -1707,7 +2073,11 @@
     "slug": "satavaryadi-churna",
     "name": "Satavaryadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617829/Satavaryadi_Churna_qqtirg.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/satavar_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Satavaryadi Churna for traditional wellness support."
   },
@@ -1716,7 +2086,11 @@
     "slug": "shivakshar-pachan-churna",
     "name": "Shivakshar Pachan Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617828/Shivakshar_Pachan_Churna_ij6vca.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Shothari Mandur.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Shivakshar Pachan Churna for traditional wellness support."
   },
@@ -1725,7 +2099,11 @@
     "slug": "virechan-churna",
     "name": "Virechan Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617827/Virechan_Churna_jzt46x.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/mutravirechan_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Virechan Churna for traditional wellness support."
   },
@@ -1734,7 +2112,11 @@
     "slug": "saraswata-churna",
     "name": "Saraswata Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617826/Saraswata_Churna_v4ny6x.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/saraswata-churna.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Saraswata Churna for traditional wellness support."
   },
@@ -1743,7 +2125,11 @@
     "slug": "sitopaladi-churna",
     "name": "Sitopaladi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617824/Sitopaladi_Churna_mphbwx.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/brahat_sitopaladi_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Sitopaladi Churna for traditional wellness support."
   },
@@ -1752,7 +2138,11 @@
     "slug": "hingvastak-churna",
     "name": "Hingvastak Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617823/Hingvastak_Churna_qbpfm4.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Rohitak Loh.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Hingvastak Churna for traditional wellness support."
   },
@@ -1761,7 +2151,11 @@
     "slug": "antravradhihar-churna",
     "name": "Antravradhihar Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617822/Antravradhihar_Churna_e98zfu.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Jawahar Mohra.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Antravradhihar Churna for traditional wellness support."
   },
@@ -1770,7 +2164,11 @@
     "slug": "amritadi-churna",
     "name": "Amritadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617821/Amritadi_Churna_iav1he.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722803/amrit_powder_fhtrhn.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Amritadi Churna for traditional wellness support."
   },
@@ -1779,7 +2177,11 @@
     "slug": "chandanadi-churna",
     "name": "Chandanadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534047/Chandan_Powder_svkhni.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/chandan_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Chandanadi Churna for traditional wellness support."
   },
@@ -1788,7 +2190,11 @@
     "slug": "chintamani-churna",
     "name": "Chintamani Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617820/Chintamani_Churna_zufnki.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/chitrakadi_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Chintamani Churna for traditional wellness support."
   },
@@ -1797,7 +2203,11 @@
     "slug": "bhasmaknashak-churna",
     "name": "Bhasmaknashak Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617809/Bhasmaknashak_Churna_evofyd.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722810/bhasmak_nashak_powder_jthwa1.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Bhasmaknashak Churna for traditional wellness support."
   },
@@ -1806,7 +2216,11 @@
     "slug": "mutravirechan-churna",
     "name": "Mutravirechan Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617807/Mutravirechan_Churna_pauuxx.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722829/mutravirechan_powder_qlmsxe.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Mutravirechan Churna for traditional wellness support."
   },
@@ -1815,7 +2229,11 @@
     "slug": "raj-pravartak-churna",
     "name": "Raj Pravartak Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617806/Raj_Pravartak_Churna_tqstk5.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722835/raj_pravartak_powder_mrmc0f.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Raj Pravartak Churna for traditional wellness support."
   },
@@ -1824,7 +2242,11 @@
     "slug": "vasadi-churna",
     "name": "Vasadi Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617807/Vasadi_Churna_lrumbo.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722841/vasadi_powder_fzxpuz.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vasadi Churna for traditional wellness support."
   },
@@ -1833,7 +2255,11 @@
     "slug": "viryashodhan-churna",
     "name": "Viryashodhan Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617804/Viryashodhan_Churna_bsxryb.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722842/virya_shodhan_powder_ryvkab.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Viryashodhan Churna for traditional wellness support."
   },
@@ -1842,7 +2268,11 @@
     "slug": "madhumehdaman-churna",
     "name": "Madhumehdaman Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617805/Madhumehdaman_Churna_omupu3.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722825/madhumeh_daman_powder_wnhui3.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Madhumehdaman Churna for traditional wellness support."
   },
@@ -1851,7 +2281,11 @@
     "slug": "vajrachar-churna",
     "name": "Vajrachar Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533840/Vajrachar_Churna_rp7dgn.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722840/vajrachar_powder_chvohm.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Vajrachar Churna for traditional wellness support."
   },
@@ -1861,7 +2295,11 @@
     "slug": "pramehentak-churna",
     "name": "Pramehentak Churna",
     "category": "Churna",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786617803/Pramehentak_Churna_ihuil8.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722833/pramehentak_powder_r0uzn7.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Pramehentak Churna for traditional wellness support."
   },
@@ -1870,7 +2308,11 @@
     "slug": "dashang-lep-churna",
     "name": "Dashang Lep Churna",
     "category": "Topical Application Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690868/Dashang_Lep_Churna_vwebkd.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Astadashang Loh.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Dashang Lep Churna for traditional wellness support."
   },
@@ -1879,7 +2321,11 @@
     "slug": "pamari-pralep-churna",
     "name": "Pamari Pralep Churna",
     "category": "Topical Application Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690870/Amrit_Churna_hux2y3.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/pamari_pralep_powder.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Pamari Pralep Churna for traditional wellness support."
   },
@@ -2655,7 +3101,11 @@
     "slug": "multani-mitti",
     "name": "Multani Mitti",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786535870/Multani_Mitti_powder_hgeqjp.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Vati/Amvatari Vati.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Multani Mitti for traditional wellness support."
   },
@@ -2664,17 +3114,37 @@
     "slug": "harad",
     "name": "Harad",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786535889/Harad_powder_al7yja.png",
     "featured": false,
     "shortDescription": "Harad for traditional wellness support."
   },
  
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722821/harad_powder_ankdok.webp",
+    "featured": false,
+    "shortDescription": "Harad for traditional wellness support."
+  },
+  {
+    "id": 304,
+    "slug": "baheda",
+    "name": "Baheda",
+    "category": "Single Herb Powders",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/baheda_powder.webp",
+    "featured": false,
+    "shortDescription": "Baheda for traditional wellness support."
+  },
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
   {
     "id": 305,
     "slug": "amla",
     "name": "Amla",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534008/amla-powder_kp6ddc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722803/amla_powder_wuxo2u.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Amla for traditional wellness support."
   },
@@ -2683,7 +3153,11 @@
     "slug": "methi",
     "name": "Methi",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534031/methi-powder_rffdwp.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722827/methi_powder_fejhlp.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Methi for traditional wellness support."
   },
@@ -2692,7 +3166,11 @@
     "slug": "mulathi",
     "name": "Mulathi",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786535866/Mulathi_powder_i3jeim.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Agnimukh Lauh.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Mulathi for traditional wellness support."
   },
@@ -2701,26 +3179,62 @@
     "slug": "chirayata",
     "name": "Chirayata",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534149/chirayta-powder_ocbxes.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722813/chirayata_powder_cauwvd.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Chirayata for traditional wellness support."
   },
   {
+<<<<<<< HEAD
+=======
+    "id": 309,
+    "slug": "chandan",
+    "name": "Chandan",
+    "category": "Single Herb Powders",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722812/chandan_powder_ycedir.webp",
+    "featured": false,
+    "shortDescription": "Chandan for traditional wellness support."
+  },
+  {
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "id": 310,
     "slug": "giloy",
     "name": "Giloy",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534053/giloy-powder_coczrf.png",
     "featured": false,
     "shortDescription": "Giloy for traditional wellness support."
   },
 
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722819/giloy_powder_i7q7fq.webp",
+    "featured": false,
+    "shortDescription": "Giloy for traditional wellness support."
+  },
+  {
+    "id": 311,
+    "slug": "giloy-satva",
+    "name": "Giloy Satva",
+    "category": "Single Herb Powders",
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722819/giloy_satva_powder_wfav7p.webp",
+    "featured": false,
+    "shortDescription": "Giloy Satva for traditional wellness support."
+  },
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
   {
     "id": 312,
     "slug": "bel",
     "name": "Bel",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786535880/Bel_powder_vaygys.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/bel.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Bel for traditional wellness support."
   },
@@ -2729,7 +3243,11 @@
     "slug": "neem",
     "name": "Neem",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533971/Neem_Powder_fow9oi.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722830/neem_powder_cqe5ir.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Neem for traditional wellness support."
   },
@@ -2738,7 +3256,11 @@
     "slug": "musali",
     "name": "Musali",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533971/Musali_Powder_diaiyu.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722828/musali_powder_tf7qlc.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Musali for traditional wellness support."
   },
@@ -2747,7 +3269,11 @@
     "slug": "satavari",
     "name": "Satavari",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786536547/Satavari_Powder_dsicrx.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722837/satavar_powder_rni8e7.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Satavari for traditional wellness support."
   },
@@ -2756,7 +3282,11 @@
     "slug": "ashwagandha",
     "name": "Ashwagandha",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533856/Ashwagandha_Powder_e2w6di.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722805/ashwagandha_powder_rg11jf.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Ashwagandha for traditional wellness support."
   },
@@ -2765,7 +3295,11 @@
     "slug": "indigo (neelni)",
     "name": "Indigo (Neelni)",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690868/Indigo_Neelni_vrw2cp.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/powder/neelni.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Neelni for traditional wellness support."
   },
@@ -2774,7 +3308,11 @@
     "slug": "brahmi",
     "name": "Brahmi",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534112/brahmi-powder_mwh2se.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722812/brahmi_powder_mnkjtf.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Brahmi for traditional wellness support."
   },
@@ -2783,7 +3321,11 @@
     "slug": "tulsi",
     "name": "Tulsi",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785841219/tulsi_powder_lkc9ob_xjknra.webp",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722839/tulsi_powder_lkc9ob.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Tulsi for traditional wellness support."
   },
@@ -2792,7 +3334,11 @@
     "slug": "jamun-seed",
     "name": "Jamun Seed",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534125/jamun-seed-powder_onqfyo.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722822/jamun_seed_powder_viqrrg.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Jamun Seed for traditional wellness support."
   },
@@ -2801,7 +3347,11 @@
     "slug": "arjuna",
     "name": "Arjuna",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533980/arjuna-powder_mu8xmh.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722804/arjuna_powder_soc0zx.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Arjuna for traditional wellness support."
   },
@@ -2810,7 +3360,11 @@
     "slug": "reetha",
     "name": "Reetha",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533756/Reetha_Powder_ibumoc.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722835/reetha_powder_uysoe4.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Reetha for traditional wellness support."
   },
@@ -2819,7 +3373,11 @@
     "slug": "garbhakar",
     "name": "Garbhakar",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534035/Garbhakar_Powder_nmlij7.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722818/garbhakar_powder_bd3yu0.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Garbhakar for traditional wellness support."
   },
@@ -2828,7 +3386,11 @@
     "slug": "shilajit",
     "name": "Shilajit",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1785840598/Himalayan_Shilajit_imgi5b_i1ezg4.webp",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722821/Himalayan_Shilajit_imgi5b.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Shilajit for traditional wellness support."
   },
@@ -2837,7 +3399,11 @@
     "slug": "alsi-flex-seed",
     "name": "Alsi Flex Seed",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533751/Alsi_Flex_Seed_sswzd4.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722802/alsi_flex_seed_powder_gqnq49.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Alsi Flex Seed for traditional wellness support."
   },
@@ -2846,7 +3412,11 @@
     "slug": "ishabgol-husk",
     "name": "Ishabgol Husk",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690883/Ishabgol_Husk_pok6fe.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722807/baheda_powder_ojx1ui.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Ishabgol Husk for traditional wellness support."
   },
@@ -2855,7 +3425,11 @@
     "slug": "henna-mehandi",
     "name": "Henna Mehandi",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786600308/Henna_Mehandi_lwiw95.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/f_auto,q_auto,w_600/product/Loh/Tara Mandur.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Henna Mehandi for traditional wellness support."
   },
@@ -2864,7 +3438,11 @@
     "slug": "sanay",
     "name": "Sanay",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786534004/sanay-powder_nvjcfj.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722836/sanay_powder_ttyh3j.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Sanay for traditional wellness support."
   },
@@ -2873,7 +3451,11 @@
     "slug": "amrit",
     "name": "Amrit",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786690870/Amrit_Churna_hux2y3.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722803/amrit_powder_fhtrhn.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Amrit for traditional wellness support."
   },
@@ -2882,7 +3464,11 @@
     "slug": "balachaturbhadra-powder",
     "name": "Balachaturbhadra Powder",
     "category": "Single Herb Powders",
+<<<<<<< HEAD
     "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1786533797/Balchaturbhardra_Churna_wfnzgs.png",
+=======
+    "image": "https://res.cloudinary.com/nxb1cweo/image/upload/v1784722809/balchaturbhadra_powder_tirxms.webp",
+>>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
     "featured": false,
     "shortDescription": "Balachaturbhadra Powder for traditional wellness support."
   },
