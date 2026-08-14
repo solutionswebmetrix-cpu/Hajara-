@@ -1,11 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FiHeart, FiStar, FiGlobe, FiArrowRight } from 'react-icons/fi';
-<<<<<<< HEAD
 import { products, isComingSoonProduct } from '../data/products';
-=======
-import { products } from '../data/products';
->>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
 import './FeaturedProducts.css';
 
 const hotProductOrder = [
@@ -58,7 +54,6 @@ const FeaturedProducts = () => {
             >
               <div className="product-image-wrapper">
                 <div className="product-badge">Best Seller</div>
-<<<<<<< HEAD
                 {product.image && !isComingSoonProduct(product) && (
                   <img src={product.image} alt={product.name} className="product-image" />
                 )}
@@ -69,11 +64,6 @@ const FeaturedProducts = () => {
                     <p className="coming-soon-subtitle">Launching Shortly</p>
                   </div>
                 )}
-=======
-                {product.image && (
-                  <img src={product.image} alt={product.name} className="product-image" />
-                )}
->>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
                 <div className="product-actions">
                   <button className="action-btn" aria-label="Add to wishlist">
                     <FiHeart />

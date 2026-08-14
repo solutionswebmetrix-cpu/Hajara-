@@ -207,7 +207,6 @@ export const getProductsByCategory = (category) => {
 export const getRelatedProducts = (product) => {
   return products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
 };
-<<<<<<< HEAD
 
 export const COMING_SOON_CATEGORY = "Pak, Avaleha & Murabba";
 
@@ -215,5 +214,3 @@ export const isComingSoonProduct = (product) => {
   if (!product) return false;
   return product.category === COMING_SOON_CATEGORY;
 };
-=======
->>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366

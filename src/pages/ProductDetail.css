@@ -284,10 +284,7 @@
   height: 200px;
   background: var(--cream);
   overflow: hidden;
-<<<<<<< HEAD
   position: relative;
-=======
->>>>>>> 6dfd7350c325697f89a9d767f7ac82347dc48366
 }
 
 .related-product-image img {
