@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { useState, useRef, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FiMail, FiPhone } from 'react-icons/fi';
@@ -26,15 +26,10 @@ const ProductDetail = () => {
   const product = getProductById(id);
   const relatedProducts = product ? getRelatedProducts(product) : [];
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-  const [isZoomed, setIsZoomed] = useState(false);
-  const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
   const [touchStartX, setTouchStartX] = useState(0);
-  
-  const galleryRef = useRef(null);
 
   useEffect(() => {
     setSelectedImageIndex(0);
-    setIsZoomed(false);
   }, [id]);
 
   const fullProduct = useMemo(() => {
@@ -55,24 +50,6 @@ const ProductDetail = () => {
       gallery: product.gallery || (product.image ? [product.image] : [])
     };
   }, [product]);
-
-  const handleMouseEnter = () => {
-    if (fullProduct?.gallery && fullProduct.gallery.length > 0) {
-      setIsZoomed(true);
-    }
-  };
-
-  const handleMouseLeave = () => {
-    setIsZoomed(false);
-  };
-
-  const handleMouseMove = (e) => {
-    if (!galleryRef.current) return;
-    const rect = galleryRef.current.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-    setZoomPosition({ x, y });
-  };
 
   const handleTouchStart = (e) => {
     setTouchStartX(e.touches[0].clientX);
@@ -142,11 +119,7 @@ const ProductDetail = () => {
             {/* Product Gallery */}
             <div className="product-gallery-wrapper">
               <div 
-                ref={galleryRef}
-                className={`product-main-image ${isZoomed ? 'zoomed' : ''}`}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                onMouseMove={handleMouseMove}
+                className="product-main-image"
                 onTouchStart={handleTouchStart}
                 onTouchEnd={handleTouchEnd}
               >
@@ -160,9 +133,6 @@ const ProductDetail = () => {
                   <img 
                     src={galleryImages[selectedImageIndex]} 
                     alt={fullProduct.name}
-                    style={isZoomed ? {
-                      transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
-                    } : {}}
                   />
                 ) : null}
               </div>

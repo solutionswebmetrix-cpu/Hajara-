@@ -37,7 +37,6 @@
   overflow: hidden;
   box-shadow: var(--shadow-xl);
   background: var(--cream);
-  cursor: zoom-in;
   position: relative;
 }
 
@@ -46,12 +45,6 @@
   height: 450px;
   object-fit: contain;
   display: block;
-  transition: transform 0.3s ease;
-}
-
-.product-main-image.zoomed img {
-  transform: scale(2);
-  cursor: zoom-out;
 }
 
 .product-thumbnails {
@@ -362,9 +355,6 @@
   }
   .product-main-image img {
     height: 300px;
-  }
-  .product-main-image.zoomed img {
-    transform: scale(1.5);
   }
   .thumbnail {
     min-width: 70px;
